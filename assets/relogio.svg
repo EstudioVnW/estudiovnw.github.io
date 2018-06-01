@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1877.7 1878 59 68.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e84818;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #e84818;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="relogio" transform="translate(-998 1745)">
+    <path id="Path_209" data-name="Path 209" class="cls-1" d="M157.9,10.7h2.9l.1,18.7h11.5l-.1,2.9H158.1v-.1h-.2Z" transform="translate(2745.2 133)"/>
+    <path id="Path_210" data-name="Path 210" class="cls-1" d="M160,59a29.5,29.5,0,1,1,29.5-29.5A29.49,29.49,0,0,1,160,59Zm0-53a23.5,23.5,0,1,0,23.5,23.5A23.473,23.473,0,0,0,160,6Z" transform="translate(2745.2 133)"/>
+    <path id="Path_211" data-name="Path 211" class="cls-2" d="M143.7,29.2" transform="translate(2750.2 141)"/>
+    <path id="Path_212" data-name="Path 212" class="cls-2" d="M160.9,68.6" transform="translate(2745.2 133)"/>
+    <path id="Path_213" data-name="Path 213" class="cls-2" d="M160.9,3" transform="translate(2750.2 141)"/>
+  </g>
+</svg>
