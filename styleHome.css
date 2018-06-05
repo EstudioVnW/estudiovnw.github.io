@@ -22,6 +22,7 @@ header{
 	align-items: center;
 	position: sticky;
 	top: 0;
+	z-index: 99;
 }
 .header__logo{
 	width: 15vw;
@@ -107,7 +108,7 @@ header{
 }
 .conteudo-programar-itemBox__subtitulo{
 	margin-bottom: 2%;
-	font-size: 2.3vw;
+	font-size: 2.2vw;
 	font-family:"ministry";
 	font-style:normal;
 	font-weight:700;
@@ -151,7 +152,7 @@ header{
 }
 .conteudo-inscricoes-box__botao{
 	width: 50%;
-	height: 30%;
+	height: 35%;
 	border-radius: 8px;
 	font-size: 1.5vw;
 	font-family:"ministry";
@@ -313,12 +314,13 @@ header{
 }
 .conteudo-modulos-modulo__icone{
 	width: 25%;
-	margin: 0 15% 15% 0;
+	margin: 0 15% 6% 0;
 	align-self: flex-end;
 }
 .conteudo-projetos{
 	width: 100%;
 	min-height: 70vh;
+	padding-bottom: 5%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -340,41 +342,224 @@ header{
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
-	align-items: center;
+	align-items: flex-start;
 }
 .conteudo-projetos-caixa__imagem{
-	width: 50%;
+	width: 47%;
+	margin-top: 2%;
 }
 .conteudo-projetos-caixa__item{
-	width: 25%;
+	width: 30%;
+	height: 70vh;
 	margin-left: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.conteudo-projetos-caixa__item-box{
+	width: 70%;
 }
 .conteudo-projetos-caixa__item-titulo{
+	width: 100%;
+	font-size: 2vw;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:700;
+	color: #E84710;
+}
+.conteudo-projetos-caixa__item-subtitulo{
+	margin: 3% 0;
+	font-size: 1.3vw;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:400;
+	color: #C6C6C6;
+}
+.conteudo-projetos-caixa__item-paragrafo{
+	font-size: 1.3vw;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:400;
+	color: #000;	
+}
+.conteudo-projetos-caixa__item-botao{
+	width: 40%;
+	height: 10%;
+	padding-top: 5px;
+	border: solid 3px #2E3192;
+	border-radius: 12px;
+	background-color: #FCAF17;
+	font-size: 1.5vw;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:400;
+	color: #2E3192;
+	text-align: center;
+	text-decoration: none;
+}
+.conteudo-estudio{
+	width: 100%;
+	height: 85vh;
+	background: url(assets/Mask.png) no-repeat center;
+	background-size: cover;
+}
+.maskara{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(46, 49, 146, .5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.conteudo-estudio-caixa{
+	width: 25vw;
+	height: 65vh;
+	padding: 2% 0;
+	border: solid 5px #2E3192;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 9;
+}
+.conteudo-estudio-caixa__logo{
+	width: 60%;
+}
+.conteudo-estudio-caixa__paragrafo{
+	width: 85%;
+	font-size: 1.1vw;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:400;
+	color: #2E3192;
+}
+.conteudo-estudio-caixa__botao{
+	width: 35%;
+	height: 10%;
+	padding: 4px;
+	border: solid 3px #2E3192;
+	border-radius: 12px;
+	background-color: #FCAF17;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:400;
+	color: #2E3192;
+	text-align: center;
+	text-decoration: none;
+}
+.conteudo-estudio-caixa--fundo{
+	width: 25vw;
+	height: 65vh;
+	padding: 2% 0;
+	border: solid 5px #2E3192;
+	background-color: #E84710;
+	position: absolute;
+	bottom: 8%;
+	right: 36%;
+	z-index: 1;
+}
+.rodape{}
+.rodape-fundo{
+	width: 100%;
+	height: 75vh;
+	background: url(assets/rodape.png) no-repeat center top;
+	background-size: 100%;
+}
+.rodape-informacoes{
+	width: 100%;
+	height: 40vh;
+	background-color: #FCAF17;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.rodape-informacoes-redes{
+	width: 30%;
+	height: 100%;
+	padding: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.rodape-informacoes-redes__paragrafo{
+	width: 75%;
+	font-size: 1.2vw;
+	font-family: SourceSemibold;
+}
+.rodape-informacoes-redes__icones{
+	width: 75%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.rodape-informacoes-redes__icones-item{
+	width: 50%;
+	margin-right: 15%;
+}
+.rodape-paginas{
+	width: 20%;
+	height: 100%;
+	padding: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.rodape-paginas__link{
+	font-size: 1.3vw;
+	font-family: SourceRegular;
+	color: #000;
+	text-decoration: none;
+}
+.rodape-parceiros{
+	width: 45%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.rodape-parceiros-apoio{
+	min-width: 40%;
+	height: 50%;
+}
+.rodape-parceiros-apoio__titulo{
+	margin-bottom: 5%;
+	font-family: SourceMedium;
+	font-size: 1vw;
+}
+.rodape-parceiros-apoio__logo{
+	width: 12vw;
+	margin-top: 3%;
+}
+.rodape-parceiros-apoio__logos{
+	width: 100%;
+	height: 70%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.rodape-parceiros-apoio__logos-logo{
+	height: 9vh;
+}
+.rodape-creditos{
+	width: 100%;
+	height: 8vh;
+	background-color: #E84710;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.rodape-creditos__paragrafo{
+	font-size: 1.1vw;
+	font-family: SourceMedium;
+	color: #fff;
+}
+.rodape-creditos__logo{
+	width: 5vw;
+	margin: 0 1%;
 	
 }
-.conteudo-projetos-caixa__item-subtitulo{}
-.conteudo-projetos-caixa__item-paragrafo{}
-.conteudo-projetos-caixa__item-botao{}
-.conteudo-estudio{}
-.conteudo-estudio-caixa{}
-.conteudo-estudio-caixa__logo{}
-.conteudo-estudio-caixa__paragrafo{}
-.conteudo-estudio-caixa__botao{}
-.rodape{}
-.rodape-fundo{}
-.rodape-informacoes{}
-.rodape-informacoes-redes{}
-.rodape-informacoes-redes__paragrafo{}
-.rodape-informacoes-redes__icones{}
-.rodape-informacoes-redes__icones-item{}
-.rodape-paginas{}
-.rodape-paginas__link{}
-.rodape-parceiros{}
-.rodape-parceiros-apoio{}
-.rodape-parceiros-apoio__titulo{}
-.rodape-parceiros-apoio__logo{}
-.rodape-parceiros-apoio__logos{}
-.rodape-parceiros-apoio__logos-logo{}
-.rodape-creditos{}
-.rodape-creditos__paragrafo{}
-.rodape-creditos__logo{}

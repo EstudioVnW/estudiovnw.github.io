@@ -7,6 +7,7 @@ font-weight:300;
 src:url("https://use.typekit.net/af/d704cb/00000000000000003b9ad972/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/d704cb/00000000000000003b9ad972/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/d704cb/00000000000000003b9ad972/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
 }
 
+
 @font-face {
 font-family:"ministry";
 font-style:normal;
@@ -28,24 +29,30 @@ font-weight:700;
 src:url("https://use.typekit.net/af/c6bf73/00000000000000003b9ad974/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/c6bf73/00000000000000003b9ad974/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/c6bf73/00000000000000003b9ad974/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
 }
 
-@font-face {
-    font-family: SourceMedium;
-    src: url(fonts/SourceMedium.ttf);
+
+@font-face{
+	font-family: SourceRegular;
+	src: url("fonts/SourceRegular.ttf");
 }
 
-@font-face {
-    font-family: SourceRegular;
-    src: url(fonts/SourceRegular.ttf);
+@font-face{
+	font-family: SourceMedium;
+	src: url("fonts/SourceMedium.ttf");
 }
 
-@font-face {
-    font-family: SourceBold;
-    src: url(fonts/SourceBold.ttf);
+@font-face{
+	font-family: SourceBold;
+	src: url("fonts/SourceBold.ttf");
 }
 
-@font-face {
-    font-family: SourceBlack;
-    src: url(fonts/SourceBlack.ttf);
+@font-face{
+	font-family: SourceSemibold;
+	src: url("fonts/SourceSemibold.ttf");
+}
+
+@font-face{
+	font-family: SourceBlack;
+	src: url("fonts/SourceBlack.ttf");
 }
 
 .tk-ministry { font-family: "ministry",sans-serif; }
