@@ -6,10 +6,12 @@
 	<link rel="shortcut icon" href="assets/logo_VnW.png">
 	<link rel="stylesheet" type="text/css" href="styleHome.css">
 	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<title>Vai na Web</title>
 </head>
 <body>
-	<header>
+	<header class="header">
 		<img class="header__logo" src="assets/logo_VnW.svg">
 		<nav class="header__menu">
 			<a class="header__menu-item" href="sobre.html">_Sobre</a>
@@ -17,6 +19,12 @@
 			<a class="header__menu-item" href="">_Projetos</a>
 			<a class="header__menu-item" href="">_Contribua</a>
 			<a class="header__menu-item" href="">_Contato</a>
+		</nav>
+	</header>
+	<header class="header--mobile">
+		<img class="header__logo--mobile" src="assets/logo_VnW.svg">
+		<nav class="header__menu--mobile">
+			<button class="header__menu-hamburguer--mobile material-icons" style="font-size: 70px;">menu</button>
 		</nav>
 	</header>
 	<main class="conteudo">
@@ -91,7 +99,7 @@
 					<p class="conteudo-incentivo-caixa__item-paragrafo">
 						A tecnologia é um grande instrumento de transformação positiva, solucione problemas da sua própria comunidade, fortaleça seus amigos e crie oportunidades reais de trabalho. A tecnologia é um grande instrumento de transformação positiva, solucione problemas da sua própria comunidade, fortaleça seus amigos e crie oportunidades reais de trabalho. A tecnologia é um grande instrumento de transformação positiva, solucione problemas da sua própria comunidade.
 					</p>
-					<button class="conteudo-incentivo-caixa__item-botao">-></button>
+					<button class="conteudo-caixa__item-botao material-icons" style="font-size: 2.3vw;">arrow_forward</button>
 				</div>
 			</div>
 		</section>
@@ -103,31 +111,70 @@
 				</p>
 			</div>
 			<a class="conteudo-modulos-modulo" href="#">
-				<div>
+				<div class="conteudo-modulos-modulo__item">
 					<h1 class="conteudo-modulos-modulo__titulo">1</h1>
 					<h2 class="conteudo-modulos-modulo__subtitulo">Construção de páginas web</h2>
 					<p class="conteudo-modulos-modulo__paragrafo">HTML5, CSS3 e design responsivo</p>
 					<p class="conteudo-modulos-modulo__paragrafo">120h</p>
 				</div>
-				<img class="conteudo-modulos-modulo__icone" src="assets/modulo1.png">
+				<img class="conteudo-modulos-modulo__icone conteudo-modulos-modulo__icone--1" src="assets/modulo1.png">
 			</a>
 			<a class="conteudo-modulos-modulo conteudo-modulos-modulo--meio" href="#">
-				<div>
+				<div class="conteudo-modulos-modulo__item">
 					<h1 class="conteudo-modulos-modulo__titulo">2</h1>
 					<h2 class="conteudo-modulos-modulo__subtitulo">Construção de aplicações mobile</h2>
 					<p class="conteudo-modulos-modulo__paragrafo">Javascript e Vue.js</p>
 					<p class="conteudo-modulos-modulo__paragrafo">120h</p>
 				</div>
-				<img class="conteudo-modulos-modulo__icone" src="assets/modulo2.png">
+				<img class="conteudo-modulos-modulo__icone conteudo-modulos-modulo__icone--2" src="assets/modulo2.png">
 			</a>
 			<a class="conteudo-modulos-modulo" href="#">
-				<div>
+				<div class="conteudo-modulos-modulo__item">
 					<h1 class="conteudo-modulos-modulo__titulo">3</h1>
 					<h2 class="conteudo-modulos-modulo__subtitulo">Serviços digitais</h2>
-					<p class="conteudo-modulos-modulo__paragrafo">Phyton</p>
+					<p class="conteudo-modulos-modulo__paragrafo">Python</p>
 					<p class="conteudo-modulos-modulo__paragrafo">120h</p>
 				</div>
-				<img class="conteudo-modulos-modulo__icone" src="assets/modulo3.png">
+				<img class="conteudo-modulos-modulo__icone conteudo-modulos-modulo__icone--3" src="assets/modulo3.png">
+			</a>
+			<a class="conteudo-modulos-modulo--mobile" href="#">
+				<div class="conteudo-modulos-modulo__item--mobile">
+					<h1 class="conteudo-modulos-modulo__titulo--mobile">1</h1>
+					<div class="conteudo-modulos-modulo-item__caixa--mobile">
+						<h2 class="conteudo-modulos-modulo__subtitulo--mobile">Construção de páginas web</h2>
+						<div class="conteudo-modulos-modulo-item__caixa-box--mobile">
+							<p class="conteudo-modulos-modulo__paragrafo--mobile">HTML5, CSS3 e design responsivo</p>
+							<p class="conteudo-modulos-modulo__paragrafo--mobile">120h</p>
+						</div>
+						<img class="conteudo-modulos-modulo__icone--mobile" src="assets/modulo1.png">
+					</div>
+				</div>
+			</a>
+			<a class="conteudo-modulos-modulo--mobile conteudo-modulos-modulo--mobile2" href="#">
+				<div class="conteudo-modulos-modulo__item--mobile">
+					<h1 class="conteudo-modulos-modulo__titulo--mobile">2</h1>
+					<div class="conteudo-modulos-modulo-item__caixa--mobile">
+						<h2 class="conteudo-modulos-modulo__subtitulo--mobile">Construção de aplicações mobile</h2>
+						<div class="conteudo-modulos-modulo-item__caixa-box--mobile">
+							<p class="conteudo-modulos-modulo__paragrafo--mobile">Javascript e Vue.js</p>
+							<p class="conteudo-modulos-modulo__paragrafo--mobile">120h</p>
+						</div>
+						<img class="conteudo-modulos-modulo__icone--mobile" src="assets/modulo2.png">
+					</div>
+				</div>
+			</a>
+			<a class="conteudo-modulos-modulo--mobile" href="#">
+				<div class="conteudo-modulos-modulo__item--mobile">
+					<h1 class="conteudo-modulos-modulo__titulo--mobile">3</h1>
+					<div class="conteudo-modulos-modulo-item__caixa--mobile">
+						<h2 class="conteudo-modulos-modulo__subtitulo--mobile">Serviços digitais</h2>
+						<div class="conteudo-modulos-modulo-item__caixa-box--mobile">
+							<p class="conteudo-modulos-modulo__paragrafo--mobile">Python</p>
+							<p class="conteudo-modulos-modulo__paragrafo--mobile">120h</p>
+						</div>
+						<img class="conteudo-modulos-modulo__icone--mobile" src="assets/modulo3.png">
+					</div>
+				</div>
 			</a>
 		</section>
 		<section class="conteudo-projetos">
@@ -136,14 +183,29 @@
 				<img class="conteudo-projetos-caixa__imagem" src="assets/telaWeb.svg">
 				<div class="conteudo-projetos-caixa__item">
 					<div class="conteudo-projetos-caixa__item-box">
-						<h1 class="conteudo-projetos-caixa__item-titulo">Precisa ser</h1>
+						<div class="conteudo-projetos-caixa-box__caixa">
+							<button class="conteudo-caixa__item-botao material-icons" style="font-size: 2.3vw;">arrow_back</button>
+							<h1 class="conteudo-projetos-caixa__item-titulo">Precisa ser</h1>
+							<button class="conteudo-caixa__item-botao material-icons" style="font-size: 2.3vw;">arrow_forward</button>
+						</div>
 						<h2 class="conteudo-projetos-caixa__item-subtitulo">Website</h2>
 						<p class="conteudo-projetos-caixa__item-paragrafo">
 							Texto falando um pouco mais sobre o projeto e quais tecnologias foram utilizadas na programação.
 						</p>
 					</div>
-					<a class="conteudo-projetos-caixa__item-botao" href="http://www.precisaser.com.br/" target="_blank">Visite</a>
+					<a class="conteudo-projetos-caixa__item-link" href="http://www.precisaser.com.br/" target="_blank">Visite</a>
 				</div>
+			</div>
+			<div class="conteudo-projetos-caixa--mobile">
+				<button class="conteudo-projetos-caixa__botao--mobile material-icons" style="font-size: 4.5vw;">arrow_back</button>
+				<h1 class="conteudo-projetos-caixa__titulo--mobile">Precisa ser</h1>
+				<button class="conteudo-projetos-caixa__botao--mobile material-icons" style="font-size: 4.5vw;">arrow_forward</button>
+				<img class="conteudo-projetos-caixa__imagem--mobile" src="assets/telaWeb.svg">
+				<h2 class="conteudo-projetos-caixa__subtitulo--mobile">Website</h2>
+				<p class="conteudo-projetos-caixa__paragrafo--mobile">
+					Texto falando um pouco mais sobre o projeto e quais tecnologias foram utilizadas na programação.
+				</p>
+				<a class="conteudo-projetos-caixa__link--mobile" href="http://www.precisaser.com.br/" target="_blank">Visite</a>
 			</div>
 		</section>
 		<section class="conteudo-estudio">
@@ -156,7 +218,7 @@
 					<p class="conteudo-estudio-caixa__paragrafo">
 						Além de oferecer serviços de qualidade e alto nível tecnológico para indivíduos, empresas e organizações sociais.
 					</p>
-					<a class="conteudo-estudio-caixa__botao" href="">Saiba mais</a>
+					<a class="conteudo-estudio-caixa__link" href="" target="_blank">Saiba mais</a>
 				</div>
 				<div class="conteudo-estudio-caixa--fundo"></div>
 			</div>
@@ -176,23 +238,23 @@
 				</div>
 			</div>
 			<div class="rodape-paginas">
-				<a class="rodape-paginas__link" href="home.html" target="_blank">Home</a>
-				<a class="rodape-paginas__link" href="sobre.html" target="_blank">Sobre</a>
-				<a class="rodape-paginas__link" href="" target="_blank">Programa</a>
-				<a class="rodape-paginas__link" href="" target="_blank">Projetos</a>
-				<a class="rodape-paginas__link" href="" target="_blank">Contribua</a>
+				<a class="rodape-paginas__link" href="home.html">Home</a>
+				<a class="rodape-paginas__link" href="sobre.html">Sobre</a>
+				<a class="rodape-paginas__link" href="">Programa</a>
+				<a class="rodape-paginas__link" href="">Projetos</a>
+				<a class="rodape-paginas__link" href="">Contribua</a>
 			</div>
 			<div class="rodape-parceiros">
-				<div class="rodape-parceiros-apoio">
-					<h1 class="rodape-parceiros-apoio__titulo">Realização</h1>
-					<a href="http://www.precisaser.com.br/" target="_blank"><img class="rodape-parceiros-apoio__logo" src="assets/PS-logotipo.svg"></a>
+				<div class="rodape-parceiros-realizacao">
+					<h1 class="rodape-parceiros-realizacao__titulo">Realização</h1>
+					<a href="http://www.precisaser.com.br/" target="_blank"><img class="rodape-parceiros-realizacao__logo" src="assets/PS-logotipo.svg"></a>
 				</div>
 				<div class="rodape-parceiros-apoio">
 					<h1 class="rodape-parceiros-apoio__titulo">Apoio</h1>
 					<div class="rodape-parceiros-apoio__logos">
-						<a href="http://www.1sti.com.br/" target="_blank"><img class="rodape-parceiros-apoio__logos-logo" src="assets/1sti_logo.svg"></a>
-						<a href="https://www.facebook.com/GrupoProa/" target="_blank"><img class="rodape-parceiros-apoio__logos-logo" src="assets/PROA_logo.svg"></a>
-						<a href="https://www.facebook.com/educap.org/" target="_blank"><img class="rodape-parceiros-apoio__logos-logo" src="assets/educap_logo.svg"></a>
+						<a class="rodape-parceiros-apoio__logos-link" href="http://www.1sti.com.br/" target="_blank"><img class="rodape-parceiros-apoio__logos-logo" src="assets/1sti_logo.svg"></a>
+						<a class="rodape-parceiros-apoio__logos-link" href="https://www.facebook.com/GrupoProa/" target="_blank"><img class="rodape-parceiros-apoio__logos-logo" src="assets/PROA_logo.svg"></a>
+						<a class="rodape-parceiros-apoio__logos-link" href="https://www.facebook.com/educap.org/" target="_blank"><img class="rodape-parceiros-apoio__logos-logo" src="assets/educap_logo.svg"></a>
 					</div>
 				</div>
 			</div>
