@@ -5,40 +5,217 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
-
-img{
-	width: 100px;
+html{
+	width: 100%;
 }
 
+img{
+	width: 100%;
+}
 
-body{}
-header{}
-.header__logo{}
-.header__menu{}
-.header__menu-item{}
-.mainSobre{}
-/*>>>>>>>>>>>>>bloco-> bloco-polos >>>>>>>>>>*/
-.boxPolos{
-	width: 100vw;
-	height: 45rem;
+body{
+	width: 100%;
+}
+header{
+	width: 100%;
+	height: 10vh;
+	padding: 3%;
+	background-color: #F2F2F2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	z-index: 99;
+}
+.header__logo{
+	width: 15vw;
+	margin-top: 10%;
+	margin-left: 2%;
+}
+.header__menu{
+	width: 43%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__menu-item{
+	font-size: 1.3vw;
+	font-family: SourceBold;
+	text-decoration: none;
+	color: #070707;
+}
+/*>>>>>>>>>>>>>>>>>>prelude init >>>>>>>>>>>>>>>>>>>>>>>>
+*/.prelude{
+	height: 25rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #E84710;
+}
+.prelude-white{
+	width: 100%;
+	height: 12.5rem;
+	padding-bottom: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.prelude-white__title{
+	width: 35%;
+	margin: 4% 0;
+	padding-bottom: .80%;
+	border-bottom: 6px solid #E84710;
+	font-size: 3.8vw;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:400;
+	text-align: center;
+	color: #2E3192;
+}
+.prelude-blue{
+	width: 100%;
+	height: 12.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #2E3192;
+}
+.prelude-blue__box{
+	min-width: 40vw;
+	height: 20vh;
+	margin-right: 3%;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.prelude-blue__text{
+	width: 50%;
+	font-size: 1.7vw;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:400;
+	justify-content: flex-end;
+	text-align: right;
+	color: #FFFFFF;
+}
+.prelude-blue__name-Igor{
+	font-size: 2vw;
+	font-family:SourceBold;
+	text-align: right;
+	color: #FCAF17;
+}
+.prelude-blue__job-Igor{
+	font-size: 1vw;
+	font-family:SourceBold;
+	text-align: right;
+	color: #E84710;
+}
+.prelude-blue__img-Igor{
+	width: 15vw;
+	margin-top: -10%;
+  	/*height: 10vh*/;
+	border-radius: 50%;
+}
+/*>>>>>>>>>>>>>fim prelude> init description >>>>>>>>>>*/
+.pumpkinbox{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #FCAF17;
+}
+.pumpkinbox__part1{
+	width: 90%;
+	height: 90vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5vh;
+}
+.pumpkinbox-headline{
+	font-size: 2.8vw;
+	font-family:SourceBold;
+	color: #2E3192;
+}
+.pumpkinbox__part1-bloc1{
+	width: 90vw;
+	padding-left: 5vh;
+	display: flex;
+	flex-flow: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	
+}
+.pumpkinbox-text1{
+	width: 45%;
+	padding: 1%;
+	font-size: 1.6vw;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:400;
+	color: #000000;
+}
+.pumpkinbox-img-1{
+	width: auto;
+	padding-top: 1%;
+}
+.pumpkinbox__part2{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 5vh;
+}
+.pumpkinbox__part2-bloc2{
+	width: 38%;
+	margin-left: 5%;
+	margin-bottom: -3%;
+	display: flex;
+	flex-flow: column;
+}
+.pumpkinbox__part2-bloc3{
+	width: 50%;
+	height: 40vh;
+}
+.pumpkinbox-text2{
+	width: 90%;
+	padding-top: 3%;
+	font-size: 1.6vw;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:400;
+	color: #000000;
+}
+/*>>>>>>>>>>>>>inicio bloco polos >>>>>>>>>>>>>>>>>>>>>>>>>*/
+.boxPolos{
+	height: 50rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*background-color: #E84710;*/
 }
 @media(max-width: 48rem){
 	.boxPolos{
-	width: 100vw;
+	width: 100%;
 	height: 170vh;
 	}
 }
 .boxPolos-title{
+	margin: 4% 0;
+	padding-bottom: .80%;
+	border-bottom: 6px solid #E84710;
 	margin-bottom: 30px;
-	font-size: 3.5em;
-	font-family:ministry, sans-serif;
+	font-size: 3.8vw;
+	font-family:"ministry";
 	font-style:normal;
-	font-weight:700;
+	font-weight:400;
 	color: #2C398C;
 	border-color: 1px;
 	text-align: center;
@@ -49,14 +226,22 @@ header{}
 	font-size: 2.5em;
 	}
 }
-.boxPolos-text{}
-.boxPolos-text{}
+.boxPolos-text{
+	width: 50%;
+	height: 20%;
+	margin-bottom: 3%; 
+	font-size: 1.2vw;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:400;
+	text-align: center;
+	color: #2E3192;
+}
 .boxPolos-container{
-	
-	height: 80vh;
+	height: 80%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 @media(max-width: 48rem){
@@ -65,19 +250,21 @@ header{}
 	}
 }
 .boxPolos-container-contentbox{
-	width: 48%;
+	width: 40%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: flex-start
+	justify-content: space-between;
 }
 @media(max-width: 48rem){
 	.boxPolos-container-contentbox{
-	width: 60vw;
+	width: 60%;
 	margin-left: 12%;
 	}
 }
 .boxPolos-container-img{
-	width: 100%;
+	width: 80%;
 	margin-bottom: 5px;
 	padding: 2px;
 }
@@ -89,18 +276,18 @@ header{}
 .boxPolos-container-subtitle{
 	
 	font-size: 2em;
-	font-family:ministry, sans-serif;
+	font-family:"ministry";
 	font-style:normal;
-	font-weight:700;
-	color: #FCAF17;
+	font-weight:400;
+	color: #2C398C;
 }
 .boxPolos-container-ong{
 	margin-bottom: 2%;
-	font-size: 2em;
-	font-family:ministry, sans-serif;
+	font-size: 1.5em;
+	font-family:"ministry";
 	font-style:normal;
-	font-weight:700;
-	color: #2E3292;
+	font-weight:400;
+	color: #222222;
 }
 .boxPolos-container-adress{
 	font-size: 1.3em;
@@ -109,5 +296,155 @@ header{}
 	font-weight:400;	
 	color: #2E3292;
 }
+/*>>>>>>>>>>>>>>fim bloco-polos > inicio timBern >>>>>>>>>>>*/
+.timBern-container{
+	width: 100%;
+	height:30rem;
+	display: flex;
+	justify-content: space-around; 
+	align-items: center;
+	position: relative;
+}
+.timBern-img{
+	width: 45%;
+	background-color: red;
+}
+.timBern-circle{
+	position: absolute;
+	width: 30vw;
+	height: 60vh;
+	margin-left: -15%;
+	margin-top: -5%;
+	opacity: 0.50;
+	border-radius: 50%;
+	background-color: orange;
+}
+.timBern-caixa-text{
+	width:45%;
+}
+.timBern-caixa__text1{
+	font-size: 2vw;
+	font-family:SourceBold;
+	text-align: left;
+	color: #FCAF17;
+}
+.timBern-caixa__text2{
+	font-size: 2vw;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:400;
+	text-align: left;
+	color: #2E3192;
+}
+.timBern-caixa__text3{
+	font-size: 2vw;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:400;
+	text-align: left;
+	color: #222222;
+}
 
 /*>>>>>>>>>>>>>>fim bloco-polos > inicio bloco-modulos >>>>>>>>>>>*/
+.rodape{}
+.rodape-fundo{
+	width: 100%;
+	height: 75vh;
+	background: url(assets/rodape.png) no-repeat center top;
+	background-size: 100%;
+}
+.rodape-informacoes{
+	width: 100%;
+	height: 40vh;
+	background-color: #FCAF17;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.rodape-informacoes-redes{
+	/*width: 30%;*/
+	height: 100%;
+	padding: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.rodape-informacoes-redes__paragrafo{
+	/*width: 75vw;*/
+	font-size: 1.2vw;
+	font-family: SourceSemibold;
+}
+.rodape-informacoes-redes__icones{
+	width: 15vw;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.rodape-informacoes-redes__icones-item{
+	width: 50%;
+	margin-right: 15%;
+}
+.rodape-paginas{
+	width: 20vw;
+	height: 100%;
+	padding: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.rodape-paginas__link{
+	font-size: 1.3vw;
+	font-family: SourceRegular;
+	color: #000;
+	text-decoration: none;
+}
+.rodape-parceiros{
+	width: 45vw;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.rodape-parceiros-apoio{
+	min-width: 10vw;
+	height: 50%;
+}
+.rodape-parceiros-apoio__titulo{
+	margin-bottom: 5%;
+	font-family: SourceMedium;
+	font-size: 1vw;
+}
+.rodape-parceiros-apoio__logo{
+	width: 8vw;
+	margin-top: 3%;
+}
+.rodape-parceiros-apoio__logos{
+	/*width: 100vw;*/
+	height: 70%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.rodape-parceiros-apoio__logos-logo{
+	height: 7vh;
+}
+.rodape-creditos{
+	width: 100%;
+	height: 8vh;
+	background-color: #E84710;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.rodape-creditos__paragrafo{
+	font-size: 1.1vw;
+	font-family: SourceMedium;
+	color: #fff;
+}
+.rodape-creditos__logo{
+	width: 5vw;
+	margin: 0 1%;
+	
+}
