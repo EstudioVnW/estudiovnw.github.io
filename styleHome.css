@@ -70,7 +70,8 @@ body{}
 }
 .header__menu--mobile{
 	width: 20%;
-	padding-right: 5%;
+	margin-left: 7%;
+	padding-right: 3%;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -280,7 +281,7 @@ body{}
 @media (max-width: 768px){
 	.conteudo-inscricoes-box__botao{
 		height: 30%;
-		border-radius: 10px;
+		border-radius: 8px;
 		font-size: 3vw;
 	}
 }
@@ -297,7 +298,7 @@ body{}
 }
 @media (max-width: 768px){
 	.conteudo-inscricoes__imagem{
-		width: 30%;
+		width: 33%;
 	}
 }
 .conteudo-incentivo{
@@ -367,7 +368,7 @@ body{}
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item{
 		width: 80%;
-		min-height: 30%;
+		min-height: 50%;
 		margin-top: -22%;
 	}
 }
@@ -379,8 +380,8 @@ body{}
 }
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item-imagem{
-		width: 200px;
-		height: 200px;
+		width: 150px;
+		height: 150px;
 	}
 }
 .conteudo-incentivo-caixa__item-titulo{
@@ -713,7 +714,7 @@ body{}
 	height: 10%;
 	padding-top: 1%;
 	border: solid 3px #2E3192;
-	border-radius: 12px;
+	border-radius: 8px;
 	background-color: #FCAF17;
 	font-size: 1.5vw;
 	font-family:"ministry";
@@ -857,9 +858,9 @@ body{}
 .conteudo-estudio-caixa__link{
 	width: 35%;
 	height: 10%;
-	padding-top: 1%;
+	padding-top: 2%;
 	border: solid 3px #2E3192;
-	border-radius: 12px;
+	border-radius: 8px;
 	background-color: #FCAF17;
 	font-family:"ministry";
 	font-style:normal;
@@ -882,7 +883,7 @@ body{}
 	background-color: #E84710;
 	position: absolute;
 	bottom: 7%;
-	right: 35.5%;
+	right: 36%;
 	z-index: 1;
 }
 @media (max-width: 1200px){
