@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="287.092 4328.185 346.881 346.015">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f4ac28;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #30368c;
+      }
+
+      .cls-4 {
+        fill: #e84710;
+        font-size: 36px;
+        font-family: Ministry-Medium, Ministry;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="modulo1" transform="translate(287.092 4328.185)">
+    <path id="Path_53" data-name="Path 53" class="cls-1" d="M265.364,346.015H81.517C37.29,346.015,0,309.592,0,264.5V81.517A81.423,81.423,0,0,1,81.517,0H265.364c44.227,0,81.517,36.423,81.517,81.517V265.365C346.014,309.592,309.591,346.015,265.364,346.015Z"/>
+    <rect id="Rectangle_51" data-name="Rectangle 51" class="cls-2" width="223.738" height="136.151" transform="translate(65.04 97.127)"/>
+    <path id="Path_54" data-name="Path 54" class="cls-3" d="M301.518,176.2v-7.8H278.1V16.638s0-6.938-6.938-6.938H33.552s-6.938,0-6.938,6.938V169.266H3.2V178.8h0v1.734s0,7.8,7.8,7.8H294.58s7.8,0,7.8-7.8l-.867-4.336Zm-38.157-17.344H40.49V22.708H264.228V158.859Z" transform="translate(24.55 74.419)"/>
+    <g id="Group_14" data-name="Group 14" transform="translate(75.37 107.617)">
+      <text id="_html5_" data-name="&lt;html5&gt;" class="cls-4" transform="translate(0 35)"><tspan x="0" y="0">&lt;html5&gt;</tspan></text>
+    </g>
+    <g id="Group_15" data-name="Group 15" transform="translate(75.37 154.048)">
+      <text id="_css3_" data-name="&lt;css3&gt;" class="cls-4" transform="translate(0 35)"><tspan x="0" y="0">&lt;css3&gt;</tspan></text>
+    </g>
+  </g>
+</svg>
