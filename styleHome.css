@@ -69,14 +69,13 @@ body{}
 	margin-left: 2%;
 }
 .header__menu--mobile{
-	width: 30%;
+	width: 20%;
 	padding-right: 5%;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 }
 .header__menu-hamburguer--mobile{
-	width: 10%;
 	background-color: transparent;
 	border: none;
 	font-size: 50px;
@@ -269,6 +268,7 @@ body{}
 .conteudo-inscricoes-box__botao{
 	width: 50%;
 	height: 35%;
+	border: none;
 	border-radius: 8px;
 	font-size: 1.5vw;
 	font-family:"ministry";
@@ -280,7 +280,7 @@ body{}
 @media (max-width: 768px){
 	.conteudo-inscricoes-box__botao{
 		height: 30%;
-		border-radius: 15px;
+		border-radius: 10px;
 		font-size: 3vw;
 	}
 }
@@ -981,7 +981,7 @@ body{}
 }
 @media (max-width: 768px){
 	.rodape-informacoes-redes__icones-item{
-		width: 45%;
+		width: 30%;
 	}
 }
 .rodape-paginas{
