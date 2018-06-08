@@ -379,8 +379,8 @@ body{}
 }
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item-imagem{
-		width: 280px;
-		height: 280px;
+		width: 200px;
+		height: 200px;
 	}
 }
 .conteudo-incentivo-caixa__item-titulo{
@@ -981,7 +981,7 @@ body{}
 }
 @media (max-width: 768px){
 	.rodape-informacoes-redes__icones-item{
-		width: 30%;
+		width: 27%;
 	}
 }
 .rodape-paginas{
