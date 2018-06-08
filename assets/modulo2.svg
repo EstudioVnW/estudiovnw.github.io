@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="785.97 4325.388 347.718 347.719">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f4ac28;
+      }
+
+      .cls-2 {
+        fill: #30368c;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #e84710;
+        font-family: Ministry-Medium, Ministry;
+        font-weight: 500;
+      }
+
+      .cls-4 {
+        font-size: 29px;
+      }
+
+      .cls-5 {
+        font-size: 14px;
+      }
+    </style>
+  </defs>
+  <g id="modulo2" transform="translate(785.97 4325.388)">
+    <path id="Path_55" data-name="Path 55" class="cls-1" d="M266.5,393.319H82.214C37.88,393.319.5,356.808.5,311.6V127.314C.5,82.98,37.01,45.6,82.214,45.6H266.5c44.334,0,81.714,36.51,81.714,81.714V311.6C347.349,356.808,310.839,393.319,266.5,393.319Z" transform="translate(-0.5 -45.6)"/>
+    <path id="Path_56" data-name="Path 56" class="cls-2" d="M83.059,61H20.47C13.516,61,8.3,67.085,8.3,74.909V199.218c0,7.824,5.216,13.909,12.17,13.909H82.19c6.954,0,12.17-6.085,12.17-13.909V74.909C95.23,67.085,89.145,61,83.059,61Zm0,124.309H20.47V88.817H82.19v96.492Z" transform="translate(59.505 72.872)"/>
+    <path id="Path_57" data-name="Path 57" class="cls-2" d="M147.872,52.8H33.125A19.294,19.294,0,0,0,14,71.925v47.811H33.125V91.049H147.872V224.921H55.726V263.17h92.145A19.294,19.294,0,0,0,167,244.045V71.925A19.294,19.294,0,0,0,147.872,52.8Z" transform="translate(103.355 9.789)"/>
+    <rect id="Rectangle_52" data-name="Rectangle 52" class="cls-3" width="61.72" height="96.492" transform="translate(79.975 161.689)"/>
+    <path id="Path_58" data-name="Path 58" class="cls-3" d="M130.947,57.2H16.2V85.887h5.216c9.562,0,16.517,7.824,16.517,18.255v86.93h92.145V57.2Z" transform="translate(120.279 43.638)"/>
+    <g id="Group_17" data-name="Group 17" transform="translate(165.796 141.854)">
+      <text id="_" data-name="&lt;/&gt;" class="cls-4" transform="translate(0 29)"><tspan x="0" y="0">&lt;/&gt;</tspan></text>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(92.949 195.366)">
+      <text id="_2" data-name="&lt;/&gt;" class="cls-5" transform="translate(0 14)"><tspan x="0" y="0">&lt;/&gt;</tspan></text>
+    </g>
+  </g>
+</svg>
