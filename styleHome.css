@@ -55,6 +55,16 @@ body{}
 	align-items: center;
 }
 @media (max-width: 768px){
+	.header__menu-hamburguer--mobile{
+		display: block;
+	}
+	.header__menu-hamburguer--mobile:focus{
+		outline: none;
+	}
+	.header__menu-hamburguer--mobile:focus ~ .header__menu,
+	.header__menu:hover{
+		display: flex;
+	}
 	.header__menu{
 		width: 20%;
 		padding-right: 2%;
@@ -65,15 +75,6 @@ body{}
 		display: none;
 		flex-direction: column;
 		align-items: flex-end;
-	}
-	.header__menu-hamburguer--mobile{
-		display: block;
-	}
-	.header__menu-hamburguer--mobile:focus{
-		outline: none;
-	}
-	.header__menu-hamburguer--mobile:focus ~ .header__menu{
-		display: flex;
 	}
 	
 }
