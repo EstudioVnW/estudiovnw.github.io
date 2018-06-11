@@ -38,14 +38,14 @@ body{}
 	.header__logo{
 		width: 30vw;
 		margin-top: 15%;
-		margin-right: 25%;
+		margin-right: 23%;
 	}
 }
 .header__menu-hamburguer--mobile{
 	background-color: transparent;
 	border: none;
-	font-size: 47px;
 	color: #000;
+	font-size: 47px;
 	display: none;
 }
 .header__menu{
