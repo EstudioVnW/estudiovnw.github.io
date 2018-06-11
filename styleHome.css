@@ -44,7 +44,7 @@ body{}
 .header__menu-hamburguer--mobile{
 	background-color: transparent;
 	border: none;
-	font-size: 45px;
+	font-size: 47px;
 	color: #000;
 	display: none;
 }
@@ -85,7 +85,7 @@ body{}
 }
 @media (max-width: 768px){
 	.header__menu-item{
-		font-size: 2.7vw;
+		font-size: 2.9vw;
 		margin: 3% 0;
 	}
 }
