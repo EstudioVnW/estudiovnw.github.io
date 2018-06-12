@@ -30,8 +30,14 @@ body{}
 	}
 }
 .header__logo{
-	width: 15vw;
+	width: 15%;
 	margin-top: 10%;
+	margin-left: 2%;
+	transition: all 0.5s ease-out;
+}
+.header__logo.--scale-down{
+	transform: scale(0.85);
+	margin-top: 5%;
 	margin-left: 2%;
 }
 @media (max-width: 768px){
@@ -53,6 +59,9 @@ body{}
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+.header__logomenu.--drop-menu{
+    width: 32%;
 }
 @media (max-width: 768px){
 	.header__menu-hamburguer--mobile{
@@ -84,6 +93,12 @@ body{}
 	text-decoration: none;
 	color: #070707;
 }
+.header__menu-item.--fade-in {
+	font-size: 1vw;
+}
+.header__menu-item.--drop-item {
+      font-size: 1vw;
+    }
 @media (max-width: 768px){
 	.header__menu-item{
 		font-size: 2.9vw;
