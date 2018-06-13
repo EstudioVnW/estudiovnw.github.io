@@ -6,7 +6,9 @@
 	box-sizing: border-box;
 }
 
-body{}
+body{
+	max-width: 1300px;
+}
 .header{
 	width: 100%;
 	height: 10vh;
@@ -904,6 +906,7 @@ body{}
 @media (max-width: 768px){
 	.conteudo-estudio-caixa__link{
 		width: 50%;
+		padding-top: 2.5%;
 		font-size: 3vw;
 	}
 }
