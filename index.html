@@ -23,7 +23,8 @@
 	</header>
 	<main class="conteudo">
 		<section id="destaque" class="conteudo-destaque">
-			<h1 class="conteudo-destaque__titulo">Aprenda a programar de verdade!</h1>
+			<h1 id="titulo1" class="conteudo-destaque__titulo">Aprenda a programar de verdade!</h1>
+			<h1 id="titulo2" class="conteudo-destaque__titulo conteudo-destaque__titulo--outro">Junte-se ao movimento de democratização do acesso à tecnologia!</h1>
 		</section>
 		<section class="conteudo-programar">
 			<h1 class="conteudo-programar__titulo">Por que aprender a programar?</h1>
@@ -282,11 +283,17 @@
 		   if (document.getElementById('destaque') && imageCount > 0)
 		   {
 		      document.getElementById('destaque').style.backgroundImage = "url("+images[currentImage]+")";
+		      document.getElementById('destaque').style.justifyContent = "flex-end";
+		      document.getElementById('titulo1').style.display = "block";
+		      document.getElementById('titulo2').style.display = "none";
 		 
 		      currentImage = currentImage + 1;
 		      if (currentImage > (imageCount-1))
 		      { 
 		         currentImage = 0;
+		         document.getElementById('destaque').style.justifyContent = "flex-start";
+		         document.getElementById('titulo1').style.display = "none";
+		         document.getElementById('titulo2').style.display = "block";
 		      }
 		      setTimeout('startSlideShow()', 4000);
 		   }
