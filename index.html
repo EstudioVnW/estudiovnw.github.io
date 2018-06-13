@@ -22,7 +22,7 @@
 		</nav>
 	</header>
 	<main class="conteudo">
-		<section class="conteudo-destaque">
+		<section id="destaque" class="conteudo-destaque">
 			<h1 class="conteudo-destaque__titulo">Aprenda a programar de verdade!</h1>
 		</section>
 		<section class="conteudo-programar">
@@ -258,5 +258,40 @@
 		</section>
 	</footer>
 	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript">
+		var imageCount = 0;
+		var currentImage = 0;
+		var images = new Array();
+		 
+		images[0] = 'assets/homeFundo';
+		images[1] = 'assets/homeFundo2.png';
+		 
+		var preLoadImages = new Array();
+		for (var i = 0; i < images.length; i++)
+		{
+		   if (images[i] == "")
+		      break;
+		 
+		   preLoadImages[i] = new Image();
+		   preLoadImages[i].src = images[i];
+		   imageCount++;
+		}
+		 
+		function startSlideShow()
+		{
+		   if (document.getElementById('destaque') && imageCount > 0)
+		   {
+		      document.getElementById('destaque').style.backgroundImage = "url("+images[currentImage]+")";
+		 
+		      currentImage = currentImage + 1;
+		      if (currentImage > (imageCount-1))
+		      { 
+		         currentImage = 0;
+		      }
+		      setTimeout('startSlideShow()', 4000);
+		   }
+		}
+		startSlideShow();
+	</script>
 </body>
 </html>
