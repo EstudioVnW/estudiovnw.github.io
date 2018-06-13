@@ -30,7 +30,7 @@ body{}
 	}
 }
 .header__logo{
-	width: 15%;
+	width: 16%;
 	margin-top: 10%;
 	margin-left: 2%;
 	transition: all 0.5s ease-out;
@@ -98,7 +98,7 @@ body{}
 }
 .header__menu-item.--drop-item {
       font-size: 1vw;
-    }
+}
 @media (max-width: 768px){
 	.header__menu-item{
 		font-size: 2.9vw;
