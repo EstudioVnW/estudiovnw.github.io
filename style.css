@@ -368,7 +368,7 @@ body{
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa{
 		min-height: 63vh;
-		max-height: 550px;
+		/*max-height: 550px;*/
 		padding: 5% 0;
 		flex-direction: column;
 	}
@@ -385,8 +385,7 @@ body{
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item{
 		width: 80%;
-		height: 40%;
-		margin-top: -32%;
+		margin-top: -37%;
 	}
 }
 .conteudo-incentivo-caixa__item-imagem{
