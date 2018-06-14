@@ -368,7 +368,7 @@ body{
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa{
 		min-height: 63vh;
-		max-height: 550px;
+		/*max-height: 550px;*/
 		padding: 5% 0;
 		flex-direction: column;
 	}
