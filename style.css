@@ -1091,6 +1091,7 @@ body{
 	align-items: center;
 }
 .modulo-detalhes-links-botoes__botao{
+	min-width: 8vw;
 	margin-right: 4%; 
 	padding: 2% 4%;
 	border-radius: 12px;
