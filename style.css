@@ -936,6 +936,10 @@ body{
 		bottom: 8%;
 	}
 }
+.modulo-fantasma{
+	width: 100%;
+	height: 1vh;
+}
 .modulo{
 	width: 100%;
 	height: 140vh;
