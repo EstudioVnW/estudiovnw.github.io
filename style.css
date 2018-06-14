@@ -385,8 +385,7 @@ body{
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item{
 		width: 80%;
-		height: 40%;
-		margin-top: -32%;
+		margin-top: -37%;
 	}
 }
 .conteudo-incentivo-caixa__item-imagem{
