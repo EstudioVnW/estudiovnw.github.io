@@ -930,6 +930,7 @@ body{
 @media (max-width: 425px){
 	.conteudo-estudio-caixa__link{
 		width: 50%;
+		height: 10%;
 		padding-top: 2.5%;
 		font-size: 3vw;
 	}
