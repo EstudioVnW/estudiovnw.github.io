@@ -52,6 +52,12 @@ header{
 	flex-direction: column;
 	align-items: center;
 }
+@media(max-width: 48rem){
+	.prelude{
+	min-height: 35rem;
+	align-items: center;
+	}
+}
 .prelude-white{
 	width: 100%;
 	height: 12.5rem;
@@ -73,6 +79,11 @@ header{
 	text-align: center;
 	color: #2E3192;
 }
+@media(max-width: 48rem){
+	.prelude{
+	min-height: 50%;}
+}
+
 .prelude-blue{
 	width: 100%;
 	height: 12.5rem;
@@ -92,6 +103,14 @@ header{
 	justify-content: flex-end;
 	align-items: flex-end;
 }
+@media(max-width: 48rem){
+	.prelude-blue__box{
+	width:90%;
+	height: 20vh;
+	margin-top: -1%;
+	align-items: center;
+	}
+}
 .prelude-blue__text{
 	width: 50%;
 	font-size: 1.7vw;
@@ -102,11 +121,22 @@ header{
 	text-align: right;
 	color: #FFFFFF;
 }
+@media(max-width: 48rem){
+	.prelude-blue__text{
+	width: 100%;
+	font-size: 4vw;
+	}
+}
 .prelude-blue__name-Igor{
 	font-size: 2vw;
 	font-family:SourceBold;
 	text-align: right;
 	color: #FCAF17;
+}
+@media(max-width: 48rem){
+	.prelude-blue__name-Igor{
+	font-size: 4vw;
+	}
 }
 .prelude-blue__job-Igor{
 	font-size: 1vw;
@@ -114,11 +144,25 @@ header{
 	text-align: right;
 	color: #E84710;
 }
+@media(max-width: 48rem){
+	.prelude-blue__job-Igor{
+	font-size: 3vw;
+	}
+}
 .prelude-blue__img-Igor{
 	width: 15vw;
 	margin-top: -10%;
   	/*height: 10vh*/;
 	border-radius: 50%;
+}
+@media(max-width: 48rem){
+	.prelude-blue__img-Igor{
+	z-index: 1;
+	position: absolute;
+	min-width: 50%;
+	margin-top: -30%;
+	align-items: center;
+	}
 }
 /*>>>>>>>>>>>>>fim prelude> init description >>>>>>>>>>*/
 .pumpkinbox{
@@ -128,6 +172,11 @@ header{
 	align-items: center;
 	background-color: #FCAF17;
 }
+@media(max-width: 48rem){
+	.pumpkinbox{
+	position: relative;
+		}
+	}
 .pumpkinbox__part1{
 	width: 90%;
 	height: 90vh;
@@ -138,19 +187,36 @@ header{
 	align-items: center;
 	padding-top: 5vh;
 }
+@media(max-width: 48rem){
+	.pumpkinbox__part1{
+	height: auto;
+	flex-direction: column;
+	justify-content:space-between;
+	}
+}
 .pumpkinbox-headline{
 	font-size: 2.8vw;
 	font-family:SourceBold;
 	color: #2E3192;
 }
+@media(max-width: 48rem){
+	.pumpkinbox-headline{
+	font-size: 4vw;
+	padding-bottom: 2%;
+	}
+}
 .pumpkinbox__part1-bloc1{
 	width: 90vw;
-	padding-left: 5vh;
-	display: flex;
+/*	padding-left: 5vh;
+*/	display: flex;
 	flex-flow: row;
 	align-items: flex-start;
 	justify-content: space-between;
-	
+}
+@media(max-width: 48rem){
+	.pumpkinbox__part1-bloc1{
+	flex-direction: column;
+	}
 }
 .pumpkinbox-text1{
 	width: 45%;
@@ -161,9 +227,20 @@ header{
 	font-weight:400;
 	color: #000000;
 }
+@media(max-width: 48rem){
+	.pumpkinbox-text1{
+	width: 100%;
+	font-size: 3vw;
+	}
+}
 .pumpkinbox-img-1{
 	width: auto;
 	padding-top: 1%;
+}
+@media(max-width: 48rem){
+	.pumpkinbox-img-1{
+	width: 100%;
+	}
 }
 .pumpkinbox__part2{
 	width: 100%;
@@ -173,6 +250,13 @@ header{
 	justify-content: space-between;
 	padding-top: 5vh;
 }
+@media(max-width: 48rem){
+	.pumpkinbox__part2{
+	height: auto;
+	flex-direction: column;
+	justify-content:space-between;
+	}
+}
 .pumpkinbox__part2-bloc2{
 	width: 38%;
 	margin-left: 5%;
@@ -180,9 +264,23 @@ header{
 	display: flex;
 	flex-flow: column;
 }
+@media(max-width: 48rem){
+	.pumpkinbox__part2-bloc2{
+	width: 90%;
+	margin-bottom: 3%;
+	flex-direction: column;
+	}
+}
 .pumpkinbox__part2-bloc3{
 	width: 50%;
 	height: 40vh;
+}
+@media(max-width: 48rem){
+	.pumpkinbox__part2-bloc3{
+	width: 90%;
+	margin-left: 4%;
+	flex-direction: column;
+	}
 }
 .pumpkinbox-text2{
 	width: 90%;
@@ -192,6 +290,12 @@ header{
 	font-style:normal;
 	font-weight:400;
 	color: #000000;
+}
+@media(max-width: 48rem){
+	.pumpkinbox-text2{
+	width: 100%;
+	font-size: 3vw;
+	}
 }
 /*>>>>>>>>>>>>>inicio bloco polos >>>>>>>>>>>>>>>>>>>>>>>>>*/
 .boxPolos{
@@ -203,8 +307,9 @@ header{
 }
 @media(max-width: 48rem){
 	.boxPolos{
-	width: 100%;
-	height: 170vh;
+	height: auto;
+	padding-bottom: 3vh;
+	margin-bottom: 3vh;
 	}
 }
 .boxPolos-title{
@@ -237,8 +342,15 @@ header{
 	text-align: center;
 	color: #2E3192;
 }
+@media(max-width: 48rem){
+	.boxPolos-text{
+	width: 90%;
+	height: auto;
+	font-size: 4vw;
+	}
+}
 .boxPolos-container{
-	height: 80%;
+	height: 80vh;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -246,7 +358,8 @@ header{
 }
 @media(max-width: 48rem){
 	.boxPolos-container{
-	height:140vh;
+	height:auto;
+	flex-direction: column;
 	}
 }
 .boxPolos-container-contentbox{
@@ -259,8 +372,9 @@ header{
 }
 @media(max-width: 48rem){
 	.boxPolos-container-contentbox{
-	width: 60%;
-	margin-left: 12%;
+	width: 90%;
+	height: auto;
+	align-items: center;
 	}
 }
 .boxPolos-container-img{
@@ -274,12 +388,16 @@ header{
 	}
 }
 .boxPolos-container-subtitle{
-	
 	font-size: 2em;
 	font-family:"ministry";
 	font-style:normal;
 	font-weight:400;
 	color: #2C398C;
+}
+@media(max-width: 48rem){
+	.boxPolos-container-subtitle{
+	font-size: 1.7em;
+	}
 }
 .boxPolos-container-ong{
 	margin-bottom: 2%;
@@ -289,12 +407,23 @@ header{
 	font-weight:400;
 	color: #222222;
 }
+@media(max-width: 48rem){
+	.boxPolos-container-ong{
+	font-size: 1.5em;
+	}
+}
 .boxPolos-container-adress{
 	font-size: 1.3em;
 	font-family:ministry, sans-serif;
 	font-style:normal;
 	font-weight:400;	
 	color: #2E3292;
+}
+@media(max-width: 48rem){
+	.boxPolos-container-adress{
+	width: 90%;
+	font-size: 1em;
+	}
 }
 /*>>>>>>>>>>>>>>fim bloco-polos > inicio timBern >>>>>>>>>>>*/
 .timBern-container{
@@ -305,9 +434,23 @@ header{
 	align-items: center;
 	position: relative;
 }
+@media(max-width: 48rem){
+	.timBern-container{
+	width: 90%;
+	height:auto;
+	padding:15% 0;	
+	flex-direction: column;
+	}
+}
 .timBern-img{
 	width: 45%;
 	background-color: red;
+}
+@media(max-width: 48rem){
+	.timBern-img{
+		width: 90%;
+		align-self: flex-start;
+	}
 }
 .timBern-circle{
 	position: absolute;
@@ -319,14 +462,33 @@ header{
 	border-radius: 50%;
 	background-color: orange;
 }
+@media(max-width: 48rem){
+	.timBern-circle{
+		width: 165px;
+		height: 165px;
+		margin-left: 25%;
+		margin-top: -25%;
+	}
+}
 .timBern-caixa-text{
 	width:45%;
+}
+@media(max-width: 48rem){
+	.timBern-caixa-text{
+		width: 90%;
+		margin-top: 4%;
+	}
 }
 .timBern-caixa__text1{
 	font-size: 2vw;
 	font-family:SourceBold;
 	text-align: left;
-	color: #FCAF17;
+	color: #e84710;
+}
+@media(max-width: 48rem){
+	.timBern-caixa__text1{
+	font-size: 4vw;
+	}
 }
 .timBern-caixa__text2{
 	font-size: 2vw;
@@ -336,6 +498,12 @@ header{
 	text-align: left;
 	color: #2E3192;
 }
+@media(max-width: 48rem){
+	.timBern-caixa__text2{
+		font-size: 4vw;
+		margin-top: 4%;
+	}
+}
 .timBern-caixa__text3{
 	font-size: 2vw;
 	font-family:ministry, sans-serif;
@@ -343,6 +511,12 @@ header{
 	font-weight:400;
 	text-align: left;
 	color: #222222;
+}
+@media(max-width: 48rem){
+	.timBern-caixa__text3{
+		font-size: 4vw;
+		margin-top: 4%;
+	}
 }
 
 /*>>>>>>>>>>>>>>fim bloco-polos > inicio bloco-modulos >>>>>>>>>>>*/
