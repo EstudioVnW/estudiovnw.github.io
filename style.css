@@ -1121,9 +1121,9 @@ body{
 	align-items: center;
 }
 .modulo-detalhes-links-botoes__botao{
-	min-width: 8vw;
+	width: 12vw;
 	margin-right: 4%; 
-	padding: 2% 4%;
+	padding: 2%;
 	border-radius: 8px;
 	border: solid 3px #2E3192;
 	background-color: #FCAF17;
@@ -1132,6 +1132,9 @@ body{
 	font-style:normal;
 	font-weight:400;
 	text-decoration: none;
+}
+.modulo-detalhes-links-botoes__botao2{
+	width: 19vw;
 }
 @media (max-width: 768px){
 	.modulo-detalhes-links-botoes__botao{
