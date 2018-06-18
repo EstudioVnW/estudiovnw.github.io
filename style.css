@@ -258,11 +258,6 @@ body{
 		height: 22vh;
 	}
 }
-/*@media (max-width: 425px)*/{
-	.conteudo-inscricoes{
-		height: 14vh;
-	}
-}
 .conteudo-inscricoes__box{
 	width: 28%;
 	height: 100%;
@@ -276,11 +271,6 @@ body{
 	.conteudo-inscricoes__box{
 		width: 50%;
 		min-height: 20vh;
-	}
-}
-/*@media (max-width: 425px)*/{
-	.conteudo-inscricoes__box{
-		min-height: 14vh;
 	}
 }
 .conteudo-inscricoes-box__titulo{
@@ -323,11 +313,6 @@ body{
 		width: 33%;
 	}
 }
-/*@media (max-width: 425px)*/{
-	.conteudo-inscricoes__imagem{
-		width: 38%;
-	}
-}
 .conteudo-incentivo{
 	width: 100%;
 	min-height: 50vh;
@@ -343,11 +328,6 @@ body{
 @media (max-width: 1200px){
 	.conteudo-incentivo__box{
 		height: 25vh;
-	}
-}
-/*@media (max-width: 425px)*/{
-	.conteudo-incentivo__box{
-		height: 17vh;
 	}
 }
 .conteudo-incentivo-box__titulo{
@@ -403,11 +383,6 @@ body{
 		width: 80%;
 		height: auto;
 		margin-top: -15%;
-	}
-}
-/*@media (max-width: 425px)*/{
-	.conteudo-incentivo-caixa__item{
-		margin-top: -22%;
 	}
 }
 .conteudo-incentivo-caixa__item-imagem{
@@ -507,12 +482,6 @@ body{
 @media (max-width: 1200px){
 	.conteudo-modulos-sobre{
 		height: 30vh;
-	}
-}
-/*@media (max-width: 425px)*/{
-	.conteudo-modulos-sobre{
-		min-height: 5vh;
-		height: auto;
 	}
 }
 .conteudo-modulos-sobre__titulo{
@@ -866,11 +835,6 @@ body{
 		height: 80vh;
 	}
 }
-/*@media (max-width: 425px)*/{
-	.conteudo-estudio{
-		height: 60vh;
-	}
-}
 .maskara{
 	width: 100%;
 	height: 100%;
@@ -903,12 +867,6 @@ body{
 	.conteudo-estudio-caixa{
 		width: 65vw;
 		height: 60vh;
-	}
-}
-/*@media (max-width: 425px)*/{
-	.conteudo-estudio-caixa{
-		width: 70vw;
-		height: 40vh;
 	}
 }
 .conteudo-estudio-caixa__logo{
@@ -973,14 +931,6 @@ body{
 		height: 60vh;
 		right: 12%;
 		bottom: 10%;
-	}
-}
-/*@media (max-width: 425px)*/{
-	.conteudo-estudio-caixa--fundo{
-		width: 70vw;
-		height: 40vh;
-		right: 9%;
-		bottom: 12%;
 	}
 }
 .modulo-fantasma{
@@ -1274,11 +1224,6 @@ body{
 		max-height: 400px;
 	}
 }
-/*@media (max-width: 425px)*/{
-	.rodape-informacoes{
-		height: 28vh;
-	}
-}
 .rodape-informacoes-redes{
 	width: 30%;
 	height: 100%;
@@ -1451,11 +1396,6 @@ body{
 @media (max-width: 768px){
 	.rodape-creditos{
 		height: 8vh;
-	}
-}
-/*@media (max-width: 425px)*/{
-	.rodape-creditos{
-		height: 5vh;
 	}
 }
 .rodape-creditos__paragrafo{
