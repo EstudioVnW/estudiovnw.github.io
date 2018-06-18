@@ -258,7 +258,7 @@ body{
 		height: 22vh;
 	}
 }
-@media (max-width: 425px){
+/*@media (max-width: 425px)*/{
 	.conteudo-inscricoes{
 		height: 14vh;
 	}
@@ -278,7 +278,7 @@ body{
 		min-height: 20vh;
 	}
 }
-@media (max-width: 425px){
+/*@media (max-width: 425px)*/{
 	.conteudo-inscricoes__box{
 		min-height: 14vh;
 	}
@@ -323,7 +323,7 @@ body{
 		width: 33%;
 	}
 }
-@media (max-width: 425px){
+/*@media (max-width: 425px)*/{
 	.conteudo-inscricoes__imagem{
 		width: 38%;
 	}
@@ -345,7 +345,7 @@ body{
 		height: 25vh;
 	}
 }
-@media (max-width: 425px){
+/*@media (max-width: 425px)*/{
 	.conteudo-incentivo__box{
 		height: 17vh;
 	}
@@ -405,7 +405,7 @@ body{
 		margin-top: -15%;
 	}
 }
-@media (max-width: 425px){
+/*@media (max-width: 425px)*/{
 	.conteudo-incentivo-caixa__item{
 		margin-top: -22%;
 	}
@@ -509,7 +509,7 @@ body{
 		height: 30vh;
 	}
 }
-@media (max-width: 425px){
+/*@media (max-width: 425px)*/{
 	.conteudo-modulos-sobre{
 		min-height: 5vh;
 		height: auto;
@@ -866,7 +866,7 @@ body{
 		height: 80vh;
 	}
 }
-@media (max-width: 425px){
+/*@media (max-width: 425px)*/{
 	.conteudo-estudio{
 		height: 60vh;
 	}
@@ -905,7 +905,7 @@ body{
 		height: 60vh;
 	}
 }
-@media (max-width: 425px){
+/*@media (max-width: 425px)*/{
 	.conteudo-estudio-caixa{
 		width: 70vw;
 		height: 40vh;
@@ -975,7 +975,7 @@ body{
 		bottom: 10%;
 	}
 }
-@media (max-width: 425px){
+/*@media (max-width: 425px)*/{
 	.conteudo-estudio-caixa--fundo{
 		width: 70vw;
 		height: 40vh;
@@ -1274,7 +1274,7 @@ body{
 		max-height: 400px;
 	}
 }
-@media (max-width: 425px){
+/*@media (max-width: 425px)*/{
 	.rodape-informacoes{
 		height: 28vh;
 	}
@@ -1453,7 +1453,7 @@ body{
 		height: 8vh;
 	}
 }
-@media (max-width: 425px){
+/*@media (max-width: 425px)*/{
 	.rodape-creditos{
 		height: 5vh;
 	}
