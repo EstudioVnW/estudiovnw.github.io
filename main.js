@@ -47,3 +47,39 @@
     }
   };
 })();
+
+var slidesIndex = 1;
+showDivs(slidesIndex);
+
+function plusDivs(n){
+  showDivs(slidesIndex += n);
+}
+
+function showDivs(n){
+  var i;
+  var x = document.getElementsByClassName("conteudo-incentivo-caixa");
+  if (n > x.length) {slidesIndex = 1}
+  if (n < 1 ) {slidesIndex = x.length};
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slidesIndex-1].style.display = "flex"
+};
+
+var slideIndex = 1;
+showDiv(slideIndex);
+
+function plusSites(n){
+  showDiv(slideIndex += n);
+}
+
+function showDiv(n){
+  var i;
+  var x = document.getElementsByClassName("conteudo-projetos-caixa");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1 ) {slideIndex = x.length};
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "flex"
+};

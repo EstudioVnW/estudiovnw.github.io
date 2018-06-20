@@ -454,7 +454,7 @@ body{
 }
 @media (max-width: 768px){
 	.conteudo-caixa__item-botao--incentivo{
-		display: none;
+		font-size: 5vw;
 	}
 }
 .conteudo-modulos{
@@ -686,8 +686,8 @@ body{
 	}
 }
 .conteudo-projetos-caixa__imagem{
-	width: 47%;
-	margin-top: 2%;
+	width: 52%;
+	margin-top: 1%;
 }
 .conteudo-projetos-caixa__item{
 	width: 30%;
