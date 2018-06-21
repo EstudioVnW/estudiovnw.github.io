@@ -1169,7 +1169,7 @@ body{
 }
 .modulo-detalhes-links-botoes__botao--mobile{
 	padding: 2% 4%;
-	border-radius: 13px;
+	border-radius: 10px;
 	border: solid 3px #2E3192;
 	background-color: #FCAF17;
 	font-size: 5vw;
