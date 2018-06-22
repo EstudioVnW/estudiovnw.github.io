@@ -1098,6 +1098,7 @@ body{
 	font-style:normal;
 	font-weight:400;
 	text-decoration: none;
+	text-align: center;
 }
 .modulo-detalhes-links-botoes__botao2{
 	width: 19vw;
@@ -1177,6 +1178,7 @@ body{
 	font-style:normal;
 	font-weight:400;
 	text-decoration: none;
+	text-align: center;
 }
 .modulo-detalhes-links__proximo--mobile{
 	margin-top: 10%;
