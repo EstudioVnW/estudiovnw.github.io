@@ -286,14 +286,17 @@ body{
 .conteudo-inscricoes-box__botao{
 	width: 50%;
 	height: 35%;
+	padding-top: 1.5%;
 	border: none;
 	border-radius: 8px;
+	background-color: #fff;
 	font-size: 1.5vw;
 	font-family:"ministry";
 	font-style:normal;
 	font-weight:400;
 	color: #2E3192;
-	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
 }
 @media (max-width: 768px){
 	.conteudo-inscricoes-box__botao{
@@ -1083,22 +1086,24 @@ body{
 .modulo-detalhes-links-botoes{
 	min-width: 55%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 .modulo-detalhes-links-botoes__botao{
-	width: 12vw;
-	margin-right: 4%; 
-	padding: 2%;
+	width: 50%;
+	height: 50%;
+	border: none;
+	padding: 1% 0;
 	border-radius: 8px;
 	border: solid 3px #2E3192;
 	background-color: #FCAF17;
-	font-size: 1.7vw;
+	font-size: 1.5vw;
 	font-family:"ministry";
 	font-style:normal;
 	font-weight:400;
-	text-decoration: none;
+	color: #2E3192;
 	text-align: center;
+	text-decoration: none;
 }
 .modulo-detalhes-links-botoes__botao2{
 	width: 19vw;
@@ -1411,13 +1416,14 @@ body{
 		font-size: 2.7vw;
 	}
 }
+.rodape-creditos__link{
+	margin-left: 1%;
+}
 .rodape-creditos__logo{
 	width: 5vw;
-	margin: 0 1%;	
 }
 @media (max-width: 768px){
 	.rodape-creditos__logo{
 		width: 15vw;
-		margin: 0 2%;
 	}
 }
