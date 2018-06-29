@@ -532,6 +532,7 @@ body{
 	justify-content: space-between;
 	align-items: flex-start;
 	text-decoration: none;
+	transition: all .8s;
 }
 @media (max-width: 768px){
 	.conteudo-modulos-modulo{
@@ -558,6 +559,7 @@ body{
 	font-size: 10vw;
 	font-family: SourceRegular;
 	color: #E84710;
+	transition: all .5s;
 }
 .conteudo-modulos-modulo--meio{
 	border-left: solid 1px rgba(112, 112, 112, 0.5);
@@ -568,6 +570,7 @@ body{
 	font-size: 1.5vw;
 	font-family: SourceBlack;
 	color: #000;
+	transition: all .5s;
 }
 .conteudo-modulos-modulo__paragrafo{
 	width: 60%;
@@ -575,6 +578,7 @@ body{
 	font-size: 1.2vw;
 	font-family: SourceMedium;
 	color: #171717;
+	transition: all .5s;
 }
 .conteudo-modulos-modulo__icone{
 	height: 14vh;
