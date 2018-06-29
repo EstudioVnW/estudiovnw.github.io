@@ -407,7 +407,8 @@ body{
 }
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item-titulo{
-		font-size: 4vw;
+		margin-top: 2.5%;
+		font-size: 6vw;
 	}
 }
 .conteudo-incentivo-caixa__item-subtitulo{
@@ -416,7 +417,7 @@ body{
 }
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item-subtitulo{
-		font-size: 3vw;
+		font-size: 3.5vw;
 	}
 }
 .conteudo-incentivo-caixa__item--texto{
@@ -441,7 +442,7 @@ body{
 }
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item-paragrafo{
-		font-size: 3vw;
+		font-size: 3.5vw;
 		line-height: 3.4vh;
 	}
 }
@@ -457,7 +458,7 @@ body{
 }
 @media (max-width: 768px){
 	.conteudo-caixa__item-botao--incentivo{
-		font-size: 5vw;
+		font-size: 13vw;
 	}
 }
 .conteudo-modulos{
