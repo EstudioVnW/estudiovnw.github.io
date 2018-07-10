@@ -187,8 +187,7 @@ header{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	padding-top: 5vh;
 }
 @media(max-width: 48rem){
@@ -337,7 +336,7 @@ header{
 }
 .boxPolos-text{
 	width: 50%;
-	height: 20%;
+	height: auto;
 	margin-bottom: 3%; 
 	font-size: 1.2vw;
 	font-family:"ministry";
@@ -459,7 +458,7 @@ header{
 .timBern-circle{
 	position: absolute;
 	width: 30vw;
-	height: 60vh;
+	height: 70vh;
 	margin-left: -15%;
 	margin-top: -5%;
 	opacity: 0.50;
