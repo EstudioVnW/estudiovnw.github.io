@@ -51,13 +51,14 @@ header{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom: auto;
 }
 @media(max-width: 48rem){
 	.prelude{
 	min-height: 35rem;
 	align-items: center;
 	padding-top: 15%;
-	
+	margin-bottom: auto;
 	}
 }
 .prelude-white{
@@ -96,6 +97,7 @@ header{
 	justify-content: center;
 	align-items: center;
 	background-color: #2E3192;
+
 }
 .prelude-blue__box{
 	min-width: 40vw;
@@ -116,7 +118,7 @@ header{
 	}
 }
 .prelude-blue__text{
-	width: 50%;
+	width: 60%;
 	font-size: 1.7vw;
 	font-family:"ministry";
 	font-style:normal;
@@ -152,6 +154,10 @@ header{
 	.prelude-blue__job-Igor{
 	font-size: 3vw;
 	}
+}
+.prelude-blue__job-igor-a{
+	text-decoration: none;
+	color: #E84710;
 }
 .prelude-blue__img-Igor{
 	width: 15vw;
@@ -221,14 +227,23 @@ header{
 	flex-direction: column;
 	}
 }
+.pumpkinbox__part1-bloc2{
+	display: flex;
+	justify-content: center;
+	align-items: ;
+	flex-flow: column nowrap;
+}
 .pumpkinbox-text1{
-	width: 45%;
-	padding: 1%;
+	width: 70%;
+	margin-top: 20px;
 	font-size: 1.6vw;
 	font-family:"ministry";
 	font-style:normal;
 	font-weight:400;
 	color: #000000;
+}
+.span{
+	margin-top: 60px;
 }
 @media(max-width: 48rem){
 	.pumpkinbox-text1{
@@ -237,7 +252,7 @@ header{
 	}
 }
 .pumpkinbox-img-1{
-	width: auto;
+	width: 60%;
 	padding-top: 1%;
 }
 @media(max-width: 48rem){
@@ -287,6 +302,7 @@ header{
 }
 .pumpkinbox-text2{
 	width: 90%;
+	margin-top: 26px;
 	padding-top: 3%;
 	font-size: 1.6vw;
 	font-family:"ministry";
