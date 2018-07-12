@@ -55,7 +55,7 @@ header{
 }
 @media(max-width: 48rem){
 	.prelude{
-	min-height: 35rem;
+	height: auto;
 	align-items: center;
 	padding-top: 15%;
 	margin-bottom: auto;
@@ -64,11 +64,16 @@ header{
 .prelude-white{
 	width: 100%;
 	height: 12.5rem;
-	padding-bottom: 10%;
+	/*padding-bottom: 10%;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
+}
+@media(max-width: 48rem){
+	.prelude{
+		height: auto;
+	}
 }
 .prelude-white__title{
 	width: 32%;
@@ -97,7 +102,11 @@ header{
 	justify-content: center;
 	align-items: center;
 	background-color: #2E3192;
-
+}
+@media(max-width: 48rem){
+	.prelude-blue{
+		min-height: 40vh;
+	}
 }
 .prelude-blue__box{
 	min-width: 40vw;
@@ -161,7 +170,7 @@ header{
 }
 .prelude-blue__img-Igor{
 	width: 15vw;
-	margin-top: -10%;
+	margin-top: -15rem;
   	/*height: 10vh*/;
 	border-radius: 50%;
 }
@@ -169,7 +178,7 @@ header{
 	.prelude-blue__img-Igor{
 	z-index: 1;
 	position: absolute;
-	min-width: 50%;
+	min-width: 40%;
 	margin-top: -30%;
 	align-items: center;
 	}
@@ -177,6 +186,7 @@ header{
 /*>>>>>>>>>>>>>fim prelude> init description >>>>>>>>>>*/
 .pumpkinbox{
 	width: 100%;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -185,6 +195,7 @@ header{
 @media(max-width: 48rem){
 	.pumpkinbox{
 	position: relative;
+
 		}
 	}
 .pumpkinbox__part1{
@@ -291,7 +302,8 @@ header{
 }
 .pumpkinbox__part2-bloc3{
 	width: 50%;
-	height: 40vh;
+	height: auto;
+	margin-bottom: 5%;
 }
 @media(max-width: 48rem){
 	.pumpkinbox__part2-bloc3{
@@ -326,6 +338,7 @@ header{
 }
 @media(max-width: 48rem){
 	.boxPolos{
+		margin-top: 10%;
 	height: auto;
 	padding-bottom: 3vh;
 	margin-bottom: 3vh;
@@ -446,8 +459,9 @@ header{
 }
 /*>>>>>>>>>>>>>>fim bloco-polos > inicio timBern >>>>>>>>>>>*/
 .timBern-container{
-	width: 100%;
+	/*width: 100%;*/
 	height:30rem;
+	margin-bottom: 5%;
 	display: flex;
 	justify-content: space-around; 
 	align-items: center;
@@ -455,23 +469,24 @@ header{
 }
 @media(max-width: 48rem){
 	.timBern-container{
-	width: 90%;
+	/*width: 90%;*/
 	height:auto;
-	padding:15% 0;	
+	padding:5% 0;	
 	flex-direction: column;
 	}
 }
 .timBern-img{
-	width: 45%;
-	background-color: red;
-}
+	width: 40rem;
+	margin-left: -2%;
+/*	background-color: red;
+*/}
 @media(max-width: 48rem){
 	.timBern-img{
 		width: 90%;
 		align-self: flex-start;
 	}
 }
-.timBern-circle{
+/*.timBern-circle{
 	position: absolute;
 	width: 30vw;
 	height: 70vh;
@@ -488,9 +503,9 @@ header{
 		margin-left: 25%;
 		margin-top: -35%;
 	}
-}
+}*/
 .timBern-caixa-text{
-	width:45%;
+	width:40%;
 }
 @media(max-width: 48rem){
 	.timBern-caixa-text{
