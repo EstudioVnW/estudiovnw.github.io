@@ -47,7 +47,7 @@ header{
 }
 /*>>>>>>>>>>>>>>>>>>prelude init >>>>>>>>>>>>>>>>>>>>>>>>
 */.prelude{
-	height: 25rem;
+	height: 30rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -63,7 +63,7 @@ header{
 }
 .prelude-white{
 	width: 100%;
-	height: 12.5rem;
+	height: 18.5rem;
 	/*padding-bottom: 10%;*/
 	display: flex;
 	flex-direction: column;
@@ -76,11 +76,11 @@ header{
 	}
 }
 .prelude-white__title{
-	width: 32%;
+	width: 30%;
 	margin: 4% 0;
 	padding-bottom: .80%;
 	border-bottom: 6px solid #E84710;
-	font-size: 3.8vw;
+	font-size: 3.5vw;
 	font-family:"ministry";
 	font-style:normal;
 	font-weight:400;
@@ -96,9 +96,9 @@ header{
 
 .prelude-blue{
 	width: 100%;
-	height: 12.5rem;
+	/*height: 22.5rem;*/
 	display: flex;
-	flex-direction: row;
+	flex-flow: row-reverse nowrap;
 	justify-content: center;
 	align-items: center;
 	background-color: #2E3192;
@@ -106,24 +106,48 @@ header{
 @media(max-width: 48rem){
 	.prelude-blue{
 		min-height: 40vh;
+		flex-direction: column;
+		justify-content: flex-start;
 	}
 }
-.prelude-blue__box{
-	min-width: 40vw;
-	height: 20vh;
-	margin-right: 3%;
-	margin-top: 3%;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: flex-end;
+.prelude-blue__box_box1{
+	width: 35%;
 }
 @media(max-width: 48rem){
-	.prelude-blue__box{
-	width:90%;
-	height: 20vh;
-	margin-top: -1%;
-	align-items: center;
+	.prelude-blue__box_box1{
+		width: 60%;
+	}
+}
+.prelude-blue__img-Igor{
+	margin-bottom: 120px;
+	width: 15vw;
+	border-radius: 100%;
+}
+@media(max-width: 48rem){
+	.prelude-blue__img-Igor{
+		margin-bottom: 0;
+		z-index: 1;
+		position: relative;
+		min-width: 100%;
+		margin-top: -30%;
+		align-items: center;
+	}
+}
+.prelude-blue__box_box2{
+	width: 60%;
+	margin-right: 50px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	flex-flow:  column nowrap;
+}
+@media(max-width: 48rem){
+	.prelude-blue__box_box2{
+		width: 84%;
+		margin-right: 0;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 18%;
 	}
 }
 .prelude-blue__text{
@@ -133,55 +157,44 @@ header{
 	font-style:normal;
 	font-weight:400;
 	justify-content: flex-end;
-	text-align: right;
+	text-align: end;
 	color: #FFFFFF;
 }
 @media(max-width: 48rem){
 	.prelude-blue__text{
+	margin-top: 40px;
 	width: 100%;
-	font-size: 4vw;
+	font-size: 5.2vw;
+	order: 1;
+	text-align: left;
 	}
 }
 .prelude-blue__name-Igor{
 	font-size: 2vw;
 	font-family:SourceBold;
-	text-align: right;
+	text-align: end;
 	color: #FCAF17;
 }
 @media(max-width: 48rem){
 	.prelude-blue__name-Igor{
-	font-size: 4vw;
+	font-size: 5vw;
+	margin-top: 8px;
 	}
 }
 .prelude-blue__job-Igor{
 	font-size: 1vw;
 	font-family:SourceBold;
-	text-align: right;
+	text-align: end;
 	color: #E84710;
 }
 @media(max-width: 48rem){
 	.prelude-blue__job-Igor{
-	font-size: 3vw;
+	font-size: 3.5vw;
 	}
 }
 .prelude-blue__job-igor-a{
 	text-decoration: none;
 	color: #E84710;
-}
-.prelude-blue__img-Igor{
-	width: 15vw;
-	margin-top: -15rem;
-  	/*height: 10vh*/;
-	border-radius: 50%;
-}
-@media(max-width: 48rem){
-	.prelude-blue__img-Igor{
-	z-index: 1;
-	position: absolute;
-	min-width: 40%;
-	margin-top: -30%;
-	align-items: center;
-	}
 }
 /*>>>>>>>>>>>>>fim prelude> init description >>>>>>>>>>*/
 .pumpkinbox{
