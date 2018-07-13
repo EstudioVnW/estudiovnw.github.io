@@ -71,8 +71,8 @@ header{
 	align-items: center;
 }
 @media(max-width: 48rem){
-	.prelude{
-		height: auto;
+	.prelude-white{
+		height: 170px;
 	}
 }
 .prelude-white__title{
@@ -89,8 +89,8 @@ header{
 }
 @media(max-width: 48rem){
 	.prelude-white__title{
-	font-size: 5vw;
-	width: 43%;
+	font-size: 7.5vw;
+	width: 70%;
 	}
 }
 
@@ -234,7 +234,7 @@ header{
 }
 @media(max-width: 48rem){
 	.pumpkinbox-headline{
-	font-size: 4vw;
+	font-size: 4.8vw;
 	padding-bottom: 2%;
 	}
 }
@@ -266,13 +266,18 @@ header{
 	font-weight:400;
 	color: #000000;
 }
-.span{
-	margin-top: 60px;
-}
 @media(max-width: 48rem){
 	.pumpkinbox-text1{
 	width: 100%;
 	font-size: 3vw;
+	}
+}
+.span{
+	margin-top: 60px;
+}
+@media(max-width: 48rem){
+	.span{
+		margin: 20px 0 30px 0;
 	}
 }
 .pumpkinbox-img-1{
@@ -339,6 +344,7 @@ header{
 	.pumpkinbox-text2{
 	width: 100%;
 	font-size: 3vw;
+	margin: 10px 0 20px 0;
 	}
 }
 /*>>>>>>>>>>>>>inicio bloco polos >>>>>>>>>>>>>>>>>>>>>>>>>*/
