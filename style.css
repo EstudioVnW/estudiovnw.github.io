@@ -382,6 +382,7 @@ body{
 	width: 30%;
 	min-height: 20vh;
 	margin-top: -10%;
+	margin-right: 40px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -392,6 +393,7 @@ body{
 		width: 80%;
 		height: auto;
 		margin-top: -15%;
+		margin-right: 0;
 	}
 }
 .conteudo-incentivo-caixa__item-imagem{
