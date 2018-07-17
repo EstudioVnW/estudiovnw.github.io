@@ -10,7 +10,7 @@ body{
 }
 .header{
 	width: 100%;
-	height: 10vh;
+	height: 11vh;
 	padding: 0 3%;
 	background-color: #F2F2F2;
 	display: flex;
@@ -34,6 +34,7 @@ body{
 	width: 15%;
 	margin-top: 10%;
 	margin-left: 2%;
+	margin-bottom: 10px;
 	transition: all 0.5s ease-out;
 }
 .header__logo.--scale-down{
@@ -106,8 +107,8 @@ body{
 }
 .conteudo-destaque{
 	width: 100%;
-	height: 87vh;
-	max-height: 800px;
+	min-height: 100vh;
+	/*max-height: 800px;*/
 	background: url(assets/homeFundo.png)  no-repeat center;
 	background-size: cover;
 	display: flex;
@@ -135,7 +136,7 @@ body{
 .conteudo-programar{
 	width: 100%;
 	padding: 2% 5% 10% 5%;
-	min-height: 85vh;
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -246,12 +247,12 @@ body{
 }
 .conteudo-inscricoes{
 	width: 100%;
-	height: 30vh;
-	max-height: 240px;
+	min-height: 30vh;
+	/*max-height: 240px;*/
 	background-color: #2E3192;
 	display: flex;
 	justify-content: center;
-	align-items: flex-end;
+	align-items: center;
 }
 @media (max-width: 1200px){
 	.conteudo-inscricoes{
@@ -275,6 +276,7 @@ body{
 	}
 }
 .conteudo-inscricoes-box__titulo{
+	margin-bottom: 40px;
 	font-size: 2.5vw;
 	font-family: SourceBold;
 	color: #FCAF17;
@@ -287,12 +289,13 @@ body{
 }
 .conteudo-inscricoes-box__botao{
 	width: 50%;
-	height: 35%;
-	padding-top: 1.5%;
+	max-width: 250px;
+	/*height: 35%;*/
+	padding:20px 0;
 	border: none;
-	border-radius: 8px;
+	border-radius: 19px;
 	background-color: #fff;
-	font-size: 1.5vw;
+	font-size: 1.4vmax;
 	font-family:"ministry";
 	font-style:normal;
 	font-weight:400;
@@ -323,7 +326,7 @@ body{
 }
 .conteudo-incentivo{
 	width: 100%;
-	min-height: 50vh;
+	min-height: 90vh;
 }
 .conteudo-incentivo__box{
 	width: 100%;
@@ -359,18 +362,19 @@ body{
 }
 .conteudo-incentivo-caixa{
 	width: 100%;
-	min=height: 50vh;
+	min-height: 70vh;
 	padding: 2% 0;
 	background-color: #FCAF17;
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-@media (max-width: 1200px){
+/*@media (max-width: 1200px){
 	.conteudo-incentivo-caixa{
 		min-height: 40vh;
 	}
-}
+}*/
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa{
 		height: auto;
@@ -381,7 +385,8 @@ body{
 .conteudo-incentivo-caixa__item{
 	width: 30%;
 	min-height: 20vh;
-	margin-top: -10%;
+	margin-top: -400px;
+	/*margin-bottom: 300px;*/
 	margin-right: 40px;
 	display: flex;
 	flex-direction: column;
@@ -390,7 +395,7 @@ body{
 }
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item{
-		width: 80%;
+		width: 100%;
 		height: auto;
 		margin-top: -15%;
 		margin-right: 0;
@@ -424,19 +429,23 @@ body{
 }
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item-subtitulo{
+		width: 90%;
+		text-align: center;
 		font-size: 3.8vw;
 	}
 }
 .conteudo-incentivo-caixa__item--texto{
-	width: 35%;
-	margin-top: 0;
+	width: 40%;
+	margin-top: 100px;
+	align-self: flex-start;
 	justify-content: center;
 	align-items: flex-end;
 }
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item--texto{
-		width: 80%;
+		width: 90%;
 		margin-top: 10%;
+		align-self: center;
 	}
 }
 .conteudo-incentivo-caixa__item-paragrafo{
@@ -445,10 +454,11 @@ body{
 	font-style:normal;
 	font-weight:400;
 	color: #2E3192;
-	line-height: 4vh;
+	line-height: 1.6em;
 }
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item-paragrafo{
+		width: 90%;
 		font-size: 4.6vw;
 		line-height: 3.4vh;
 	}
@@ -456,15 +466,18 @@ body{
 .conteudo-caixa__item-botao{
 	background-color: transparent;
 	border: none;
-	font-size: 2.3vw;
+	font-size: 40px;
 	color: #E84710;
 	cursor: pointer;
+	position: absolute;
+	bottom: 20px;
 }
 .conteudo-caixa__item-botao:focus{
 	outline: none;
 }
 @media (max-width: 768px){
 	.conteudo-caixa__item-botao--incentivo{
+		position: static;
 		font-size: 16vw;
 	}
 }
@@ -531,7 +544,7 @@ body{
 .conteudo-modulos-modulo{
 	width: 33.3%;
 	min-height: 40vh;
-	max-height: 500px;
+	/*max-height: 500px;*/
 	padding-left: 3%;
 	border-bottom: solid 1px rgba(112, 112, 112, 0.5);
 	border-opacity: 0.5;
@@ -657,7 +670,7 @@ body{
 .conteudo-projetos{
 	width: 100%;
 	min-height: 60vh;
-	max-height: 850px;
+	/*max-height: 850px;*/
 	padding-top: 2%;
 	padding-bottom: 5%;
 	display: flex;
@@ -754,8 +767,8 @@ body{
 }
 .conteudo-projetos-caixa__item-link{
 	width: 40%;
-	height: 10%;
-	padding-top: 1.5%;
+	/*height: 10%;*/
+	padding: 1.5% 0;
 	border: solid 3px #2E3192;
 	border-radius: 10px;
 	background-color: #FCAF17;
@@ -902,9 +915,10 @@ body{
 	}
 }
 .conteudo-estudio-caixa__link{
-	width: 35%;
-	height: 10%;
-	padding-top: 1.5%;
+	min-width: 35%;
+	/*height: 10%;*/
+	padding: 1.5%;
+	margin:5px 0;
 	border: solid 3px #2E3192;
 	border-radius: 8px;
 	background-color: #FCAF17;
@@ -954,22 +968,24 @@ body{
 }
 .modulo{
 	width: 100%;
-	height: 140vh;
+	/*max-width: 1700px;*/
+	min-height: 90vh;
 	padding: 5% 0;
+	margin:0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
 }
 @media (max-width: 768px){
 	.modulo{
-		min-height: 350vh;
-		/*padding-top: 5%;*/
+		min-height: 35vh;
 		flex-direction: column;
+		justify-content: flex-start;
 	}
 }
 .modulo-informacao{
-	width: 20%;
-	height: 100%;
+	width: 30%;
+	min-height: 70vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -982,7 +998,8 @@ body{
 	}
 }
 .modulo-informacao__image{
-	width: 60%;
+	width: 50%;
+	margin-bottom: 30px;
 }
 @media (max-width: 768px){
 	.modulo-informacao__image{
@@ -991,6 +1008,7 @@ body{
 }
 .modulo-detalhes-titulos--mobile{
 	width: 100%;
+	margin-bottom: 60px;
 	display: none;
 }
 @media (max-width: 768px){
@@ -1011,7 +1029,7 @@ body{
 }
 .modulo-informacao-caixa{
 	width: 65%;
-	height: 70%;
+	height: 65%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -1020,11 +1038,12 @@ body{
 @media (max-width: 768px){
 	.modulo-informacao-caixa{
 		min-height: 70vh;
-		/*margin-bottom: 38vh;*/
 	}
 }
 .modulo-informacao-caixa__box{
 	width: 100%;
+	height: 25%;
+	margin-bottom: 30px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -1039,10 +1058,11 @@ body{
 	}
 }
 .modulo-informacao-caixa__box-titulo{
-	margin: 5% 0;
+	/*margin: 5% 0;*/
 	font-size: 1vw;
 	font-family: SourceBlack;
 	color: #2E3192;
+	text-align: center;
 }
 @media (max-width: 768px){
 	.modulo-informacao-caixa__box-titulo{
@@ -1062,7 +1082,7 @@ body{
 }
 .modulo-detalhes{
 	width: 50%;
-	height: 100%;
+	min-height: 50vh;
 	margin-left: 2%;
 	display: flex;
 	flex-direction: column;
@@ -1078,6 +1098,8 @@ body{
 }
 .modulo-detalhes-links{
 	width: 100%;
+	min-height: 20px;
+	margin-bottom: 50px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -1108,7 +1130,7 @@ body{
 	border-radius: 8px;
 	border: solid 3px #2E3192;
 	background-color: #FCAF17;
-	font-size: 1.5vw;
+	font-size: 1vmax;
 	font-family:"ministry";
 	font-style:normal;
 	font-weight:400;
@@ -1118,6 +1140,9 @@ body{
 }
 .modulo-detalhes-links-botoes__botao2{
 	width: 19vw;
+}
+.modulo-detalhes-titulos{
+	margin-bottom: 50px;
 }
 @media (max-width: 768px){
 	.modulo-detalhes-titulos{
@@ -1139,6 +1164,7 @@ body{
 }
 .modulo-detalhes-descricao{
 	width: 100%;
+	margin-bottom: 50px;
 }
 .modulo-detalhes-descricao__titulo{
 	margin-bottom: 2%;
@@ -1163,6 +1189,7 @@ body{
 }
 @media (max-width: 768px){
 	.modulo-detalhes-descricao__paragrafo{
+		width: 100%;
 		font-size: 4vw;
 	}
 }
@@ -1183,6 +1210,11 @@ body{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+@media (max-width: 768px){
+	.modulo-detalhes-links-botoes--mobile{
+		justify-content: center;
+	}
 }
 .modulo-detalhes-links-botoes__botao--mobile{
 	padding: 2% 4%;
@@ -1208,7 +1240,6 @@ body{
 .rodape-fundo{
 	width: 100%;
 	height: 70vh;
-	max-height: 500px;
 	margin-top: 2%;
 	background: url(assets/rodape.png) no-repeat center top;
 	background-size: cover;
@@ -1225,12 +1256,12 @@ body{
 }
 .rodape-informacoes{
 	width: 100%;
-	height: 40vh;
-	max-height: 300px;
+	/*min-height: 40vh;*/
+	padding: 20px 0;
 	background-color: #FCAF17;
 	display: flex;
 	justify-content: space-around;
-	align-items: flex-start;
+	align-items: flex-end;
 }
 @media (max-width: 1200px){
 	.rodape-informacoes{
@@ -1245,8 +1276,9 @@ body{
 }
 .rodape-informacoes-redes{
 	width: 30%;
-	height: 100%;
+	/*height: 100%;*/
 	padding: 2%;
+	align-self: stretch;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -1270,6 +1302,7 @@ body{
 }
 .rodape-informacoes-redes__icones{
 	width: 75%;
+	margin-top:7vh;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -1290,7 +1323,7 @@ body{
 }
 .rodape-paginas{
 	width: 20%;
-	height: 80%;
+	height: 100%;
 	padding: 2%;
 	display: flex;
 	flex-direction: column;
@@ -1310,7 +1343,8 @@ body{
 }
 .rodape-parceiros{
 	width: 45%;
-	height: 100%;
+	/*height: 100%;*/
+	align-self: flex-end;
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-end;
@@ -1323,7 +1357,7 @@ body{
 }
 .rodape-parceiros-realizacao{
 	width: 35%;
-	height: 50%;
+	height:12vh;
 }
 @media (max-width: 768px){
 	.rodape-parceiros-realizacao{
@@ -1354,7 +1388,7 @@ body{
 }
 .rodape-parceiros-apoio{
 	width: 75%;
-	height: 50%;
+	height: 12vh;
 }
 @media (max-width: 768px){
 	.rodape-parceiros-apoio{
