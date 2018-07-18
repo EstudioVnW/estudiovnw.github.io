@@ -92,7 +92,7 @@ body{
 
 .prelude-blue{
 	width: 100%;
-	min-height: 30vh;
+	min-height: 40vh;
 	display: flex;
 	flex-flow: row-reverse nowrap;
 	justify-content: center;
@@ -108,8 +108,8 @@ body{
 	}
 }
 .prelude-blue__box_box1{
-	width: 20%;
-	margin-top: -150px;
+	width: 17%;
+	margin-top: -130px;
 }
 @media(max-width: 768px){
 	.prelude-blue__box_box1{
@@ -117,7 +117,7 @@ body{
 		margin-top: -60px;
 	}
 }
-@media(min-width: 1200px){
+@media(min-width: 1500px){
 	.prelude-blue{
 		min-height: 50vh;
 	}
@@ -133,11 +133,6 @@ body{
 @media(max-width: 768px){
 	.prelude-blue__img-Igor{
 		margin-bottom: 0;
-		/*z-index: 1;*/
-		/*position: relative;*/
-		/*min-width: 100%;*/
-		/*margin-top: -30%;*/
-		/*align-items: center;*/
 	}
 }
 .prelude-blue__box_box2{
@@ -436,6 +431,7 @@ body{
 .boxPolos-container-contentbox{
 	width: 40%;
 	height: 100%;
+	margin: 30px 0;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start
