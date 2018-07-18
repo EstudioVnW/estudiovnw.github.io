@@ -108,7 +108,6 @@ body{
 .conteudo-destaque{
 	width: 100%;
 	min-height: 100vh;
-	/*max-height: 800px;*/
 	background: url(assets/homeFundo.png)  no-repeat center;
 	background-size: cover;
 	display: flex;
@@ -116,7 +115,7 @@ body{
 }
 @media (max-width: 1200px){
 	.conteudo-destaque{
-		height: 70vh;
+		min-height: 50vh;
 	}
 }
 .conteudo-destaque__titulo{
@@ -247,8 +246,7 @@ body{
 }
 .conteudo-inscricoes{
 	width: 100%;
-	min-height: 30vh;
-	/*max-height: 240px;*/
+	height: 34vh;
 	background-color: #2E3192;
 	display: flex;
 	justify-content: center;
@@ -277,7 +275,7 @@ body{
 }
 .conteudo-inscricoes-box__titulo{
 	margin-bottom: 40px;
-	font-size: 2.5vw;
+	font-size: 2.3vw;
 	font-family: SourceBold;
 	color: #FCAF17;
 }
@@ -288,12 +286,12 @@ body{
 	}
 }
 .conteudo-inscricoes-box__botao{
-	width: 50%;
-	max-width: 250px;
-	/*height: 35%;*/
-	padding:20px 0;
+	width: 40%;
+	/*max-width: 250px;*/
+	/*height: 35px;*/
+	padding:10px 0;
 	border: none;
-	border-radius: 19px;
+	border-radius: 8px;
 	background-color: #fff;
 	font-size: 1.4vmax;
 	font-family:"ministry";
@@ -318,10 +316,12 @@ body{
 }
 .conteudo-inscricoes__imagem{
 	width: 17%;
+	align-self: flex-end;
 }
 @media (max-width: 768px){
 	.conteudo-inscricoes__imagem{
-		width: 33%;
+		width: 40%;
+
 	}
 }
 .conteudo-incentivo{
@@ -434,7 +434,8 @@ body{
 }
 .conteudo-incentivo-caixa__item--texto{
 	width: 40%;
-	margin-top: 100px;
+	margin-top: 20px;
+	margin-left: 50px;
 	align-self: flex-start;
 	justify-content: center;
 	align-items: flex-end;
@@ -443,6 +444,8 @@ body{
 	.conteudo-incentivo-caixa__item--texto{
 		width: 90%;
 		margin-top: 10%;
+		margin-left: 0;
+		margin-right: 20px;
 		align-self: center;
 	}
 }
@@ -468,6 +471,7 @@ body{
 	color: #E84710;
 	cursor: pointer;
 	position: absolute;
+	bottom: 10px;
 }
 .conteudo-caixa__item-botao--left{
 	left:0;
@@ -1005,10 +1009,11 @@ body{
 .modulo-informacao__image{
 	width: 50%;
 	margin-bottom: 30px;
+	margin-top: 50px
 }
 @media (max-width: 768px){
 	.modulo-informacao__image{
-		width: 50%;
+		width: 36%;
 	}
 }
 .modulo-detalhes-titulos--mobile{
@@ -1022,13 +1027,13 @@ body{
 	}
 }
 .modulo-detalhes-titulos__titulo--mobile{
-	font-size: 7.2vw;
+	font-size: 6.8vw;
 	font-family: SourceBold;
 	color: #2E3192;
 }
 .modulo-detalhes-titulos__subtitulo--mobile{
 	margin-top: 2%;
-	font-size: 4vw;
+	font-size: 3.8vw;
 	font-family: SourceBlack;
 	color: #E84710;
 }
