@@ -12,35 +12,7 @@ html{
 body{
 	width: 100%;
 }
-/*header{
-	width: 100%;
-	height: 10vh;
-	padding: 3%;
-	background-color: #F2F2F2;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	position: sticky;
-	top: 0;
-	z-index: 99;
-}
-.header__logo{
-	width: 15vw;
-	margin-top: 10%;
-	margin-left: 2%;
-}
-.header__menu{
-	width: 43%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.header__menu-item{
-	font-size: 1.3vw;
-	font-family: SourceBold;
-	text-decoration: none;
-	color: #070707;
-}*/
+
 /*>>>>>>>>>>>>>>>>>>prelude init >>>>>>>>>>>>>>>>>>>>>>>>
 */.prelude{
 	min-height: 30rem;
@@ -112,6 +84,12 @@ body{
 	margin-top: -130px;
 }
 @media(max-width: 768px){
+	.prelude-blue__box_box1{
+		width: 40%;
+		margin-top: -35px;
+	}
+}
+@media(max-width: 576px){
 	.prelude-blue__box_box1{
 		width: 60%;
 		margin-top: -60px;
@@ -364,7 +342,7 @@ body{
 }
 /*>>>>>>>>>>>>>inicio bloco polos >>>>>>>>>>>>>>>>>>>>>>>>>*/
 .boxPolos{
-	min-height: 50rem;
+	min-height: 50vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -416,7 +394,7 @@ body{
 	}
 }
 .boxPolos-container{
-	height: 80vh;
+	min-height: 40vh;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -494,28 +472,24 @@ body{
 }
 /*>>>>>>>>>>>>>>fim bloco-polos > inicio timBern >>>>>>>>>>>*/
 .timBern-container{
-	/*width: 100%;*/
 	min-height:30rem;
 	margin-bottom: 5%;
 	display: flex;
-	/*flex-flow: row wrap;*/
 	justify-content: flex-start; 
-	align-items: center;
+	align-items: flex-end;
 	position: relative;
 }
 @media(max-width: 768px){
 	.timBern-container{
-	/*width: 90%;*/
 	height:auto;
 	padding:5% 0;	
 	flex-direction: column;
 	}
 }
 .timBern-img{
-	height: 90vh;
+	width: 60%;
 	margin-left: -2%;
-/*	background-color: red;
-*/}
+}
 @media(max-width: 768px){
 	.timBern-img{
 		width: 90%;
@@ -523,26 +497,9 @@ body{
 		align-self: flex-start;
 	}
 }
-/*.timBern-circle{
-	position: absolute;
-	width: 30vw;
-	height: 70vh;
-	margin-left: -15%;
-	margin-top: -5%;
-	opacity: 0.50;
-	border-radius: 50%;
-	background-color: orange;
-}
-@media(max-width: 768px){
-	.timBern-circle{
-		width: 165px;
-		height: 165px;
-		margin-left: 25%;
-		margin-top: -35%;
-	}
-}*/
 .timBern-caixa-text{
 	width:40%;
+	align-self: center;
 }
 @media(max-width: 768px){
 	.timBern-caixa-text{
