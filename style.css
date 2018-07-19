@@ -73,10 +73,10 @@ body{
 	.header__menu-hamburguer--mobile:focus{
 		outline: none;
 	}
-	.header__menu-hamburguer--mobile:focus ~ .header__menu,
+	/*.header__menu-hamburguer--mobile:focus ~ .header__menu,
 	.header__menu:hover{
 		display: flex;
-	}
+	}*/
 	.header__menu{
 		width: 30%;
 		padding-right: 2%;
@@ -335,7 +335,12 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-@media (max-width: 1200px){
+@media (max-width: 768px){
+	.conteudo-incentivo__box{
+		min-height: 200px;
+	}
+}
+@media (max-width: 576px){
 	.conteudo-incentivo__box{
 		min-height: 150px;
 	}
@@ -395,7 +400,7 @@ body{
 	.conteudo-incentivo-caixa__item{
 		width: 100%;
 		height: auto;
-		margin-top: -15%;
+		margin-top: -10%;
 		margin-right: 0;
 	}
 }
@@ -460,8 +465,8 @@ body{
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item-paragrafo{
 		width: 90%;
-		font-size: 4.6vw;
-		line-height: 3.4vh;
+		font-size: 3.6vw;
+		line-height: 1.2em;
 	}
 }
 .conteudo-caixa__item-botao{

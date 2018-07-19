@@ -98,5 +98,5 @@ codProjetosMob();
 
 function resize(){
   codProjetosDesk();
-  codProjetosMob()
+  codProjetosMob();
 };
