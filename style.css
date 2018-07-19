@@ -20,6 +20,7 @@ body{
 	top: 0;
 	z-index: 99;
 }
+
 @media (max-width: 1200px){
 	.header{
 		height: 10vh;
@@ -28,6 +29,11 @@ body{
 @media (max-width: 768px){
 	.header{
 		justify-content: flex-end;
+	}
+}
+@media screen (max-width:768px),(orientation: landscape){
+	.header{
+		height: 25vh;
 	}
 }
 .header__logo{
@@ -99,6 +105,15 @@ body{
 	.header__menu-item{
 		font-size: 4vw;
 		margin: 15% 8%;
+	}
+}
+@media screen (max-width:768px),(orientation: landscape){
+	.header__menu{
+		width: 22%;
+		top:25vh;
+	}
+	.header__menu-item{
+		font-size: 3vw;
 	}
 }
 .conteudo{
