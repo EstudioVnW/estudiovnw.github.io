@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Vai na Web</title>
 </head>
-<body onresize="resize()">
+<body onresize="resize(),hiddenMenu()">
 	<header class="header">
 		<a class="header__logo" href="index.html"><img src="assets/logo_VnW.svg" alt="Logo Vai na Web"></a>
 		<button class="header__menu-hamburguer--mobile material-icons" onclick="showMenu()">menu</button>
@@ -329,6 +329,7 @@
 	<script type="text/javascript" src="smooth-scroll.js"></script>
 	<script type="text/javascript" src="onscroll.js"></script>
 	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="showMenu.js"></script>
 	<script type="text/javascript">
 		var imageCount = 0;
 		var currentImage = 0;
