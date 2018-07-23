@@ -31,7 +31,7 @@ body{
 		justify-content: flex-end;
 	}
 }
-@media screen (max-width:768px),(orientation: landscape){
+@media (max-height:500px){
 	.header{
 		height: 25vh;
 	}
@@ -107,7 +107,7 @@ body{
 		margin: 15% 8%;
 	}
 }
-@media screen (max-width:768px),(orientation: landscape){
+@media (max-height:500px){
 	.header__menu{
 		width: 22%;
 		top:25vh;
@@ -381,7 +381,7 @@ body{
 }
 .conteudo-incentivo-caixa{
 	width: 100%;
-	min-height: 70vh;
+	min-height: 50vh;
 	padding: 2% 0;
 	background-color: #FCAF17;
 	position: relative;
@@ -396,7 +396,7 @@ body{
 }*/
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa{
-		height: auto;
+		min-height: 70vh;
 		padding: 5% 0;
 		flex-direction: column;
 	}
@@ -504,7 +504,6 @@ body{
 }
 @media (max-width: 768px){
 	.conteudo-caixa__item-botao--incentivo{
-		position: static;
 		font-size: 16vw;
 	}
 }
