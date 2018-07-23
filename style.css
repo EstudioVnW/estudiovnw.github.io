@@ -1289,6 +1289,7 @@ body{
 	padding: 20px 0;
 	background-color: #FCAF17;
 	display: flex;
+	flex-flow: row nowrap;
 	justify-content: space-around;
 	align-items: flex-end;
 }
@@ -1300,6 +1301,101 @@ body{
 @media (max-width: 768px){
 	.rodape-informacoes{
 		min-height: 35vh;
+		flex-flow: row wrap;
+	}
+}
+.rodape-formulario{
+	display: flex;
+	flex-flow: column nowrap;
+	width: 20%;
+	margin-left: 35px;
+}
+@media (max-width: 768px){
+	.rodape-formulario{
+		width: 78vw;
+		margin-left: 0;
+		margin-bottom: 40px;
+	}
+}
+.rodape-formulario-paragrafo{
+	font-size: 1.3vw;
+	padding: 0 0 0 3px;
+	font-family: SourceRegular;
+}
+@media (max-width: 768px){
+	.rodape-formulario-paragrafo{
+		font-size: 5vw;
+	}
+}
+.rodape-formulario-formulario{
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-end;
+	align-items: flex-end;
+	flex-flow: row-reverse wrap;
+	width: 100%;
+}
+@media (max-width: 768px){
+	.rodape-formulario-formulario{
+
+	}
+}
+.rodape-formulario-input{
+	padding: 4px 2px 4px 6px;
+	border-radius: 6px;
+	border: 1px solid #2E3192;
+	margin-top: 5px;
+}
+@media (max-width: 768px){
+	.rodape-formulario-input{
+
+	}
+}
+.rodape-formulario-input__nome{
+	width: 100%;
+}
+@media (max-width: 768px){
+	.rodape-formulario-input__nome{
+
+	}
+}
+.rodape-formulario-input__email{
+	width: 55%;
+}
+@media (max-width: 768px){
+	.rodape-formulario-input__email{
+
+	}
+}
+.rodape-formulario-input__telefone{
+	width: 36%;
+}
+@media (max-width: 768px){
+	.rodape-formulario-input__telefone{
+
+	}
+}
+.rodape-formulario-input__mensagem{
+	width: 100%;
+	padding-bottom: 40px;
+}
+@media (max-width: 768px){
+	.rodape-formulario-input__mensagem{
+
+	}
+}
+.rodape-formulario-enviar{
+	background-color: #2E3192;
+	color: #FFFFFF;
+	border-radius: 4.2px;
+	padding: 6px 16px;
+	margin: 8px 9px 0 0;
+	border: none;
+	font-size: 0.8vw;
+}
+@media (max-width: 768px){
+	.rodape-formulario-enviar{
+		font-size: 3.3vw;
 	}
 }
 .rodape-informacoes-redes{
@@ -1324,8 +1420,9 @@ body{
 }
 @media (max-width: 768px){
 	.rodape-informacoes-redes__paragrafo{
-		width: 100%;
-		font-size: 3vw;
+		width: 45vw;
+		font-size: 3.4vw;
+		margin-left: 35px;
 	}
 }
 .rodape-informacoes-redes__icones{
@@ -1337,7 +1434,10 @@ body{
 }
 @media (max-width: 768px){
 	.rodape-informacoes-redes__icones{
-		width: 100%;
+		flex-flow: column;
+		align-self: flex-start;
+		width: 38%;
+		margin-left: 18px;
 	}
 }
 .rodape-informacoes-redes__icones-item{
@@ -1347,27 +1447,8 @@ body{
 @media (max-width: 768px){
 	.rodape-informacoes-redes__icones-item{
 		width: 55%;
+		margin-top: 15px
 	}
-}
-.rodape-paginas{
-	width: 20%;
-	height: 100%;
-	padding: 2%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: flex-start;
-}
-@media (max-width: 768px){
-	.rodape-paginas{
-		display: none;
-	}
-}
-.rodape-paginas__link{
-	font-size: 1.3vw;
-	font-family: SourceRegular;
-	color: #000;
-	text-decoration: none;
 }
 .rodape-parceiros{
 	width: 45%;
@@ -1381,6 +1462,7 @@ body{
 	.rodape-parceiros{
 		padding-left: 10%;
 		flex-direction: column;
+		margin-right: 30px;
 	}
 }
 .rodape-parceiros-realizacao{
@@ -1402,7 +1484,7 @@ body{
 }
 @media (max-width: 768px){
 	.rodape-parceiros-realizacao__titulo{
-		font-size: 3vw;
+		font-size: 3.5vw;
 	}
 }
 .rodape-parceiros-realizacao__logo{
@@ -1411,7 +1493,7 @@ body{
 }
 @media (max-width: 768px){
 	.rodape-parceiros-realizacao__logo{
-		width: 50%;
+		width: 100%;
 		margin-top: 1%;
 	}
 }
@@ -1433,7 +1515,7 @@ body{
 }
 @media (max-width: 768px){
 	.rodape-parceiros-apoio__titulo{
-		font-size: 3vw;
+		font-size: 3.5vw;
 	}
 }
 .rodape-parceiros-apoio__logos{
