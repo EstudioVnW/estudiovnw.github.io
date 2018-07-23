@@ -1138,6 +1138,20 @@ body{
 		display: none;
 	}
 }
+.modulo-detalhes-links__2{
+	width: 100%;
+	min-height: 20px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: flex-start;
+}
+.modulo-detalhes-links__2__mobile{
+	width: 100%;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
 .modulo-detalhes-links__proximo{
 	font-size: 1.7vw;
 	font-family:"ministry";
