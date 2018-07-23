@@ -34,6 +34,9 @@
         if (i === 'pumpkinbox') {
           logo.classList.add('--scale-down')
         }
+        if (i === 'contribua') {
+          logo.classList.add('--scale-down')
+        }
         if (i === 'destaque') {
           logo.classList.remove('--scale-down')
         }
@@ -41,6 +44,9 @@
           logo.classList.remove('--scale-down')
         }
         if (i === 'prelude') {
+          logo.classList.remove('--scale-down')
+        }
+        if (i === 'banner') {
           logo.classList.remove('--scale-down')
         }
       }

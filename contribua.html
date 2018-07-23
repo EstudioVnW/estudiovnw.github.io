@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="assets/favicon_VnW2.ico">
+	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Contribua</title>
+</head>
+<body onresize="resize(),hiddenMenu()">
+	<header class="header">
+		<a class="header__logo" href="index.html"><img src="assets/logo_VnW.svg" alt="Logo Vai na Web"></a>
+		<button class="header__menu-hamburguer--mobile material-icons" onclick="showMenu()">menu</button>
+		<nav class="header__menu" id="menu">
+			<a class="header__menu-item" href="sobre.html">_Sobre</a>
+			<a class="header__menu-item" href="modulo1.html">_Programa</a>
+			<a class="header__menu-item" href="#projetos">_Projetos</a>
+			<a class="header__menu-item" href="#contato">_Contato</a>
+		</nav>
+	</header>
+	<main>
+		<section id="banner" class="contribua__destaque">
+			<h1 class="contribua__destaque__titulo">
+				Obrigado por investir no Vai na Web.
+			</h1>
+			<p class="contribua__destaque__texto">
+				Sua contribuição permite equipar essa garotada com bons professores, computadores, internet banda larga e permite que mais jovens tenham acesso à educação digital gratuita e de qualidade.
+			</p>
+		</section>
+		<form>
+			<section id="contribua" class="contribua__form">
+				<label>Nome Completo</label>
+				<input type="text" name="nome">
+				<label>Telefone</label>
+				<input type="number" name="telefone">
+				<label>E-mail</label>
+				<input type="email" name="email">
+				<label>Qual valor deseja doar?</label>
+				<input type="radio" name="valor" value="5">R$ 5,00
+				<input type="radio" name="valor" value="10">R$ 10,00
+				<input type="radio" name="valor" value="25">R$ 25,00
+				<input type="radio" name="valor" value="50">R$ 50,00
+				<input type="radio" name="valor" value="100">R$ 100,00
+				<input type="radio" name="valor" value="200">R$ 200,00
+				<input type="radio" name="valor" value="500">R$ 500,00
+				<input type="radio" name="valor" value=""> Outro _______
+				<label>Com que frequencia deseja doar esse valor?</label>
+				<input type="radio" name="frequencia">Apenas uma vez
+				<input type="radio" name="frequencia">Mensalmente
+				<input type="radio" name="frequencia">Anualmente
+				<input type="submit" value="Enviar">
+			</section>
+		</form>
+	</main>
+
+	<script type="text/javascript" src="smooth-scroll.js"></script>
+	<script type="text/javascript" src="onscroll.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="showMenu.js"></script>
+</body>
+</html>

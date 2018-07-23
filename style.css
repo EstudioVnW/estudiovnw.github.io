@@ -1510,3 +1510,32 @@ body{
 		width: 15vw;
 	}
 }
+.contribua__destaque{
+	height: 90vh;
+	width: 100%;
+	background: url(assets/DSC_1838.jpg) center;
+	background-size: cover;
+	color: #FFF;
+	padding: 0 53vw 0 7vw;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.contribua__destaque__titulo{
+	font-family: SourceBlack;
+	font-size: 3vw;
+	margin-bottom: 2vw;
+}
+.contribua__destaque__texto{
+	font-family: ministry;
+	font-size: 1.55vw;
+}
+.contribua__form{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	padding: 5vw 33vw;
+}
