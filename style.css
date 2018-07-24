@@ -1138,12 +1138,63 @@ body{
 		display: none;
 	}
 }
+.modulo-detalhes-links__2{
+	margin-top: 20px;
+	width: 100%;
+	min-height: 20px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+@media (max-width: 768px){
+	.modulo-detalhes-links__2{
+		/*display: none;*/
+		justify-content: space-between;
+	}
+}
+.modulo-detalhes-links__anterior{
+	font-size: 1.7vw;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:400;
+	color: #E84710;
+}
+@media (max-width: 768px){
+	.modulo-detalhes-links__anterior{
+		font-size: 4.5vw;
+	}
+}
 .modulo-detalhes-links__proximo{
 	font-size: 1.7vw;
 	font-family:"ministry";
 	font-style:normal;
 	font-weight:400;
 	color: #E84710;
+}
+@media (max-width: 768px){
+	.modulo-detalhes-links__proximo{
+		/*display: none;*/
+		font-size: 4.5vw;
+	}
+}
+@media (max-width: 768px){
+	.modulo-detalhes-links__modulo1{
+		justify-content: flex-end;
+	}
+}
+.modulo-detalhes-links__anterior--mobile{
+	/*display: none;*/
+
+}
+@media (max-width: 768px){
+	.modulo-detalhes-links__anterior--mobile{
+		width: 100%;
+		font-size: 20px;
+		font-family:"ministry";
+		font-style:normal;
+		font-weight:400;
+		color: #E84710;
+	}
 }
 .modulo-detalhes-links-botoes{
 	/*min-width: 55%;*/
@@ -1155,6 +1206,11 @@ body{
 @media (max-width: 768px){
 	.modulo-detalhes-links-botoes{
 		display: none;
+	}
+}
+@media (max-width: 768px){
+	.modulo-detalhes-links-botoes--mobile{
+		margin-bottom: 3vh;
 	}
 }
 .modulo-detalhes-links-botoes__botao{
@@ -1252,6 +1308,7 @@ body{
 	}
 }
 .modulo-detalhes-links-botoes__botao--mobile{
+	display: none;
 	padding: 2% 4%;
 	border-radius: 16px;
 	border: solid 4px #2E3192;
@@ -1264,9 +1321,14 @@ body{
 	text-align: center;
 	color: #FFFFFF;
 }
+@media (max-width: 768px){
+	.modulo-detalhes-links-botoes__botao--mobile{
+		display: flex;
+	}
+}
 .modulo-detalhes-links__proximo--mobile{
-	margin-top: 10%;
-	font-size: 6vw;
+	/*margin-top: 10%;*/
+	font-size: 20px;
 	font-family:"ministry";
 	font-style:normal;
 	font-weight:400;
