@@ -1177,14 +1177,11 @@ body{
 		font-size: 4.5vw;
 	}
 }
-@media (max-width: 768px){
-	.modulo-detalhes-links__modulo1{
+.modulo-detalhes-links__modulo1{
 		justify-content: flex-end;
-	}
 }
 .modulo-detalhes-links__anterior--mobile{
-	/*display: none;*/
-
+	
 }
 @media (max-width: 768px){
 	.modulo-detalhes-links__anterior--mobile{
