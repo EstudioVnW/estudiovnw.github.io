@@ -134,18 +134,31 @@ body{
 	}
 }
 .conteudo-destaque__titulo{
-	width: 50%;
+	width: 51%;
 	margin-left: 5%;
 	padding-right: 5%;
 	font-size: 3.2vw;
 	font-family: SourceBold;
 	color: #fff;
+	text-align: right;
 }
 @media (max-width: 768px){
 	.conteudo-destaque__titulo{
 		width: 60%;
 		font-size: 4.5vw;
 	}
+}
+.conteudo-destaque__titulo2{
+	color: #FCAF17;
+}
+.conteudo-destaque__titulo3{
+	background-color: #E84710;
+	padding-left: 4.4%;
+	line-height: 1.8;
+}
+.conteudo-destaque__titulo3__2{
+	padding-left: 5px;
+	padding-right: 5px;
 }
 .conteudo-programar{
 	width: 100%;
