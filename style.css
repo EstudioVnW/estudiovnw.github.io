@@ -1694,10 +1694,104 @@ body{
 	font-family: ministry;
 	font-size: 1.55vw;
 }
-.contribua__form{
+.contribua-form{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-content: center;
-	padding: 5vw 33vw;
+}
+.contribua-form__nome{
+
+}
+.contribua-form__nome__titulo{
+	color: #2E3192;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:700;
+}
+.contribua-form__input{
+	border: 1px solid #E84710;
+	border-radius: 4px;
+	color: #2E3192;
+	padding: 8px 0
+}
+.contribua-form__nome__input{
+
+}
+.contribua-form__radio{
+	color: #2E3192;
+}
+.contribua-form__nome__anonimo{
+	color: #2E3192;
+	font-family:"ministry";
+	font-style: normal;
+	font-weight: 500;
+}
+.contribua-form__contato{
+
+}
+.contribua-form__contato__telefone{
+
+}
+.contribua-form__contato__telefone__titulo{
+	color: #2E3192;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:700;
+}
+.contribua-form__contato__telefone__input{
+
+}
+.contribua-form__contato__email{
+
+}
+.contribua-form__contato__email__titulo{
+	color: #2E3192;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:700;
+}
+.contribua-form__contato__email__input{
+
+}
+.contribua-form__doacao{
+
+}
+.contribua-form__doacao__titulo{
+	color: #2E3192;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:700;
+}
+.contribua-form__doacao__caixa{
+
+}
+.contribua-form__doacao__valor{
+	color: #2E3192;
+	font-family:"ministry";
+	font-style: normal;
+	font-weight: 500;
+}
+.contribua-form__radio__focus:focus ~ .contribua-form__doacao__outro{
+	display: block;
+}
+.contribua-form__doacao__outro{
+	display: none;
+	border: none;
+	border-bottom: 1px solid black;
+	width: 60px;
+}
+.contribua-form__frequencia{
+}
+.contribua-form__frequencia__titulo{
+	color: #2E3192;
+}
+.contribua-form__frequencia__caixa{
+
+}
+.contribua-form__frequencia__texto{
+	color: #2E3192;
+}
+.contribua-form__enviar{
+
 }
