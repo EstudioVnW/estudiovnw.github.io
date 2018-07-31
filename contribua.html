@@ -31,31 +31,123 @@
 			</p>
 		</section>
 		<form>
-			<section id="contribua" class="contribua__form">
-				<label>Nome Completo</label>
-				<input type="text" name="nome">
-				<label>Telefone</label>
-				<input type="number" name="telefone">
-				<label>E-mail</label>
-				<input type="email" name="email">
-				<label>Qual valor deseja doar?</label>
-				<input type="radio" name="valor" value="5">R$ 5,00
-				<input type="radio" name="valor" value="10">R$ 10,00
-				<input type="radio" name="valor" value="25">R$ 25,00
-				<input type="radio" name="valor" value="50">R$ 50,00
-				<input type="radio" name="valor" value="100">R$ 100,00
-				<input type="radio" name="valor" value="200">R$ 200,00
-				<input type="radio" name="valor" value="500">R$ 500,00
-				<input type="radio" name="valor" value=""> Outro _______
-				<label>Com que frequencia deseja doar esse valor?</label>
-				<input type="radio" name="frequencia">Apenas uma vez
-				<input type="radio" name="frequencia">Mensalmente
-				<input type="radio" name="frequencia">Anualmente
-				<input type="submit" value="Enviar">
+			<section id="contribua" class="contribua-form">
+				<div class="contribua-form__nome">
+					<label class="contribua-form__nome__titulo">Nome Completo</label>
+					<input class="contribua-form__input contribua-form__nome__input" type="text" name="nome">
+					<input class="contribua-form__radio" type="radio" name="anonimo">
+					<label class="contribua-form__nome__anonimo"> Desejo não me identificar </label>
+				</div>
+				<div class="contribua-form__contato">
+					<div class="contribua-form__contato__telefone">
+						<label class="contribua-form__contato__telefone__titulo">Telefone</label>
+						<input class="contribua-form__input contribua-form__contato__telefone__input" type="text" name="telefone">
+					</div>
+					<div class="contribua-form__contato__email">
+						<label class="contribua-form__contato__email__titulo">E-mail</label>
+						<input class="contribua-form__input contribua-form__contato__email__input" type="email" name="email">
+					</div>
+				</div>
+				<div class="contribua-form__doacao">
+					<label class="contribua-form__doacao__titulo">Qual valor deseja doar?</label>
+					<div class="contribua-form__doacao__caixa">
+						<input class="contribua-form__radio" type="radio" name="valor" value="5">
+						<p class="contribua-form__doacao__valor"> R$ 5,00 </p> 
+					</div>
+					<div class="contribua-form__doacao__caixa">
+						<input class="contribua-form__radio" type="radio" name="valor" value="10">
+						<p class="contribua-form__doacao__valor"> R$ 10,00 </p>
+					</div>
+					<div class="contribua-form__doacao__caixa">
+						<input class="contribua-form__radio" type="radio" name="valor" value="25">
+						<p class="contribua-form__doacao__valor"> R$ 25,00 </p>
+					</div>
+					<div class="contribua-form__doacao__caixa">
+						<input class="contribua-form__radio" type="radio" name="valor" value="50">
+						<p class="contribua-form__doacao__valor"> R$ 50,00 </p>
+					</div>
+					<div class="contribua-form__doacao__caixa">
+						<input class="contribua-form__radio" type="radio" name="valor" value="100">
+						<p class="contribua-form__doacao__valor"> R$ 100,00 </p>
+					</div>
+					<div class="contribua-form__doacao__caixa">
+						<input class="contribua-form__radio" type="radio" name="valor" value="200">
+						<p class="contribua-form__doacao__valor"> R$ 200,00 </p>
+					</div>
+					<div class="contribua-form__doacao__caixa">
+						<input class="contribua-form__radio" type="radio" name="valor" value="500">
+						<p class="contribua-form__doacao__valor"> R$ 500,00 </p>
+					</div>
+					<div class="contribua-form__doacao__caixa">
+						<input class="contribua-form__radio contribua-form__radio__focus" type="radio" name="valor" value="">
+						<p class="contribua-form__doacao__valor"> Outro </p>
+						<input class="contribua-form__doacao__outro" type="text" name="outro">
+					</div>
+				</div>
+				<div class="contribua-form__frequencia">
+					<label class="contribua-form__frequencia__titulo">Com que frequencia deseja doar esse valor?</label>
+					<div class="contribua-form__frequencia__caixa">
+						<input class="contribua-form__radio" type="radio" name="frequencia">
+						<p class="contribua-form__frequencia__texto"> Apenas uma vez </p>
+					</div>
+					<div class="">
+						<input class="contribua-form__radio" type="radio" name="frequencia">
+						<p class="contribua-form__frequencia__texto"> Mensalmente </p>
+					</div>
+					<div class="">
+						<input class="contribua-form__radio" type="radio" name="frequencia">
+						<p class="contribua-form__frequencia__texto"> Anualmente </p>
+					</div>
+				</div>
+					<input class="contribua-form__enviar" type="submit" value="Enviar">
 			</section>
 		</form>
 	</main>
-
+	<footer class="rodape">
+		<section class="rodape-fundo"></section>
+		<section id="contato" class="rodape-informacoes">
+			<div class="rodape-formulario">
+				<p class="rodape-formulario-paragrafo"> Ficou com alguma dúvida? <br> Mande-nos uma mensagem! </p>
+				<form class="rodape-formulario-formulario" action="https://formspree.io/alinefroes@precisaser.org" method="POST">
+					<input type="text" class="rodape-formulario-input rodape-formulario-input__nome" placeholder="Nome" name="">
+					<input type="email" class="rodape-formulario-input rodape-formulario-input__email" placeholder="Email" name="">
+					<input type="text" class="rodape-formulario-input rodape-formulario-input__telefone" placeholder="Telefone" name="">
+					<input type="text" class="rodape-formulario-input rodape-formulario-input__mensagem" placeholder="Digite sua mensagem" name="">
+					<button class="rodape-formulario-enviar"> Enviar </button>
+				</form>
+			</div>
+			<div class="rodape-informacoes-redes">
+				<p class="rodape-informacoes-redes__paragrafo">
+					Esta é uma iniciativa desenvolvida pelo Instituto Precisa Ser em parceria com a 1STi.
+				</p>
+				<div class="rodape-informacoes-redes__icones">
+					<a href="https://www.facebook.com/vainaweb/" target="_blank"><img class="rodape-informacoes-redes__icones-item" src="assets/facebook.svg" alt="Facebook Vai na Web"></a>
+					<a href="https://www.instagram.com/vainaweb/" target="_blank"><img class="rodape-informacoes-redes__icones-item" src="assets/instagram.svg" alt="Ícone do Instagram"></a>
+					<a href="mailto:vainaweb@precisaser.org"><img class="rodape-informacoes-redes__icones-item" src="assets/email.svg" alt="Ícone de email"></a>
+				</div>
+			</div>
+			<div class="rodape-parceiros">
+				<div class="rodape-parceiros-realizacao">
+					<h1 class="rodape-parceiros-realizacao__titulo">Realização</h1>
+					<a href="http://www.precisaser.com.br/" target="_blank"><img class="rodape-parceiros-realizacao__logo" src="assets/PS-Logotipo.svg" alt="Site Instituto Precisa Ser"></a>
+				</div>
+				<div class="rodape-parceiros-apoio">
+					<h1 class="rodape-parceiros-apoio__titulo">Apoio</h1>
+					<div class="rodape-parceiros-apoio__logos">
+						<a class="rodape-parceiros-apoio__logos-link" href="http://www.1sti.com.br/" target="_blank"><img class="rodape-parceiros-apoio__logos-logo" src="assets/1sti_logo.svg" alt="Site 1sti"></a>
+						<a class="rodape-parceiros-apoio__logos-link" href="https://www.facebook.com/GrupoProa/" target="_blank"><img class="rodape-parceiros-apoio__logos-logo" src="assets/PROA_logo.svg" alt="Facebook PROA"></a>
+						<a class="rodape-parceiros-apoio__logos-link rodape-parceiros-apoio__logos-link2" href="https://www.facebook.com/educap.org/" target="_blank"><img class="rodape-parceiros-apoio__logos-logo" src="assets/educap_logo.svg" alt="Facebook EDUCAP"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="rodape-creditos">
+			<p class="rodape-creditos__paragrafo">2018 Desenvolvido por</p>
+			<a class="rodape-creditos__link" href="https://estudiovnw.github.io/estudio/" target="_blank">
+				<img class="rodape-creditos__logo" src="assets/estudio.png" alt="Logo do Estúdio Vai na Web">
+			</a>
+		</section>
+	</footer>
 	<script type="text/javascript" src="smooth-scroll.js"></script>
 	<script type="text/javascript" src="onscroll.js"></script>
 	<script type="text/javascript" src="main.js"></script>
