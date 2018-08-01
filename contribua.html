@@ -32,74 +32,82 @@
 		</section>
 		<form>
 			<section id="contribua" class="contribua-form">
-				<div class="contribua-form__nome">
-					<label class="contribua-form__nome__titulo">Nome Completo</label>
-					<input class="contribua-form__input contribua-form__nome__input" type="text" name="nome">
-					<input class="contribua-form__radio" type="radio" name="anonimo">
-					<label class="contribua-form__nome__anonimo"> Desejo não me identificar </label>
+				<div class="contribua-form__container">
+					<div class="contribua-form__nome">
+						<label class="contribua-form__nome__titulo">Nome Completo</label>
+						<input class="contribua-form__input contribua-form__nome__input" type="text" name="nome">
+						<div class="contribua-form__nome__caixaradio">
+							<input class="contribua-form__radio" type="radio" name="anonimo">
+							<label class="contribua-form__nome__anonimo"> Desejo não me identificar </label>
+						</div>
+					</div>
+					<div class="contribua-form__contato">
+						<div class="contribua-form__contato__telefone">
+							<label class="contribua-form__contato__telefone__titulo">Telefone</label>
+							<input class="contribua-form__input contribua-form__contato__telefone__input" type="text" name="telefone">
+						</div>
+						<div class="contribua-form__contato__email">
+							<label class="contribua-form__contato__email__titulo">E-mail</label>
+							<input class="contribua-form__input contribua-form__contato__email__input" type="email" name="email">
+						</div>
+					</div>
+					<div class="contribua-form__doacao">
+						<label class="contribua-form__doacao__titulo">Qual valor deseja doar?</label>
+						<div class="contribua-form__doacao__container">
+							<div class="contribua-form__doacao__caixa">
+								<input class="contribua-form__radio" type="radio" name="valor" value="5">
+								<p class="contribua-form__doacao__valor"> R$ 5,00 </p> 
+							</div>
+							<div class="contribua-form__doacao__caixa">
+								<input class="contribua-form__radio" type="radio" name="valor" value="10">
+								<p class="contribua-form__doacao__valor"> R$ 10,00 </p>
+							</div>
+							<div class="contribua-form__doacao__caixa">
+								<input class="contribua-form__radio" type="radio" name="valor" value="25">
+								<p class="contribua-form__doacao__valor"> R$ 25,00 </p>
+							</div>
+							<div class="contribua-form__doacao__caixa">
+								<input class="contribua-form__radio" type="radio" name="valor" value="50">
+								<p class="contribua-form__doacao__valor"> R$ 50,00 </p>
+							</div>
+							<div class="contribua-form__doacao__caixa">
+								<input class="contribua-form__radio" type="radio" name="valor" value="100">
+								<p class="contribua-form__doacao__valor"> R$ 100,00 </p>
+							</div>
+							<div class="contribua-form__doacao__caixa">
+								<input class="contribua-form__radio" type="radio" name="valor" value="200">
+								<p class="contribua-form__doacao__valor"> R$ 200,00 </p>
+							</div>
+							<div class="contribua-form__doacao__caixa">
+								<input class="contribua-form__radio" type="radio" name="valor" value="500">
+								<p class="contribua-form__doacao__valor"> R$ 500,00 </p>
+							</div>
+							<div class="contribua-form__doacao__caixa">
+								<input class="contribua-form__radio contribua-form__radio__focus" type="radio" name="valor" value="">
+								<p class="contribua-form__doacao__valor"> Outro </p>
+								<input class="contribua-form__doacao__outro" type="text" name="outro">
+							</div>
+						</div>
+					</div>
+					<div class="contribua-form__frequencia">
+						<label class="contribua-form__frequencia__titulo">Com que frequencia deseja doar esse valor?</label>
+						<div class="contribua-form__frequencia__container">
+							<div class="contribua-form__frequencia__caixa">
+								<input class="contribua-form__radio" type="radio" name="frequencia">
+								<p class="contribua-form__frequencia__texto"> Apenas uma vez </p>
+							</div>
+							<div class="contribua-form__frequencia__caixa">
+								<input class="contribua-form__radio" type="radio" name="frequencia">
+								<p class="contribua-form__frequencia__texto"> Mensalmente </p>
+							</div>
+							<div class="contribua-form__frequencia__caixa">
+								<input class="contribua-form__radio" type="radio" name="frequencia">
+								<p class="contribua-form__frequencia__texto"> Anualmente </p>
+							</div>
+						</div>
+					</div>
+						<input class="contribua-form__enviar" type="submit" value="Enviar">
 				</div>
-				<div class="contribua-form__contato">
-					<div class="contribua-form__contato__telefone">
-						<label class="contribua-form__contato__telefone__titulo">Telefone</label>
-						<input class="contribua-form__input contribua-form__contato__telefone__input" type="text" name="telefone">
-					</div>
-					<div class="contribua-form__contato__email">
-						<label class="contribua-form__contato__email__titulo">E-mail</label>
-						<input class="contribua-form__input contribua-form__contato__email__input" type="email" name="email">
-					</div>
-				</div>
-				<div class="contribua-form__doacao">
-					<label class="contribua-form__doacao__titulo">Qual valor deseja doar?</label>
-					<div class="contribua-form__doacao__caixa">
-						<input class="contribua-form__radio" type="radio" name="valor" value="5">
-						<p class="contribua-form__doacao__valor"> R$ 5,00 </p> 
-					</div>
-					<div class="contribua-form__doacao__caixa">
-						<input class="contribua-form__radio" type="radio" name="valor" value="10">
-						<p class="contribua-form__doacao__valor"> R$ 10,00 </p>
-					</div>
-					<div class="contribua-form__doacao__caixa">
-						<input class="contribua-form__radio" type="radio" name="valor" value="25">
-						<p class="contribua-form__doacao__valor"> R$ 25,00 </p>
-					</div>
-					<div class="contribua-form__doacao__caixa">
-						<input class="contribua-form__radio" type="radio" name="valor" value="50">
-						<p class="contribua-form__doacao__valor"> R$ 50,00 </p>
-					</div>
-					<div class="contribua-form__doacao__caixa">
-						<input class="contribua-form__radio" type="radio" name="valor" value="100">
-						<p class="contribua-form__doacao__valor"> R$ 100,00 </p>
-					</div>
-					<div class="contribua-form__doacao__caixa">
-						<input class="contribua-form__radio" type="radio" name="valor" value="200">
-						<p class="contribua-form__doacao__valor"> R$ 200,00 </p>
-					</div>
-					<div class="contribua-form__doacao__caixa">
-						<input class="contribua-form__radio" type="radio" name="valor" value="500">
-						<p class="contribua-form__doacao__valor"> R$ 500,00 </p>
-					</div>
-					<div class="contribua-form__doacao__caixa">
-						<input class="contribua-form__radio contribua-form__radio__focus" type="radio" name="valor" value="">
-						<p class="contribua-form__doacao__valor"> Outro </p>
-						<input class="contribua-form__doacao__outro" type="text" name="outro">
-					</div>
-				</div>
-				<div class="contribua-form__frequencia">
-					<label class="contribua-form__frequencia__titulo">Com que frequencia deseja doar esse valor?</label>
-					<div class="contribua-form__frequencia__caixa">
-						<input class="contribua-form__radio" type="radio" name="frequencia">
-						<p class="contribua-form__frequencia__texto"> Apenas uma vez </p>
-					</div>
-					<div class="">
-						<input class="contribua-form__radio" type="radio" name="frequencia">
-						<p class="contribua-form__frequencia__texto"> Mensalmente </p>
-					</div>
-					<div class="">
-						<input class="contribua-form__radio" type="radio" name="frequencia">
-						<p class="contribua-form__frequencia__texto"> Anualmente </p>
-					</div>
-				</div>
-					<input class="contribua-form__enviar" type="submit" value="Enviar">
 			</section>
 		</form>
 	</main>
