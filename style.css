@@ -1684,15 +1684,31 @@ body{
 	justify-content: center;
 	align-content: center;
 }
-
+@media (max-width: 768px){
+	.contribua__destaque{
+		padding: 0 32vw 5vw 5vw;
+		height: 70vh;
+		background-size: right;
+	}
+}
 .contribua__destaque__titulo{
 	font-family: SourceBlack;
 	font-size: 3vw;
 	margin-bottom: 2vw;
 }
+@media (max-width: 768px){
+	.contribua__destaque__titulo{
+		font-size: 5vw;
+	}
+}
 .contribua__destaque__texto{
 	font-family: ministry;
 	font-size: 1.55vw;
+}
+@media (max-width: 768px){
+	.contribua__destaque__texto{
+		font-size: 3.2vw;
+	}
 }
 .contribua-form{
 	display: flex;
@@ -1704,14 +1720,38 @@ body{
 	margin-bottom: 250px;
 	margin-top: 100px;
 }
+@media (max-width: 768px){
+	.contribua-form{
+		margin-top: 50px;
+		margin-bottom: 150px;
+		text-align: center;
+	}
+}
 .contribua-form__container{
-
+	margin-left: 150px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-content: flex-start;
+	align-items: flex-start;
+	justify-content: flex-start;
+	text-align: left;
+	
+}
+@media (max-width: 768px){
+	.contribua-form__container{
+		margin-left: 50px;
+	}
 }
 .contribua-form__nome{
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: flex-start;
 	margin: 30px 0;
+}
+@media (max-width: 768px){
+	.contribua-form__nome{
+		margin: 20px 0;
+	}
 }
 .contribua-form__nome__titulo{
 	color: #2E3192;
@@ -1720,25 +1760,54 @@ body{
 	font-weight:700;
 	margin-bottom: 12px;
 	font-size: 1.7vw;
+
+}
+@media (max-width: 768px){
+	.contribua-form__nome__titulo{
+		font-size: 5.2vw;
+	}
 }
 .contribua-form__input{
-	border: 1px solid #E84710;
-	border-radius: 4px;
+	border: 2px solid #E84710;
+	border-radius: 6px;
 	color: #2E3192;
 	padding: 8px 6px;
 
 }
+@media (max-width: 768px){
+	.contribua-form__input{
+		padding: 10px 8px;
+	}
+}
 .contribua-form__nome__input{
 	margin-bottom: 20px;
 	width: 260px;
+	font-size: 1.1vw;
+}
+@media (max-width: 768px){
+	.contribua-form__nome__input{
+		width: 230px;
+		font-size: 3.8vw;
+
+	}
 }
 .contribua-form__nome__caixaradio{
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
 }
+@media (max-width: 768px){
+	.contribua-form__nome__caixaradio{
+
+	}
+}
 .contribua-form__radio{
 	/*border: 2px solid #E84710;*/
+}
+@media (max-width: 768px){
+	.contribua-form__radio{
+
+	}
 }
 .contribua-form__nome__anonimo{
 	color: #2E3192;
@@ -1748,15 +1817,30 @@ body{
 	margin-left: 5px;
 	font-size: 1.2vw;
 }
+@media (max-width: 768px){
+	.contribua-form__nome__anonimo{
+		font-size: 4.8vw;
+	}
+}
 .contribua-form__contato{
 	display: flex;
 	flex-flow: row nowrap;
 	margin: 30px 0;
 }
+@media (max-width: 768px){
+	.contribua-form__contato{
+		margin: 20px 0;
+	}
+}
 .contribua-form__contato__telefone{
 	display: flex;
 	flex-flow: column nowrap;
 	margin-right: 30px;
+}
+@media (max-width: 768px){
+	.contribua-form__contato__telefone{
+		margin-right: 22px;
+	}
 }
 .contribua-form__contato__telefone__titulo{
 	color: #2E3192;
@@ -1766,13 +1850,29 @@ body{
 	font-size: 1.7vw;
 	padding-bottom: 8px;
 }
+@media (max-width: 768px){
+	.contribua-form__contato__telefone__titulo{
+		font-size: 5.2vw;
+	}
+}
 .contribua-form__contato__telefone__input{
-	width: 140px;
-	font-size: 0.8vw;
+	width: 110px;
+	font-size: 1.1vw;
+}
+@media (max-width: 768px){
+	.contribua-form__contato__telefone__input{
+		width: 80px;
+		font-size: 3.8vw;
+	}
 }
 .contribua-form__contato__email{
 	display: flex;
 	flex-flow: column nowrap;
+}
+@media (max-width: 768px){
+	.contribua-form__contato__email{
+
+	}
 }
 .contribua-form__contato__email__titulo{
 	color: #2E3192;
@@ -1782,14 +1882,30 @@ body{
 	font-size: 1.7vw;
 	padding-bottom: 8px;
 }
+@media (max-width: 768px){
+	.contribua-form__contato__email__titulo{
+		font-size: 5.2vw;
+	}
+}
 .contribua-form__contato__email__input{
-	width: 220px;
-	font-size: 0.8vw;
+	width: 200px;
+	font-size: 1.1vw;
+}
+@media (max-width: 768px){
+	.contribua-form__contato__email__input{
+		width: 125px;
+		font-size: 3.8vw;
+	}
 }
 .contribua-form__doacao{
 	display: flex;
 	flex-flow: column nowrap;
 	margin: 30px 0;
+}
+@media (max-width: 768px){
+	.contribua-form__doacao{
+		margin-bottom: 10px;
+	}
 }
 .contribua-form__doacao__titulo{
 	color: #2E3192;
@@ -1798,19 +1914,41 @@ body{
 	font-weight:700;
 	font-size: 1.7vw;
 }
+@media (max-width: 768px){
+	.contribua-form__doacao__titulo{
+		font-size: 5.2vw;
+	}
+}
 .contribua-form__doacao__container{
 	display: flex;
 	flex-flow: column wrap;
-	align-content: space-between;
-	height: 15vh;
-	width: 40%;
+	align-content: flex-start;
+	height: 18vh;
+	width: 100%;
 	margin-top: 20px;
+}
+@media (max-width: 942px){
+	.contribua-form__doacao__container{
+		height: 16vh;
+	}
+}
+@media (max-width: 768px){
+	.contribua-form__doacao__container{
+		height: 35vw;
+		width: 85%
+	}
 }
 .contribua-form__doacao__caixa{
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
+	margin-right: 40px;
 
+}
+@media (max-width: 768px){
+	.contribua-form__doacao__caixa{
+		margin-right: 25px;
+	}
 }
 .contribua-form__doacao__valor{
 	color: #2E3192;
@@ -1820,18 +1958,36 @@ body{
 	padding: 5px;
 	font-size: 1.15vw;
 }
-.contribua-form__radio__focus:focus ~ .contribua-form__doacao__outro{
-	display: block;
+@media (max-width: 768px){
+	.contribua-form__doacao__valor{
+		font-size: 4.6vw;
+	}
+}
+.contribua-form__radio__focus:checked ~ .contribua-form__doacao__outro{
+	visibility: visible;
+
 }
 .contribua-form__doacao__outro{
-	display: none;
 	border: none;
 	border-bottom: 1px solid black;
-	width: 60px;
+	visibility: hidden;
+	width: 50px;
+	padding-left: 5px;
+	font-size: 1.05vw;
+}
+@media (max-width: 768px){
+	.contribua-form__doacao__outro{
+
+	}
 }
 .contribua-form__frequencia{
 	width: 60%;
 	margin: 30px 0;
+}
+@media (max-width: 768px){
+	.contribua-form__frequencia{
+		width: 80%
+	}
 }
 .contribua-form__frequencia__titulo{
 	color: #2E3192;
@@ -1840,10 +1996,20 @@ body{
 	font-style:normal;
 	font-weight:700;	
 }
+@media (max-width: 768px){
+	.contribua-form__frequencia__titulo{
+		font-size: 5.2vw;
+	}
+}
 .contribua-form__frequencia__container{
 	display: flex;
 	flex-flow: column nowrap;
 	margin-top: 20px;
+}
+@media (max-width: 768px){
+	.contribua-form__frequencia__container{
+
+	}
 }
 .contribua-form__frequencia__caixa{
 	display: flex;
@@ -1852,16 +2018,37 @@ body{
 	padding: 5px;
 	
 }
+@media (max-width: 768px){
+	.contribua-form__frequencia__caixa{
+
+	}
+}
 .contribua-form__frequencia__texto{
 	color: #2E3192;
 	font-size: 1.2vw;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:500;
+}
+@media (max-width: 768px){
+	.contribua-form__frequencia__texto{
+		font-size: 4.6vw;
+	}
 }
 .contribua-form__enviar{
 	border: none;
 	border: 1px solid #2E3192;
 	background-color: #F4AC28;
 	color: #2E3192;
-	font-size: 0.9vw;
+	font-size: 1vw;
 	border-radius: 4px;
-	padding: 10px 18px;
+	padding: 10px 20px;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:700;
+}
+@media (max-width: 768px){
+	.contribua-form__enviar{
+		font-size: 3.6vw;
+	}
 }
