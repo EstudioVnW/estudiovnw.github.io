@@ -1066,7 +1066,7 @@ body{
 	}
 }
 .conteudo__noticias_Box-caixa_caixa{
-	width: 18%;
+	width: 19%;
 	margin: 0.7%;
 	background: #FFFFFF;
 	border: solid #707070 1px;
@@ -1081,7 +1081,7 @@ body{
 	}
 }
 .conteudo__noticias_itemImage-item{
-	width: 17.7vw;
+	width: 100%;
 }
 @media (max-width: 768px){
 	.conteudo__noticias_itemImage-item{
