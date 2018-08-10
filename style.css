@@ -417,7 +417,7 @@ body{
 }*/
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa{
-		min-height: 70vh;
+		min-height: 80vh;
 		padding: 5% 0;
 		flex-direction: column;
 	}
@@ -431,23 +431,29 @@ body{
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
+	
 }
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item{
 		width: 100%;
-		height: auto;
-		margin-top: -10%;
+		min-height: 0;
+		height: 70px;
+		margin-top: 50px;
 		margin-right: 0;
+		
 	}
 }
 .conteudo-incentivo-caixa__item-imagem{
 	width: 220px;
 	border-radius: 100%;
 	background-color: #F2F2F2;
+
 }
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item-imagem{
+		top: -60px;
 		width: 150px;
+		position: absolute;
 	}
 }
 .conteudo-incentivo-caixa__item-titulo{
@@ -483,8 +489,9 @@ body{
 }
 @media (max-width: 768px){
 	.conteudo-incentivo-caixa__item--texto{
+		height: 200px;
 		width: 90%;
-		margin-top: 10%;
+		margin-top: 0;
 		margin-left: 0;
 		margin-right: 20px;
 		align-self: center;
@@ -782,7 +789,8 @@ body{
 	width: 70%;
 }
 .conteudo-projetos-caixa-box__caixa{
-	width: 25vw;
+	width: 26vw;
+	height: 10vh;
 	margin-left: -15%;
 	position: relative;
 	display: flex;
@@ -790,7 +798,8 @@ body{
 	align-items: center;
 }
 .conteudo-projetos-caixa__item-titulo{
-	width: 75%;
+	width: 70%;
+	text-align: center;
 	font-size: 2vw;
 	font-family:"ministry";
 	font-style:normal;
