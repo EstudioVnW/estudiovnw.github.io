@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108.917" height="163.962" viewBox="0 0 108.917 163.962">
+  <g id="Group_7172" data-name="Group 7172" transform="translate(-629.042 -2686.849)">
+    <g id="Group_6957" data-name="Group 6957" transform="translate(629.041 2686.849)">
+      <path id="Path_3836" data-name="Path 3836" d="M7399.214,8917.02v26.264l9.163-9.164,9.163,9.164V8917.02Z" transform="translate(-7377.639 -8781.132)" fill="#f0f3ff" stroke="#0f2b92" stroke-width="1.5"/>
+      <g id="Rectangle_790" data-name="Rectangle 790" transform="translate(0 144.849) rotate(-90)" fill="#f0f3ff" stroke="#0f2b92" stroke-width="1.5">
+        <rect width="144.849" height="108.917" stroke="none"/>
+        <rect x="0.75" y="0.75" width="143.349" height="107.417" fill="none"/>
+      </g>
+      <line id="Line_50" data-name="Line 50" x2="143.726" transform="translate(15.159 144.287) rotate(-90)" fill="none" stroke="#0f2b92" stroke-width="1.5"/>
+      <g id="Group_6956" data-name="Group 6956" transform="translate(32.563 26.949)">
+        <g id="Group_6954" data-name="Group 6954" transform="translate(38.739 55.02)">
+          <path id="Path_3835" data-name="Path 3835" d="M7439.541,8814h8.574v36.893" transform="translate(-7439.495 -8814)" fill="none" stroke="#0f2b92" stroke-width="1.5"/>
+          <line id="Line_65" data-name="Line 65" x2="16.843" transform="translate(0 36.493)" fill="none" stroke="#0f2b92" stroke-width="1.5"/>
+        </g>
+        <g id="Group_6955" data-name="Group 6955">
+          <g id="Ellipse_136" data-name="Ellipse 136" fill="#f0f3ff" stroke="#0f2b92" stroke-width="1.5">
+            <ellipse cx="15.159" cy="19.65" rx="15.159" ry="19.65" stroke="none"/>
+            <ellipse cx="15.159" cy="19.65" rx="14.409" ry="18.9" fill="none"/>
+          </g>
+          <line id="Line_66" data-name="Line 66" y1="28.071" x2="19.089" transform="translate(6.176 6.176)" fill="none" stroke="#0f2b92" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_816" data-name="Rectangle 816" width="15.72" height="144.849" transform="translate(629.041 2686.849)" fill="#0f2b92"/>
+  </g>
+</svg>
