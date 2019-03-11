@@ -38,7 +38,7 @@ html{
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	background: url("./Assets/Social-Capa.jpg") no-repeat center fixed ;
+	background: url("./assets/Social-Capa.jpg") no-repeat center fixed ;
 	background-size: cover;
 	height: 90vh;
 }
@@ -79,7 +79,7 @@ html{
 @media(max-width: 450px){
 	.containerLogo__edtech{
 		justify-content: flex-start;
-		background: url("./Assets/Social-Capa_mobile.jpg") no-repeat center;
+		background: url("./assets/Social-Capa_mobile.jpg") no-repeat center;
 		background-size: 100%
 	}
 }
@@ -450,7 +450,7 @@ html{
 	display: flex;
 	align-items: flex-end;
 	height: 75vh;
-	background: url('./Assets/Social-Estudio_Kelvin.jpg') no-repeat;
+	background: url('./assets/Social-Estudio_Kelvin.jpg') no-repeat;
 	background-size: 100%;
 }
 .contEstudio__container-img{
