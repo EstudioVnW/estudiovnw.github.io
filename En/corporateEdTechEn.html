@@ -143,9 +143,9 @@
 					<p class="jornada__container-parag">
 						We create with your organization a unique set of digital skills to empower your workforce. Tell us a little about your goals, challenges and we will present a personalized plan to get you started.
 					</p>
-					<a class="jornada__container-button" href="mailto:ola@vainaweb.com.br">
+					<p class="jornada__container-button" onclick="openContact()">
 						Contact us
-					</a>
+					</p>
 				</div>
 			</div>
 		</section>
@@ -158,18 +158,21 @@
 				<h1 class="form__title">// contact</h1>
 				<label class="form__label" htmlFor="nome">your name:</label>
 				<input
+					id="form__name"
 					class="form__input"
 					name="nome"
 					type="text"
 				/>
 				<label class="form__label" htmlFor="email">your email:</label>
 				<input
+					id="form__email"
 					class="form__input"
 					name="email"
 					type="email"
 				/>
 				<label class="form__label" htmlFor="mensagem">your message:</label>
 				<textarea
+					id="form__message"
 					class="form__input form__input--textarea"
 					name="mensagem"
 				></textarea>
