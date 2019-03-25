@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98.951" height="98.951" viewBox="0 0 98.951 98.951">
+  <g id="Group_7225" data-name="Group 7225" transform="translate(-1038.131 -3068.847)">
+    <g id="Ellipse_1116" data-name="Ellipse 1116" transform="translate(1038.131 3068.847)" fill="#0f2b92" stroke="#0f2b92" stroke-width="4">
+      <circle cx="49.475" cy="49.475" r="49.475" stroke="none"/>
+      <circle cx="49.475" cy="49.475" r="47.475" fill="none"/>
+    </g>
+    <path id="Path_6690" data-name="Path 6690" d="M25.159,23.249a9.625,9.625,0,1,0-9.625-9.625A9.653,9.653,0,0,0,25.159,23.249Zm0,4.812c-6.5,0-19.249,3.128-19.249,9.625V42.5h38.5V37.687C44.408,31.19,31.655,28.062,25.159,28.062Z" transform="translate(1071.861 3095.203)" fill="#fff" stroke="#0f2b92" stroke-width="3"/>
+    <path id="Path_6691" data-name="Path 6691" d="M27.18,25.271A10.635,10.635,0,1,0,16.544,14.635,10.667,10.667,0,0,0,27.18,25.271Zm0,5.318C20,30.588,5.909,34.045,5.909,41.224v5.318H48.451V41.224C48.451,34.045,34.359,30.588,27.18,30.588Z" transform="translate(1053.331 3091.16)" fill="#fff" stroke="#0f2b92" stroke-width="4"/>
+    <g id="Ellipse_1117" data-name="Ellipse 1117" transform="translate(1045.914 3076.63)" fill="none" stroke="#ffac2d" stroke-width="1">
+      <circle cx="41.878" cy="41.878" r="41.878" stroke="none"/>
+      <circle cx="41.878" cy="41.878" r="41.378" fill="none"/>
+    </g>
+    <path id="Path_6696" data-name="Path 6696" d="M-7,0H45.625V10.292L43.4,17.048H-4.406L-7,10.63Z" transform="translate(1068.109 3144.079)" fill="#0f2b92"/>
+    <g id="Group_7212" data-name="Group 7212">
+      <g id="star" transform="translate(1084.086 3155.197)">
+        <path id="Path_6695" data-name="Path 6695" d="M5.706,7.66,8,9.041l-.606-2.6L9.412,4.685,6.747,4.456,5.706,2,4.665,4.456,2,4.685,4.022,6.436l-.606,2.6Z" transform="translate(-2 -2)" fill="#ffac2d"/>
+      </g>
+      <g id="star-2" data-name="star" transform="translate(1093.723 3152.974)">
+        <path id="Path_6695-2" data-name="Path 6695" d="M5.706,7.66,8,9.041l-.606-2.6L9.412,4.685,6.747,4.456,5.706,2,4.665,4.456,2,4.685,4.022,6.436l-.606,2.6Z" transform="translate(-2 -2)" fill="#ffac2d"/>
+      </g>
+      <g id="star-3" data-name="star" transform="translate(1103.357 3150.01)">
+        <path id="Path_6695-3" data-name="Path 6695" d="M5.706,7.66,8,9.041l-.606-2.6L9.412,4.685,6.747,4.456,5.706,2,4.665,4.456,2,4.685,4.022,6.436l-.606,2.6Z" transform="translate(-2 -2)" fill="#ffac2d"/>
+      </g>
+      <g id="star-4" data-name="star" transform="translate(1074.45 3152.974)">
+        <path id="Path_6695-4" data-name="Path 6695" d="M5.706,7.66,8,9.041l-.606-2.6L9.412,4.685,6.747,4.456,5.706,2,4.665,4.456,2,4.685,4.022,6.436l-.606,2.6Z" transform="translate(-2 -2)" fill="#ffac2d"/>
+      </g>
+      <g id="star-5" data-name="star" transform="translate(1064.815 3150.01)">
+        <path id="Path_6695-5" data-name="Path 6695" d="M5.706,7.66,8,9.041l-.606-2.6L9.412,4.685,6.747,4.456,5.706,2,4.665,4.456,2,4.685,4.022,6.436l-.606,2.6Z" transform="translate(-2 -2)" fill="#ffac2d"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="665.047" height="83.002" viewBox="0 0 665.047 83.002">
+  <g id="Group_7254" data-name="Group 7254" transform="translate(-350.262 -3077.998)">
+    <rect id="Rectangle_2748" data-name="Rectangle 2748" width="382.681" height="83.002" transform="translate(490.384 3077.998)" fill="#ff611e"/>
+    <g id="Group_6938" data-name="Group 6938" transform="translate(350.262 3077.998)">
+      <path id="Path_6692" data-name="Path 6692" d="M0,0H217.082l8.492,42.7L217.082,83H0L8.492,41.611Z" fill="#ffac2d"/>
+      <path id="Path_6693" data-name="Path 6693" d="M0,0H217.082l8.492,42.7L217.082,83H0L8.492,41.611Z" transform="translate(219.736)" fill="#ffac2d"/>
+      <path id="Path_6694" data-name="Path 6694" d="M0,0H217.082l8.492,42.7L217.082,83H0L8.492,41.611Z" transform="translate(439.472)" fill="#ffac2d"/>
+    </g>
+    <text id="Módulo_2" data-name="Módulo 2" transform="translate(675.843 3127.129)" fill="#fff" font-size="15" font-family="Usual-Bold, Usual" font-weight="700"><tspan x="-35.302" y="0">Módulo 2</tspan></text>
+    <text id="Módulo_3" data-name="Módulo 3" transform="translate(903.011 3127.129)" fill="#fff" font-size="15" font-family="Usual-Bold, Usual" font-weight="700"><tspan x="-35.302" y="0">Módulo 3</tspan></text>
+    <text id="Módulo_1" data-name="Módulo 1" transform="translate(422.699 3128.129)" fill="#fff" font-size="16" font-family="Usual-Bold, Usual" font-weight="700"><tspan x="0" y="0">Módulo 1</tspan></text>
+  </g>
+</svg>

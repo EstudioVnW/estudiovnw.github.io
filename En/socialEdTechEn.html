@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="../Assets/Logo-VnW.png">
+	<link rel="stylesheet"  href="../social.css">
+	<link rel="stylesheet" href="../fonts.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<title>Social EdTech</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body id="social">
+	<header>
+		<img src="../Assets/Logo-VnW.svg" alt="Logo-VnW-menu" class="header__logoMobile" />
+		<img src="../Assets/menu.svg" class="header__menuMobile" onclick="openMenu()" />
+		<div id="logo" class="containerLogo__edtech" >
+			<h1 class="logoEdtech__title">Social EdTech</h1>
+		</div>
+	</header>
+	<section id="menu-mobile" class="menu-mobile">
+		<img class="header__logoMobile" src="../Assets/Logo-VnW.svg" alt="Logo-VnW-menu" />
+		<img src="../Assets/close.svg" class="navBar__MenuMobile-close" onclick="closeMenu()" />
+		<ul class="navBar__MenuMobile">
+			<a class="navBar__MenuMobile-item" href="./indexEn.html" onclick="closeMenu()">4th Industrial Rev.</a>
+			<a class="navBar__MenuMobile-item" href="./corporateEdTechEn.html" onclick="closeMenu()">EdTech</a>
+			<a class="navBar__MenuMobile-item" href="#social" onclick="closeMenu()">SocialTech</a>
+			<p class="navBar__MenuMobile-item" onclick="closeMenuOpenContactMobile()">Contact</p>
+			<a class="navBar__MenuMobile-item" href="../socialEdTech.html"  onclick="closeMenu()">Portuguese</a>
+		</ul>
+	</section>
+	<nav id="menuHeader" class="navBar__home" display="none">
+		<img src="../Assets/Logo-VnW.svg" alt="Logo-VnW-menu" class="navBar__homeLogo sticky" />
+		<ul class="navBar__Menu">
+			<a class="navBar__Menu-item" href="./indexEn.html">4RI</a>
+			<a class="navBar__Menu-item" href="./corporateEdTechEn.html">EdTech</a>
+			<a class="navBar__Menu-item" href="#social">SocialTech</a>
+			<p class="navBar__Menu-item" onclick="openContact()" >Contact</p>
+			<a class="navBar__Menu-item" href="../socialEdTech.html">Portuguese</a>
+		</ul>
+	</nav>
+	<main>
+		<section class="contCorporate__mudanca">
+			<h1 class="contCorporate__mudanca-title">Diversity, <br> equity and inclusion</h1>
+			<p class="contCorporate__mudanca-parag">
+        Since January 2017, Vai on the Web offers free digital advanced programming programming and social-emotional skills for young people aged 16 to 29, residents of Morro dos Prazeres and Complexo do Alemão, in Rio de Janeiro.
+			</p>
+		</section>
+		<section class="contSocial">
+			<img class="contSocial__img" src="../Assets/Social-Estudio_galera.jpg" />
+			<p class="paragEstudio">Students and Estúdio Vai na Web members.</p>
+		</section>
+		<section class="contSocial__information">
+			<div class="contSocial__information-container">
+				<img class="contSocial__information-img" src="../Assets/Icone-Formados.svg" alt="">
+				<h1 class="contSocial__information-title">+200</h1>
+				<p class="contSocial__information-parag">students.</p>
+			</div>
+			<div class="contSocial__information-container">
+				<img class="contSocial__information-img" src="../Assets/Icone-Estudando.svg" alt="">
+				<h1 class="contSocial__information-title">48%</h1>
+				<p class="contSocial__information-parag">returned to study and / or entered university.</p>
+			</div>
+			<div class="contSocial__information-container">   
+				<img class="contSocial__information-img" src="../Assets/Icone-Empregados.svg" alt="">
+				<h1 class="contSocial__information-title">55%</h1>
+				<p class="contSocial__information-parag">are employed.</p>
+			</div>
+		</section>
+		<section class="contSocial__Obama">
+			<img class="contSocial__Obama-img" src="../Assets/Social-Obama.png" alt="" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+			<div class="contSocial__Obama-container">
+				<p class="contSocial__Obama-parag">
+          Knowing how to program a computer today is as basic as reading, writing and doing. <br> And it should be taught in all schools.
+				</p>
+				<p class="contSocial__Obama-footernote">
+					— Barack Obama
+				</p>
+			</div>
+		</section>
+		<section class="contEncouraging">
+			<h1 class="contEncouraging-title">— Incentives</h1>
+			<div class="contEncouraging-container">
+				<img class="contEncouraging-container__item-img" src="../Assets/Social-Incentivadores-Claudia.png" alt="Foto de Cláudia Akel">
+				<div class="contEncouraging-container__item">
+					<div class="contEncouraging-container__item--text">
+						<h1 class="contEncouraging-container__item-title">Cláudia Akel</h1>
+						<h2 class="contEncouraging-container__item-subtitle">CEO na Social Impact Movement</h2>
+						<p class="contEncouraging-container__item-parag">
+							"Vai na Web prepares young people for immediate action in the job market, providing career mentoring, job placement and opportunities to participate in impact projects such as the Match4Action application, created by alumni of the LEAD program at Stanford University."
+						</p>
+					</div>
+					<div class="contEncouraging-container__item-buttons">
+						<div class="contEncouraging-container__item-button" onclick="plusIncentivadores(-1)">
+							<span class="arrow arrow2"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+						<div class="contEncouraging-container__item-button" onclick="plusIncentivadores(+1)">
+							<span class="arrow"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contEncouraging-container">
+				<img class="contEncouraging-container__item-img" src="../Assets/Social-Incentivadores-Helio.png" alt="Foto de Helio Mosquim">
+				<div class="contEncouraging-container__item">
+					<div class="contEncouraging-container__item--text">
+						<h1 class="contEncouraging-container__item-title">Helio Mosquim</h1>
+						<h2 class="contEncouraging-container__item-subtitle">Head of IT Global Innovation na Vale</h2>
+						<p class="contEncouraging-container__item-parag">
+							"Vai Na Web is an incredible program that offers the possibility of building a path of growth and achievement by learning digital technologies."
+						</p>
+					</div>
+					<div class="contEncouraging-container__item-buttons">
+						<div class="contEncouraging-container__item-button" onclick="plusIncentivadores(-1)">
+							<span class="arrow arrow2"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+						<div class="contEncouraging-container__item-button" onclick="plusIncentivadores(+1)">
+							<span class="arrow"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contEncouraging-container">
+				<img class="contEncouraging-container__item-img" src="../Assets/Social-Incentivadores-Kip.png" alt="Foto de Kip Stringfellow">
+				<div class="contEncouraging-container__item">
+					<div class="contEncouraging-container__item--text">
+						<h1 class="contEncouraging-container__item-title">Kip Stringfellow</h1>
+						<h2 class="contEncouraging-container__item-subtitle">Diretor de Relações Estratégicas na Singularity University</h2>
+						<p class="contEncouraging-container__item-parag">
+							"Developing the skills, knowledge, and experience necessary to create new technologies is a powerful force for positive change. Vai na Web teaches these skills and connects students with relevant projects that can make a difference in the world."
+						</p>
+					</div>
+					<div class="contEncouraging-container__item-buttons">
+						<div class="contEncouraging-container__item-button" onclick="plusIncentivadores(-1)">
+							<span class="arrow arrow2"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+						<div class="contEncouraging-container__item-button" onclick="plusIncentivadores(-2)">
+							<span class="arrow"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contEstudio">
+			<div class="contEstudio__container">
+				<img class="contEstudio__container-img" src="../Assets/Logo-Estudio_VnW.svg" alt="" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500" />
+				<div class="contEstudio__container-text">
+					<p class="contEstudio__container-parag">
+						“I've always been passionate about technology, but it was only here that I learned to leverage my skills and build a career.”
+					</p>
+				</div>
+			</div>
+			<div class="contEstudio__text">
+				<p class="contEstudio__text-subtext">Kelvin Fernandes, 24, <br> former student and teacher of module 1 of the Vai na Web.</p>
+				<p class="contEstudio__text-parag">
+          A continuing education center led by students from Vai na Web.
+          A real opportunity to develop self-confidence, entrepreneurial skills and practical experiences at an early stage of their careers.
+				</p>
+			</div>
+		</section>
+		<section class="contEstudio-Mobile">
+			<img class="contEstudio-Mobile__logo" src="../Assets/Logo-Estudio_VnW.svg" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500" />
+			<p class="contEstudio-Mobile__text">
+        A continuing education center led by students from Vai na Web.
+        A real opportunity to develop self-confidence, entrepreneurial skills and practical experiences at an early stage of their careers.
+			</p>
+			<img class="contEstudio-Mobile__photo" src="../Assets/Kelvin_redonda.png" />
+			<div class="contEstudio-Mobile__box">
+				<h1 class="contEstudio-Mobile__box-title">
+					“I've always been passionate about technology, but it was only here that I learned to leverage my skills and build a career.”
+				</h1>
+				<p class="contEstudio-Mobile__box-parag">
+					— Kelvin Fernandes, 24, former student and teacher of module 1 of the Vai na Web.
+				</p>
+			</div>
+		</section>
+		<section class="contProject">
+			<h1 class="contEncouraging-title">— Projects carried out</h1>
+			<div class="contProject-container">
+				<img class="contProject-container__item-img" src="../Assets/Projetos-M4A.svg" alt="Match4Action">
+				<div class="contProject-container__item">
+					<div class="contProject-container__item--text">
+						<h1 class="contProject-container__item-title">Match 4 Action</h1>
+						<p class="contProject-container__item-parag">
+              An international NGO founded by Stanford University students, it connects social and volunteer actions around the world, promoting great social impact.
+						</p>
+					</div>
+					<div class="contEncouraging-container__item-buttons">
+						<div class="contEncouraging-container__item-button" onclick="plusProjects(-1)">
+							<span class="arrow arrow2"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+						<div class="contEncouraging-container__item-button" onclick="plusProjects(+1)">
+							<span class="arrow"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contProject-container">
+				<img class="contProject-container__item-img" src="../Assets/mock_up_alemao_para_o_mundo.png" alt="Alemão para o mundo">
+				<div class="contProject-container__item">
+					<div class="contProject-container__item--text">
+						<h1 class="contProject-container__item-title">Alemão para o mundo</h1>
+						<p class="contProject-container__item-parag">
+              This platform disseminates the work of the many entrepreneurs of the Complexo de Favelas do Alemão to its more than 160,000 residents.
+						</p>
+					</div>
+					<div class="contEncouraging-container__item-buttons">
+						<div class="contEncouraging-container__item-button" onclick="plusProjects(-1)">
+							<span class="arrow arrow2"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+						<div class="contEncouraging-container__item-button" onclick="plusProjects(+1)">
+							<span class="arrow"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contProject-container">
+				<img class="contProject-container__item-img" src="../Assets/mock_up_ps.png" alt="Precisa ser">
+				<div class="contProject-container__item">
+					<div class="contProject-container__item--text">
+						<h1 class="contProject-container__item-title">Precisa ser</h1>
+						<p class="contProject-container__item-parag">
+              Platform of the Institute of social and digital technologies. 
+						</p>
+					</div>
+					<div class="contEncouraging-container__item-buttons">
+						<div class="contEncouraging-container__item-button" onclick="plusProjects(-1)">
+							<span class="arrow arrow2"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+						<div class="contEncouraging-container__item-button" onclick="plusProjects(-2)">
+							<span class="arrow"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contNews">
+			<h1 class="contEncouraging-title">— News</h1>
+			<div class="contNews__container">
+				<div class="contNews__container-item">
+					<h1 class="contNews__container-title">G1 / Globo</h1>
+					<a class="contNews__container-link" href="https://g1.globo.com/olha-que-legal/noticia/projeto-cria-programa-de-educacao-em-tecnologias-digitais-para-jovens-moradores-de-comunidades-no-rio-de-janeiro.ghtml">
+						Young people from Complexo do Alemão, in Rio, learn programming and create a site to help community residents.
+					</a>
+				</div>
+				<div class="contNews__container-item">
+					<h1 class="contNews__container-title">Voz das Comunidades</h1>
+					<a class="contNews__container-link" href="http://www.vozdascomunidades.com.br/destaques/vai-na-web-educacao-digital-e-social-democratica/">
+						Vai na Web: Digital and democratic social education
+					</a>
+				</div>
+			</div>
+		</section>
+		<section id="contact-modal" class="contact-section">
+			<div class="container_images">
+				<img class="contact_logo" src="../Assets/Logo-VnW.svg" alt="Logo-VnW-menu" />
+				<img class="contact_close" src="../Assets/close-white.svg" alt="close" onclick="closeContact()" />
+			</div>
+			<form class="form" id="contatoForm" action="https://formspree.io/ola@vainaweb.com.br" method="POST">
+				<h1 class="form__title">// contact</h1>
+				<label class="form__label" htmlFor="nome">your name:</label>
+				<input
+					class="form__input"
+					name="nome"
+					type="text"
+				/>
+				<label class="form__label" htmlFor="email">your email:</label>
+				<input
+					class="form__input"
+					name="email"
+					type="email"
+				/>
+				<label class="form__label" htmlFor="mensagem">your message:</label>
+				<textarea
+					class="form__input form__input--textarea"
+					name="mensagem"
+				></textarea>
+				<input
+					class="form__button" 
+					type="submit" 
+					value="send →"
+					target="_blank"
+				/>
+			</form>
+		</section>
+	</main>
+	<footer id="contact" class="rodape">
+		<img src="../Assets/logo_VnW.svg" alt="" class="rodapeImg" />
+		<div class="contRodape__text">
+			<section class="rodape_section rodape_section1">
+				<p class="rodape-text">
+          Vai na Web is a high technology and social impact movement that expands human capabilities and requalifies the workforce to meet the challenges of Industry 4.0
+				</p>
+			</section>
+			<section class="rodape_section">
+				<ul class="rodape__Menu">
+					<a class="rodape__Menu-item" href="./indexEn.html">4ª Revolução Industrial</a>
+					<a class="rodape__Menu-item" href="./corporateEdTechEn.html">Corporate EdTech</a>
+					<a class="rodape__Menu-item" href="#social">Social EdTech</a>
+					<p class="rodape__Menu-item" onclick="openContact()">Contato</p>
+          <a class="rodape__Menu-item" href="../socialEdTech.html">Portuguese</a>
+				</ul>
+				<ul class="rodapeIcon">
+					<a class="ropapeIconLink" href="https://www.facebook.com/vainaweb/" target="_blank">
+						<img src="../Assets/Icone-Facebook.svg" alt="">
+					</a>
+					<a class="ropapeIconLink" href="https://www.instagram.com/vainaweb/" target="_blank">
+						<img src="../Assets/Icone-Instagram.svg" alt="">
+					</a>
+					<!-- <a class="ropapeIconLink" href="#" target="_blank">
+						<img src="../Assets/Icone-Youtube.svg" alt="">
+					</a> -->
+				</ul>
+			</section>
+			<section class="rodape_section section3">
+				<a class="rodape__Menu-item" href="mailto:ola@vainaweb.com.br">
+					ola@vainaweb.com.br
+				</a>
+				<p class="rodape-text contact">
+					+55 21 96850 2828
+				</p>
+			</section>
+		</div>
+	</footer>
+	<script src="../javascript/script.js"></script>
+</body>
+</html>

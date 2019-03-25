@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./Assets/Logo-VnW.png">
+	<link rel="stylesheet"  href="./social.css">
+	<link rel="stylesheet" href="./fonts.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<title>Social EdTech</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body id="social" onload="lang()">
+	<header>
+		<img src="./Assets/Logo-VnW.svg" alt="Logo-VnW-menu" class="header__logoMobile" />
+		<img src="./Assets/menu.svg" class="header__menuMobile" onclick="openMenu()" />
+		<div id="logo" class="containerLogo__edtech" >
+			<h1 class="logoEdtech__title">Social EdTech</h1>
+		</div>
+	</header>
+	<section id="menu-mobile" class="menu-mobile">
+		<img class="header__logoMobile" src="./Assets/Logo-VnW.svg" alt="Logo-VnW-menu" />
+		<img src="./Assets/close.svg" class="navBar__MenuMobile-close" onclick="closeMenu()" />
+		<ul class="navBar__MenuMobile">
+			<a class="navBar__MenuMobile-item" href="./index.html" onclick="closeMenu()">4ª Rev. Industrial</a>
+			<a class="navBar__MenuMobile-item" href="./corporateEdTech.html" onclick="closeMenu()">EdTech</a>
+			<a class="navBar__MenuMobile-item" href="#social" onclick="closeMenu()">SocialTech</a>
+			<p class="navBar__MenuMobile-item" onclick="closeMenuOpenContactMobile()">Contato</p>
+			<a class="navBar__MenuMobile-item" href="./En/socialEdTechEn.html"  onclick="closeMenu()">English</a>
+		</ul>
+	</section>
+	<nav id="menuHeader" class="navBar__home" display="none">
+		<img src="./Assets/Logo-VnW.svg" alt="Logo-VnW-menu" class="navBar__homeLogo sticky" />
+		<ul class="navBar__Menu">
+			<a class="navBar__Menu-item" href="./index.html">4RI</a>
+			<a class="navBar__Menu-item" href="./corporateEdTech.html">EdTech</a>
+			<a class="navBar__Menu-item" href="#social">SocialTech</a>
+			<p class="navBar__Menu-item" onclick="openContact()" >Contato</p>
+			<a class="navBar__Menu-item" href="./En/socialEdTechEn.html">English</a>
+		</ul>
+	</nav>
+	<main>
+		<section class="contCorporate__mudanca">
+			<h1 class="contCorporate__mudanca-title">
+				Diversidade, <br> equidade e inclusão
+			</h1>
+			<p class="contCorporate__mudanca-parag">
+				Desde janeiro de 2017, o Vai na Web oferece gratuitamente o ensino de programação digital avançada e habilidades socioemocionais para jovens de 16 a
+				29 anos, moradores do Morro dos Prazeres e do Complexo do Alemão, no Rio de Janeiro.
+			</p>
+		</section>
+		<section class="contSocial">
+			<img class="contSocial__img" src="./Assets/Social-Estudio_galera.jpg" />
+			<p class="paragEstudio">Estudantes e membros do Estúdio Vai na Web.</p>
+		</section>
+		<section class="contSocial__information">
+			<div class="contSocial__information-container">
+				<img class="contSocial__information-img" src="./Assets/Icone-Formados.svg" alt="">
+				<h1 class="contSocial__information-title">+200</h1>
+				<p class="contSocial__information-parag">estudantes<br> formados.</p>
+			</div>
+			<div class="contSocial__information-container">
+				<img class="contSocial__information-img" src="./Assets/Icone-Estudando.svg" alt="">
+				<h1 class="contSocial__information-title">48%</h1>
+				<p class="contSocial__information-parag">voltaram a estudar e/ou entraram para a universidade.</p>
+			</div>
+			<div class="contSocial__information-container">   
+				<img class="contSocial__information-img" src="./Assets/Icone-Empregados.svg" alt="">
+				<h1 class="contSocial__information-title">55%</h1>
+				<p class="contSocial__information-parag">estão empregados.</p>
+			</div>
+		</section>
+		<section class="contSocial__Obama">
+			<img class="contSocial__Obama-img" src="./Assets/Social-Obama.png" alt="" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+			<div class="contSocial__Obama-container">
+				<p class="contSocial__Obama-parag">
+					Saber programar um computador hoje é tão básico quanto ler, escrever e fazer conta.<br> E deve ser ensinado em todas as escolas.
+				</p>
+				<p class="contSocial__Obama-footernote">
+					— Barack Obama
+				</p>
+			</div>
+		</section>
+		<section class="contEncouraging">
+			<h1 class="contEncouraging-title">— Incentivadores</h1>
+			<div class="contEncouraging-container">
+				<img class="contEncouraging-container__item-img" src="./Assets/Social-Incentivadores-Claudia.png" alt="Foto de Cláudia Akel">
+				<div class="contEncouraging-container__item">
+					<div class="contEncouraging-container__item--text">
+						<h1 class="contEncouraging-container__item-title">Cláudia Akel</h1>
+						<h2 class="contEncouraging-container__item-subtitle">CEO na Social Impact Movement</h2>
+						<p class="contEncouraging-container__item-parag">
+							"Vai na Web prepara jovens para atuação imediata no mercado de trabalho, fornecendo mentoria de carreira, indicação de vagas em empresas e oportunidades de participação em projetos de impacto como o aplicativo Match4Action, criado por ex-alunos do programa LEAD da Stanford University."
+						</p>
+					</div>
+					<div class="contEncouraging-container__item-buttons">
+						<div class="contEncouraging-container__item-button" onclick="plusIncentivadores(-1)">
+							<span class="arrow arrow2"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+						<div class="contEncouraging-container__item-button" onclick="plusIncentivadores(+1)">
+							<span class="arrow"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contEncouraging-container">
+				<img class="contEncouraging-container__item-img" src="./Assets/Social-Incentivadores-Helio.png" alt="Foto de Helio Mosquim">
+				<div class="contEncouraging-container__item">
+					<div class="contEncouraging-container__item--text">
+						<h1 class="contEncouraging-container__item-title">Helio Mosquim</h1>
+						<h2 class="contEncouraging-container__item-subtitle">Head of IT Global Innovation na Vale</h2>
+						<p class="contEncouraging-container__item-parag">
+							"O Vai Na Web é um programa incrível que oferece a possibilidade de se construir um caminho de crescimento e realização, pelo aprendizado de tecnologias digitais."
+						</p>
+					</div>
+					<div class="contEncouraging-container__item-buttons">
+						<div class="contEncouraging-container__item-button" onclick="plusIncentivadores(-1)">
+							<span class="arrow arrow2"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+						<div class="contEncouraging-container__item-button" onclick="plusIncentivadores(+1)">
+							<span class="arrow"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contEncouraging-container">
+				<img class="contEncouraging-container__item-img" src="./Assets/Social-Incentivadores-Kip.png" alt="Foto de Kip Stringfellow">
+				<div class="contEncouraging-container__item">
+					<div class="contEncouraging-container__item--text">
+						<h1 class="contEncouraging-container__item-title">Kip Stringfellow</h1>
+						<h2 class="contEncouraging-container__item-subtitle">Diretor de Relações Estratégicas na Singularity University</h2>
+						<p class="contEncouraging-container__item-parag">
+							"Desenvolver as habilidades, conhecimentos e experiência necessárias para criar novas tecnologias é uma força poderosa para a mudança positiva. O Vai na Web ensina essas habilidades e conecta estudantes com projetos relevantes que podem fazer a diferença no mundo."
+						</p>
+					</div>
+					<div class="contEncouraging-container__item-buttons">
+						<div class="contEncouraging-container__item-button" onclick="plusIncentivadores(-1)">
+							<span class="arrow arrow2"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+						<div class="contEncouraging-container__item-button" onclick="plusIncentivadores(-2)">
+							<span class="arrow"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contEstudio">
+			<div class="contEstudio__container">
+				<img class="contEstudio__container-img" src="./Assets/Logo-Estudio_VnW.svg" alt="" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500" />
+				<div class="contEstudio__container-text">
+					<p class="contEstudio__container-parag">
+						“Eu sempre fui apaixonado por tecnologia, mas foi só aqui que eu aprendi a potencializar as minhas habilidades e construir uma carreira.”
+					</p>
+				</div>
+			</div>
+			<div class="contEstudio__text">
+				<p class="contEstudio__text-subtext">
+					Kelvin Fernandes, 24 anos, <br> ex-estudante e professor do módulo 1 do Vai na Web.
+				</p>
+				<p class="contEstudio__text-parag">
+					Um centro de formação continuada liderado por estudantes do Vai na Web.
+					Uma oportunidade real para desenvolver autoconfiança, habilidades empreendedoras e experiências práticas em um estágio inicial de suas carreiras.
+				</p>
+			</div>
+		</section>
+		<section class="contEstudio-Mobile">
+			<img class="contEstudio-Mobile__logo" src="./Assets/Logo-Estudio_VnW.svg" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500" />
+			<p class="contEstudio-Mobile__text">
+				Um centro de formação continuada liderado por estudantes do Vai na Web. Uma oportunidade real para desenvolver autoconfiança, habilidades empreendedoras e experiências práticas em um estágio inicial de suas carreiras.
+			</p>
+			<img class="contEstudio-Mobile__photo" src="./Assets/Kelvin_redonda.png" />
+			<div class="contEstudio-Mobile__box">
+				<h1 class="contEstudio-Mobile__box-title">
+					“Eu sempre fui apaixonado por tecnologia, mas foi só aqui que eu aprendi a potencializar as minhas habilidades e construir uma carreira.”
+				</h1>
+				<p class="contEstudio-Mobile__box-parag">
+					— Kelvin Fernandes, 24 anos, ex-estudante e professor do módulo 1 do Vai na Web.
+				</p>
+			</div>
+		</section>
+		<section class="contProject">
+			<h1 class="contEncouraging-title">— Projetos realizados</h1>
+			<div class="contProject-container">
+				<img class="contProject-container__item-img" src="./Assets/Projetos-M4A.svg" alt="Match4Action">
+				<div class="contProject-container__item">
+					<div class="contProject-container__item--text">
+						<h1 class="contProject-container__item-title">Match 4 Action</h1>
+						<p class="contProject-container__item-parag">
+							ONG internacional fundada por estudantes da Stanford University, conecta ações sociais e voluntários em todo o mundo, promovendo grande impacto social.
+						</p>
+					</div>
+					<div class="contEncouraging-container__item-buttons">
+						<div class="contEncouraging-container__item-button" onclick="plusProjects(-1)">
+							<span class="arrow arrow2"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+						<div class="contEncouraging-container__item-button" onclick="plusProjects(+1)">
+							<span class="arrow"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contProject-container">
+				<img class="contProject-container__item-img" src="./Assets/mock_up_alemao_para_o_mundo.png" alt="Alemão para o mundo">
+				<div class="contProject-container__item">
+					<div class="contProject-container__item--text">
+						<h1 class="contProject-container__item-title">Alemão para o mundo</h1>
+						<p class="contProject-container__item-parag">
+							Essa plataforma divulga o trabalho dos muitos empreendedores do Complexo de favelas do Alemão para os seus mais de 160.000 moradores.
+						</p>
+					</div>
+					<div class="contEncouraging-container__item-buttons">
+						<div class="contEncouraging-container__item-button" onclick="plusProjects(-1)">
+							<span class="arrow arrow2"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+						<div class="contEncouraging-container__item-button" onclick="plusProjects(+1)">
+							<span class="arrow"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contProject-container">
+				<img class="contProject-container__item-img" src="./Assets/mock_up_ps.png" alt="Precisa ser">
+				<div class="contProject-container__item">
+					<div class="contProject-container__item--text">
+						<h1 class="contProject-container__item-title">Precisa ser</h1>
+						<p class="contProject-container__item-parag">
+							Plataforma do Instituto de tecnologias sociais e digitais. 
+						</p>
+					</div>
+					<div class="contEncouraging-container__item-buttons">
+						<div class="contEncouraging-container__item-button" onclick="plusProjects(-1)">
+							<span class="arrow arrow2"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+						<div class="contEncouraging-container__item-button" onclick="plusProjects(-2)">
+							<span class="arrow"><span></span><span></span></span>
+							<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contNews">
+			<h1 class="contEncouraging-title">— Noticias</h1>
+			<div class="contNews__container">
+				<div class="contNews__container-item">
+					<h1 class="contNews__container-title">G1 / Globo</h1>
+					<a class="contNews__container-link" href="https://g1.globo.com/olha-que-legal/noticia/projeto-cria-programa-de-educacao-em-tecnologias-digitais-para-jovens-moradores-de-comunidades-no-rio-de-janeiro.ghtml">
+						Jovens do Complexo do Alemão, no Rio, aprendem programação e criam site para ajudar moradores da comunidade.
+					</a>
+				</div>
+				<div class="contNews__container-item">
+					<h1 class="contNews__container-title">Voz das Comunidades</h1>
+					<a class="contNews__container-link" href="http://www.vozdascomunidades.com.br/destaques/vai-na-web-educacao-digital-e-social-democratica/">
+						Vai na Web: Educação digital e social democrática
+					</a>
+				</div>
+			</div>
+		</section>
+		<section id="contact-modal" class="contact-section">
+			<div class="container_images">
+				<img class="contact_logo" src="./Assets/Logo-VnW.svg" alt="Logo-VnW-menu" />
+				<img class="contact_close" src="./Assets/close-white.svg" alt="close" onclick="closeContact()" />
+			</div>
+			<form class="form" id="contatoForm" action="https://formspree.io/ola@vainaweb.com.br" method="POST">
+				<h1 class="form__title">// contato</h1>
+				<label class="form__label" htmlFor="nome">seu nome:</label>
+				<input
+					class="form__input"
+					name="nome"
+					type="text"
+				/>
+				<label class="form__label" htmlFor="email">agora seu email:</label>
+				<input
+					class="form__input"
+					name="email"
+					type="email"
+				/>
+				<label class="form__label" htmlFor="mensagem">por último, sua mensagem:</label>
+				<textarea
+					class="form__input form__input--textarea"
+					name="mensagem"
+				></textarea>
+				<input
+					class="form__button" 
+					type="submit" 
+					value="enviar →"
+				/>
+			</form>
+		</section>
+		<section id="contact-modal" class="contact-section">
+			<div class="container_images">
+				<img class="contact_logo" src="./Assets/Logo-VnW.svg" alt="Logo-VnW-menu" />
+				<img class="contact_close" src="./Assets/close-white.svg" alt="close" onclick="closeContact()" />
+			</div>
+			<form class="form" id="contatoForm" action="https://formspree.io/ola@vainaweb.com.br" method="POST">
+				<h1 class="form__title">// contato</h1>
+				<label class="form__label" htmlFor="nome">seu nome:</label>
+				<input
+					class="form__input"
+					name="nome"
+					type="text"
+				/>
+				<label class="form__label" htmlFor="email">agora seu email:</label>
+				<input
+					class="form__input"
+					name="email"
+					type="email"
+				/>
+				<label class="form__label" htmlFor="mensagem">por último, sua mensagem:</label>
+				<textarea
+					class="form__input form__input--textarea"
+					name="mensagem"
+				></textarea>
+				<input
+					class="form__button" 
+					type="submit" 
+					value="enviar →"
+					target="_blank"
+				/>
+			</form>
+		</section>
+	</main>
+	<footer id="contact" class="rodape">
+		<img src="./Assets/logo_VnW.svg" alt="" class="rodapeImg" />
+		<div class="contRodape__text">
+			<section class="rodape_section rodape_section1">
+				<p class="rodape-text">
+					O Vai na Web é um movimento de alta tecnologia e impacto social que amplia as capacidades humanas e
+					requalifica a força de trabalho para encarar os desafios da Indústria 4.0
+				</p>
+			</section>
+			<section class="rodape_section">
+				<ul class="rodape__Menu">
+					<a class="rodape__Menu-item" href="./index.html">4ª Revolução Industrial</a>
+					<a class="rodape__Menu-item" href="./corporateEdTech.html">Corporate EdTech</a>
+					<a class="rodape__Menu-item" href="#social">Social EdTech</a>
+					<p class="rodape__Menu-item" onclick="openContact()">Contato</p>
+					<a class="rodape__Menu-item" href="./En/socialEdTechEn.html">English</a>
+				</ul>
+				<ul class="rodapeIcon">
+					<a class="ropapeIconLink" href="https://www.facebook.com/vainaweb/" target="_blank">
+						<img src="./Assets/Icone-Facebook.svg" alt="">
+					</a>
+					<a class="ropapeIconLink" href="https://www.instagram.com/vainaweb/" target="_blank">
+						<img src="./Assets/Icone-Instagram.svg" alt="">
+					</a>
+					<!-- <a class="ropapeIconLink" href="#" target="_blank">
+						<img src="./Assets/Icone-Youtube.svg" alt="">
+					</a> -->
+				</ul>
+			</section>
+			<section class="rodape_section section3">
+				<a class="rodape__Menu-item" href="mailto:ola@vainaweb.com.br">
+					ola@vainaweb.com.br
+				</a>
+				<p class="rodape-text contact">
+					+55 21 96850 2828
+				</p>
+			</section>
+		</div>
+	</footer>
+	<script src="./javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./Assets/Logo-VnW.png">
+	<link rel="stylesheet"  href="./corporate.css">
+	<link rel="stylesheet" href="./fonts.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<title>Corporate EdTech</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body id="edtech">
+	<header>
+		<img src="./Assets/Logo-VnW.svg" alt="Logo-VnW-menu" class="header__logoMobile" />
+		<img src="./Assets/menu.svg" class="header__menuMobile" onclick="openMenu()" />
+		<div id="logo" class="containerLogo__edtech" >
+			<h1 class="logoEdtech__title">Corporate EdTech</h1>
+		</div>
+	</header>
+	<section id="menu-mobile" class="menu-mobile">
+		<img class="header__logoMobile" src="./Assets/Logo-VnW.svg" alt="Logo-VnW-menu" />
+		<img src="./Assets/close.svg" class="navBar__MenuMobile-close" onclick="closeMenu()" />
+		<ul class="navBar__MenuMobile">
+			<a class="navBar__MenuMobile-item" href="./index.html" onclick="closeMenu()">4ª Rev. Industrial</a>
+			<a class="navBar__MenuMobile-item" href="#edtech" onclick="closeMenu()">EdTech</a>
+			<a class="navBar__MenuMobile-item" href="./socialEdTech.html" onclick="closeMenu()">SocialTech</a>
+			<p class="navBar__MenuMobile-item" onclick="closeMenuOpenContactMobile()">Contato</p>
+			<a class="navBar__MenuMobile-item" href="./En/corporateEdTechEn.html"  onclick="closeMenu()">English</a>
+		</ul>
+	</section>
+	<nav id="menuHeader" class="navBar__home" display="none">
+		<img src="./Assets/Logo-VnW.svg" alt="Logo-VnW-menu" class="navBar__homeLogo sticky" />
+		<ul class="navBar__Menu">
+			<a class="navBar__Menu-item" href="./index.html">4RI</a>
+			<a class="navBar__Menu-item" href="#edtech">EdTech</a>
+			<a class="navBar__Menu-item" href="./socialEdTech.html">SocialTech</a>
+			<p class="navBar__Menu-item" onclick="openContact()" >Contato</p>
+			<a class="navBar__Menu-item" href="./En/corporateEdTechEn.html">English</a>
+		</ul>
+	</nav>
+	<main>
+		<section class="contCorporate__mudanca">
+			<div class="contCorporate__mudanca-text">
+				<h1 class="contCorporate__mudanca-title">Um farol<br> rumo à mudança</h1>
+				<p class="contCorporate__mudanca-parag">
+					O Vai na Web é um movimento de alta tecnologia e impacto social que amplia as capacidades humanas e requalifica a força de trabalho para enfrentar os desafios da Indústria 4.0.
+				</p>
+			</div>
+			<div class="contCorporate__mudanca-img">
+				<img class="contCorporate__mudanca-photo" src="./Assets/Corporate-Farol.jpg" alt="">
+			</div>
+		</section>
+		<section class="contCorporate__abordagem">
+			<h1 class="contCorporate__abordagem-title">— Nossa abordagem</h1>
+			<div class="ocultar">
+				<div class="ocultar__container">
+					<img class="ocultar-img" src="./Assets/Icone-Abordagem-1.svg" alt="" style="margin:0; height: 100%;">
+				</div>
+				<h1 class="ocultar-title">Alinhado a competências para a era da informação</h1>
+				<div class="wrap">
+					<span class="arrow"><span></span><span></span></span>
+					<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+				</div>
+			</div>
+			<div class="mostrar">
+				<p class="mostrar-parag">— Todo nosso programa é creditado pelo SFIA (Skills framework for information age).<br><br>
+					— Um padrão internacional que abrange todas as habilidades e competências necessárias aos profissionais de tecnologia da informação.
+				</p>
+				<img class="mostrar-img" src="./Assets/Logo-SFIA.png" alt="" style="margin-top:4%;">
+			</div>
+			<div class="ocultar">
+				<div class="ocultar__container">
+					<img class="ocultar-img" src="./Assets/Icone-Abordagem-2.svg" alt="">
+				</div>
+				<h1 class="ocultar-title">Desenvolve liderança e habilidades socioemocionais</h1>
+				<div class="wrap">
+					<span class="arrow"><span></span><span></span></span>
+					<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+				</div>
+			</div>
+			<div class="mostrar">
+				<p class="mostrar-parag">— Tecnologia não se faz só com computadores, mas com competências intangíveis: empatia, resiliência, criatividade, colaboração e comunicação.
+				<br><br>— 25% do programa é direcionado ao desenvolvimento de habilidades socioemocionais
+				</p>
+			</div>
+			<div class="ocultar">
+				<div class="ocultar__container">
+					<img class="ocultar-img" src="./Assets/Icone-Abordagem-3.svg" alt="">
+				</div>
+				<h1 class="ocultar-title">Orientado a desafios reais e temas de inovação</h1>
+				<div class="wrap">
+					<span class="arrow"><span></span><span></span></span>
+					<span class="arrow--l-r right"><span></span><span></span><span></span><span></span><span></span></span>
+				</div>
+			</div>  
+			<div class="mostrar">
+				<p class="mostrar-parag">— Habilitar a força de trabalho para alcançar objetivos estratégicos e  impulsionar novos modelos de negócios</p>
+			</div>
+		</section>
+		<section class="contCorporate__programa">
+			<h1 class="contCorporate__abordagem-title">— O programa</h1>
+			<div class="pipeline">
+				<h1 class="pipeline-title" data-aos="fade" data-aos-easing="linear" data-aos-duration="1500">Talent pipeline</h1>
+				<div class="pipeline-container">
+					<div class="contVision visionEyes">
+						<img class="contVision-img" data-aos="fade" data-aos-easing="linear" data-aos-duration="1500" src="./Assets/Icone-Programa-Olho.svg" alt="">
+						<p class="contVision-parag paragEyes" data-aos="fade" data-aos-easing="linear" data-aos-duration="1500">Tech vision</p>
+					</div>
+					<div class="contSetas" >
+						<img  src="./Assets/Icone-Programa-Seta.svg" alt="" class="setas">
+						<p class="contVision-parag" data-aos="fade" data-aos-easing="linear" data-aos-duration="1500">Tech and social skills</p>
+					</div>
+					<div class="contVision">
+						<img class="contVision-img" data-aos="fade" data-aos-easing="linear" data-aos-duration="1500" src="./Assets/Icone-Programa-Talentos.svg" alt="">
+						<p class="contVision-parag" data-aos="fade" data-aos-easing="linear" data-aos-duration="1500">Qualified workforce</p>
+					</div>
+				</div>
+				<img class="pipeline__mobile" src="./Assets/Grafico-Programa_mobile.svg" />
+			</div>
+		</section>
+		<section class="visionario">
+			<h1 class="contCorporate__abordagem-title">— Seja visionário</h1>
+			<div class="contVisionario" >
+				<p class="pargVisionario">
+					Um portfólio de tecnologias emergentes e consolidadas para potencializar o pensamento digital de times negócios vencedores.
+				</p>
+				<img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" src="./Assets/Colmeias-Desktop_port.svg" alt="" class="visionarioImg">
+				<img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" src="./Assets/Colmeias-Mobile_port.svg" alt="" class="visionarioImg-mobile">
+				<img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" src="./Assets/Icone-Seta.svg" alt="" class="visionarioSeta">
+			</div>
+		</section>
+		<section class="jornada">
+			<div class="jornada__title-mobile">
+				<h1 class="jornada__container-titleMobile">Construa <br> sua Jornada</h1>
+			</div>
+			<div class="jornada__box">
+				<img class="jornada__box-img" src="./Assets/Corporate-Jornada.jpg" />
+				<div class="jornada__container">
+					<h1 class="jornada__container-title">Construa sua Jornada</h1>
+					<p class="jornada__container-parag">
+						Criamos com a sua organização um conjunto exclusivo de competências digitais para habilitar a sua força de trabalho. Fale um pouco sobre seus objetivos, desafios e vamos apresentar um plano personalizado para começarmos.
+					</p>
+					<a class="jornada__container-button" href="mailto:ola@vainaweb.com.br">
+						Fale conosco
+					</a>
+				</div>
+			</div>
+		</section>
+		<section id="contact-modal" class="contact-section">
+			<div class="container_images">
+				<img class="contact_logo" src="./Assets/Logo-VnW.svg" alt="Logo-VnW-menu" />
+				<img class="contact_close" src="./Assets/close-white.svg" alt="close" onclick="closeContact()" />
+			</div>
+			<form class="form" id="contatoForm" action="https://formspree.io/ola@vainaweb.com.br" method="POST">
+				<h1 class="form__title">// contato</h1>
+				<label class="form__label" htmlFor="nome">seu nome:</label>
+				<input
+					class="form__input"
+					name="nome"
+					type="text"
+				/>
+				<label class="form__label" htmlFor="email">agora seu email:</label>
+				<input
+					class="form__input"
+					name="email"
+					type="email"
+				/>
+				<label class="form__label" htmlFor="mensagem">por último, sua mensagem:</label>
+				<textarea
+					class="form__input form__input--textarea"
+					name="mensagem"
+				></textarea>
+				<input
+					class="form__button" 
+					type="submit" 
+					value="enviar →"
+					target="_blank"
+				/>
+			</form>
+		</section>
+	</main>
+	<footer id="contact" class="rodape">
+		<img src="./Assets/logo_VnW.svg" alt="" class="rodapeImg" />
+		<div class="contRodape__text">
+			<section class="rodape_section rodape_section1">
+				<p class="rodape-text">
+					O Vai na Web é um movimento de alta tecnologia e impacto social que amplia as capacidades humanas e requalifica a força de trabalho para encarar os desafios da Indústria 4.0
+				</p>
+			</section>
+			<section class="rodape_section">
+				<ul class="rodape__Menu">
+					<a class="rodape__Menu-item" href="./index.html">4ª Revolução Industrial</a>
+					<a class="rodape__Menu-item" href="#edtech">Corporate EdTech</a>
+					<a class="rodape__Menu-item" href="./socialEdTech.html">Social EdTech</a>
+					<p class="rodape__Menu-item" onclick="openContact()">Contato</p>
+					<a class="rodape__Menu-item" href="./En/corporateEdTechEn.html">English</a>
+				</ul>
+				<ul class="rodapeIcon">
+					<a class="ropapeIconLink" href="https://www.facebook.com/vainaweb/" target="_blank">
+						<img src="./Assets/Icone-Facebook.svg" alt="">
+					</a>
+					<a class="ropapeIconLink" href="https://www.instagram.com/vainaweb/" target="_blank">
+						<img src="./Assets/Icone-Instagram.svg" alt="">
+					</a>
+					<!-- <a class="ropapeIconLink" href="#" target="_blank">
+						<img src="./Assets/Icone-Youtube.svg" alt="">
+					</a> -->
+				</ul>
+			</section>
+			<section class="rodape_section section3">
+				<a class="rodape__Menu-item" href="mailto:ola@vainaweb.com.br">
+					ola@vainaweb.com.br
+				</a>
+				<p class="rodape-text contact">
+					+55 21 96850 2828
+				</p>
+			</section>
+		</div>
+	</footer>
+  <script src="./javascript/script.js"></script>
+</body>
+</html>

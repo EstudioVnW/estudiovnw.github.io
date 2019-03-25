@@ -1,304 +1,238 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="assets/logo_VnW.png">
-	<link rel="stylesheet" type="text/css" href="fonts.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./Assets/Logo-VnW.png">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./fonts.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<title>Vai na Web</title>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
-<body>
-	<header class="header">
-		<a class="header__logo" href="index.html"><img src="assets/logo_VnW.svg" alt="Logo Vai na Web"></a>
-		<button class="header__menu-hamburguer--mobile material-icons">menu</button>
-		<nav class="header__menu">
-			<a class="header__menu-item" href="sobre.html">_Sobre</a>
-			<a class="header__menu-item" href="modulo1.html">_Programa</a>
-			<a class="header__menu-item" href="#projetos">_Projetos</a>
-			<a class="header__menu-item" href="#contato">_Contato</a>
-		</nav>
+
+<body id="4ri">
+	<header>
+		<img class="header__logoMobile" src="./Assets/Logo-VnW.svg" alt="Logo-VnW-menu" />
+		<img src="./Assets/menu.svg" class="header__menuMobile" onclick="openMenu()" />
+		<div id="logo" class="containerLogo__home">
+			<div class="containerLogo__title">
+				<h1 class="logoHome__title">
+					Capacite a força de trabalho e lidere a mudança
+				</h1>
+			</div>
+		</div>
 	</header>
-	<main class="conteudo">
-		<section id="destaque" class="conteudo-destaque">
-			<h1 id="titulo1" class="conteudo-destaque__titulo">Aprenda a programar de verdade!</h1>
-			<h1 id="titulo2" class="conteudo-destaque__titulo">Junte-se ao movimento de democratização do acesso à tecnologia!</h1>
-		</section>
-		<section class="conteudo-programar">
-			<h1 class="conteudo-programar__titulo">Por que aprender a programar?</h1>
-			<div class="conteudo-programar-item conteudo-programar-item--esquerda">
-				<div class="conteudo-programar-itemBox">
-					<h1 class="conteudo-programar-itemBox__titulo">1</h1>
-					<div class="conteudo-programar-itemBox__descricao">
-						<h2 class="conteudo-programar-itemBox__subtitulo">< Acelera o raciocínio ></h2>
-						<p class="conteudo-programar-itemBox__paragrafo">
-							Desenvolver códigos e algoritmos fortalece o pensamento lógico e aumenta a capacidade para resolver problemas simples e complexos.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="conteudo-programar-item conteudo-programar-item--direita">
-				<div class="conteudo-programar-itemBox">
-					<h1 class="conteudo-programar-itemBox__titulo">2</h1>
-					<div class="conteudo-programar-itemBox__descricao">
-						<h2 class="conteudo-programar-itemBox__subtitulo">< Profissão do <span class="conteudo-programar-itemBox__subtitulo--tachado">futuro</span> <span class="conteudo-programar-itemBox__subtitulo--cor">agora</span>! ></h2>
-						<p class="conteudo-programar-itemBox__paragrafo">
-							A área de tecnologia está em plena expansão, é uma das que mais contrata, a que melhor remunera e a que menos sofre com a crise.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="conteudo-programar-item conteudo-programar-item--esquerda">
-				<div class="conteudo-programar-itemBox">
-					<h1 class="conteudo-programar-itemBox__titulo">3</h1>
-					<div class="conteudo-programar-itemBox__descricao">
-						<h2 class="conteudo-programar-itemBox__subtitulo">< Trabalhe de qualquer lugar ></h2>
-						<p class="conteudo-programar-itemBox__paragrafo">
-							Cada vez mais as empresas estão adotando o modelo Home Office, você só precisa ter internet, um bom laptop e disciplina para trabalhar de onde você estiver.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="conteudo-programar-item conteudo-programar-item--direita">
-				<div class="conteudo-programar-itemBox">
-					<h1 class="conteudo-programar-itemBox__titulo">4</h1>
-					<div class="conteudo-programar-itemBox__descricao">
-						<h2 class="conteudo-programar-itemBox__subtitulo">< Agente de mudança ></h2>
-						<p class="conteudo-programar-itemBox__paragrafo">
-							A tecnologia é um grande instrumento de transformação positiva, solucione problemas da sua própria comunidade, fortaleça seus amigos e crie oportunidades reais de trabalho.
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="conteudo-inscricoes">
-			<div class="conteudo-inscricoes__box">
-				<h1 class="conteudo-inscricoes-box__titulo">Próximas turmas!</h1>
-				<button class="conteudo-inscricoes-box__botao">Inscreva-se</button>
-			</div>
-			<img class="conteudo-inscricoes__imagem" src="assets/inscricao.png" alt="Aluno do Vai na Web">
-		</section>
-		<section class="conteudo-incentivo">
-			<div class="conteudo-incentivo__box">
-				<h1 class="conteudo-incentivo-box__titulo">Incentivadores</h1>
-			</div>
-			<div class="conteudo-incentivo-caixa">
-				<div class="conteudo-incentivo-caixa__item">
-					<img class="conteudo-incentivo-caixa__item-imagem" src="assets/5.png" alt="Foto de Cláudia Akel">
-					<h1 class="conteudo-incentivo-caixa__item-titulo">Cláudia Akel</h1>
-					<h2 class="conteudo-incentivo-caixa__item-subtitulo">Dir. Global de TI / Vale</h2>
-				</div>
-				<div class="conteudo-incentivo-caixa__item conteudo-incentivo-caixa__item--texto">
-					<p class="conteudo-incentivo-caixa__item-paragrafo">
-						A tecnologia é um grande instrumento de transformação positiva, solucione problemas da sua própria comunidade, fortaleça seus amigos e crie oportunidades reais de trabalho. A tecnologia é um grande instrumento de transformação positiva, solucione problemas da sua própria comunidade, fortaleça seus amigos e crie oportunidades reais de trabalho. A tecnologia é um grande instrumento de transformação positiva, solucione problemas da sua própria comunidade.
+	<section id="menu-mobile" class="menu-mobile">
+		<img class="header__logoMobile" src="./Assets/Logo-VnW.svg" alt="Logo-VnW-menu" />
+		<img src="./Assets/close.svg" class="navBar__MenuMobile-close" onclick="closeMenu()" />
+		<ul class="navBar__MenuMobile">
+			<a class="navBar__MenuMobile-item" href="#4ri" onclick="closeMenu()">4ª Rev. Industrial</a>
+			<a class="navBar__MenuMobile-item" href="./corporateEdTech.html" onclick="closeMenu()">EdTech</a>
+			<a class="navBar__MenuMobile-item" href="./socialEdTech.html" onclick="closeMenu()">SocialTech</a>
+			<p class="navBar__MenuMobile-item" onclick="closeMenuOpenContactMobile()">Contato</p>
+			<a class="navBar__MenuMobile-item" href="./En/indexEn.html"  onclick="closeMenu()">English</a>
+		</ul>
+	</section>
+	<nav id="menuHeader" class="navBar__home" display="none">
+		<img src="./Assets/Logo-VnW.svg" alt="Logo-VnW-menu" class="navBar__homeLogo sticky" />
+		<ul class="navBar__Menu">
+			<a class="navBar__Menu-item" href="#4ri">4RI</a>
+			<a class="navBar__Menu-item" href="./corporateEdTech.html">EdTech</a>
+			<a class="navBar__Menu-item" href="./socialEdTech.html">SocialTech</a>
+			<p class="navBar__Menu-item" onclick="openContact()" >Contato</p>
+			<a class="navBar__Menu-item" href="./En/indexEn.html">English</a>
+		</ul>
+	</nav>
+	<main>
+		<section class="conteudosPrincipais__primario">
+			<div class="contPrimeiro__novoJogo">
+				<h1 class="novoJogo__title">
+					Um novo jogo
+				</h1>
+				<div class="contNovoJogo__parag">
+					<p class="novoJogo__parag">
+						A quarta revolução industrial, potencializada pela inteligência artificial, big data, impressão 3D e
+						internet das coisas (IoT), citando algumas, traz desafios fascinantes e muda fundamentalmente a forma como
+						vivemos, trabalhos e interagimos. Conforme industrias inteiras se ajustam, a maioria das ocupações passa por
+						grandes transformações.
 					</p>
-					<button class="conteudo-caixa__item-botao conteudo-caixa__item-botao--incentivo material-icons">arrow_forward</button>
 				</div>
 			</div>
-		</section>
-		<section class="conteudo-modulos">
-			<div class="conteudo-modulos-sobre">
-				<h1 class="conteudo-modulos-sobre__titulo">Módulos</h1>
-				<p class="conteudo-modulos-sobre__paragrafo">
-					Com metodologia própria, inovadora e open source o Vai na Web forma jovens profissionais qualificados e apaixonados pelo universo da programação e da tecnologia.
+			<div class="contPrimeiro__profissionais">
+				<div class="profissionais_cont">
+					<p class="profissionais__text" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
+						Os profissionais da nova indústria <br> não estão prontos <span class="profissionais__alter">(ainda)</span>
+					</p>
+					<p class="contProfissionais__text" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
+						Desenhamos e conduzimos jornadas de qualificação digital avançada, inclusiva, confiável e sustentável.
+						<br><br>
+						<span class="text_alter" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
+							As empresas devem liderar o desenvolvimento de uma nova força de trabalho na qual pessoas e máquinas
+							inteligentes trabalhem juntos para ampliar a produtividade, a inovação e o uso eficiente de recursos.
+						</span>
+					</p>
+				</div>
+			</div>
+			<img src="./Assets/Home-Anna.jpg" alt="" class="profissionaisImg__mobile" />
+			<div class="profissionais_cont_mobile">
+				<p class="profissionais__text_mobile">
+					Os profissionais da nova indústria não estão prontos <span class="profissionais__alter_mobile">(ainda)</span>
+				</p>
+				<p class="contProfissionais__text_mobile">
+					Desenhamos e conduzimos jornadas de qualificação digital avançada, inclusiva, confiável e sustentável.
+					<br><br>
+					As empresas devem liderar o desenvolvimento de uma nova força de trabalho na qual pessoas e máquinas inteligentes trabalhem juntos para ampliar a produtividade, a inovação e o uso eficiente de recursos.
 				</p>
 			</div>
-			<a class="conteudo-modulos-modulo" href="modulo1.html">
-				<div class="conteudo-modulos-modulo__item">
-					<h1 class="conteudo-modulos-modulo__titulo">1</h1>
-					<h2 class="conteudo-modulos-modulo__subtitulo">Construção de páginas web</h2>
-					<p class="conteudo-modulos-modulo__paragrafo">HTML5, CSS3 e design responsivo</p>
-					<p class="conteudo-modulos-modulo__paragrafo">120h</p>
-				</div>
-				<img class="conteudo-modulos-modulo__icone conteudo-modulos-modulo__icone--1" src="assets/modulo1.png" alt="Imagem de computador">
-			</a>
-			<a class="conteudo-modulos-modulo conteudo-modulos-modulo--meio" href="modulo2.html">
-				<div class="conteudo-modulos-modulo__item">
-					<h1 class="conteudo-modulos-modulo__titulo">2</h1>
-					<h2 class="conteudo-modulos-modulo__subtitulo">Construção de aplicações mobile</h2>
-					<p class="conteudo-modulos-modulo__paragrafo">Javascript e Vue.js</p>
-					<p class="conteudo-modulos-modulo__paragrafo">120h</p>
-				</div>
-				<img class="conteudo-modulos-modulo__icone conteudo-modulos-modulo__icone--2" src="assets/modulo2.png" alt="Imagem de engrenagem">
-			</a>
-			<a class="conteudo-modulos-modulo" href="modulo3.html">
-				<div class="conteudo-modulos-modulo__item">
-					<h1 class="conteudo-modulos-modulo__titulo">3</h1>
-					<h2 class="conteudo-modulos-modulo__subtitulo">Serviços digitais</h2>
-					<p class="conteudo-modulos-modulo__paragrafo">Python</p>
-					<p class="conteudo-modulos-modulo__paragrafo">120h</p>
-				</div>
-				<img class="conteudo-modulos-modulo__icone conteudo-modulos-modulo__icone--3" src="assets/modulo3.png">
-			</a>
-			<a class="conteudo-modulos-modulo--mobile" href="modulo1.html">
-				<div class="conteudo-modulos-modulo__item--mobile">
-					<h1 class="conteudo-modulos-modulo__titulo--mobile">1</h1>
-					<div class="conteudo-modulos-modulo-item__caixa--mobile">
-						<h2 class="conteudo-modulos-modulo__subtitulo--mobile">Construção de páginas web</h2>
-						<div class="conteudo-modulos-modulo-item__caixa-box--mobile">
-							<p class="conteudo-modulos-modulo__paragrafo--mobile">HTML5, CSS3 e design responsivo</p>
-							<p class="conteudo-modulos-modulo__paragrafo--mobile">120h</p>
-						</div>
-						<img class="conteudo-modulos-modulo__icone--mobile" src="assets/modulo1.png" alt="Imagem de computador">
-					</div>
-				</div>
-			</a>
-			<a class="conteudo-modulos-modulo--mobile conteudo-modulos-modulo--mobile2" href="modulo2.html">
-				<div class="conteudo-modulos-modulo__item--mobile">
-					<h1 class="conteudo-modulos-modulo__titulo--mobile">2</h1>
-					<div class="conteudo-modulos-modulo-item__caixa--mobile">
-						<h2 class="conteudo-modulos-modulo__subtitulo--mobile">Construção de aplicações mobile</h2>
-						<div class="conteudo-modulos-modulo-item__caixa-box--mobile">
-							<p class="conteudo-modulos-modulo__paragrafo--mobile">Javascript e Vue.js</p>
-							<p class="conteudo-modulos-modulo__paragrafo--mobile">120h</p>
-						</div>
-						<img class="conteudo-modulos-modulo__icone--mobile" src="assets/modulo2.png" alt="Imagem de engrenagem">
-					</div>
-				</div>
-			</a>
-			<a class="conteudo-modulos-modulo--mobile" href="modulo3.html">
-				<div class="conteudo-modulos-modulo__item--mobile">
-					<h1 class="conteudo-modulos-modulo__titulo--mobile">3</h1>
-					<div class="conteudo-modulos-modulo-item__caixa--mobile">
-						<h2 class="conteudo-modulos-modulo__subtitulo--mobile">Serviços digitais</h2>
-						<div class="conteudo-modulos-modulo-item__caixa-box--mobile">
-							<p class="conteudo-modulos-modulo__paragrafo--mobile">Python</p>
-							<p class="conteudo-modulos-modulo__paragrafo--mobile">120h</p>
-						</div>
-						<img class="conteudo-modulos-modulo__icone--mobile" src="assets/modulo3.png">
-					</div>
-				</div>
-			</a>
 		</section>
-		<section id="projetos" class="conteudo-projetos">
-			<h1 class="conteudo-projetos__titulo">Projetos</h1>
-			<div class="conteudo-projetos-caixa">
-				<img class="conteudo-projetos-caixa__imagem" src="assets/telaWeb.svg">
-				<div class="conteudo-projetos-caixa__item">
-					<div class="conteudo-projetos-caixa__item-box">
-						<div class="conteudo-projetos-caixa-box__caixa">
-							<button class="conteudo-caixa__item-botao material-icons">arrow_back</button>
-							<h1 class="conteudo-projetos-caixa__item-titulo">Através da Música</h1>
-							<button class="conteudo-caixa__item-botao material-icons">arrow_forward</button>
-						</div>
-						<h2 class="conteudo-projetos-caixa__item-subtitulo">Website</h2>
-						<p class="conteudo-projetos-caixa__item-paragrafo">
-							Texto falando um pouco mais sobre o projeto e quais tecnologias foram utilizadas na programação.
-						</p>
-					</div>
-					<a class="conteudo-projetos-caixa__item-link" href="http://www.precisaser.com.br/" target="_blank">Visite</a>
+		<section class="conteudosPrincipais__trabalho">
+			<h1 class="diversiade__title">
+				— Força de trabalho inclusiva e qualificada <br> traz oportunidades e abundância
+			</h1>
+			<div class="contForca__trabalho">
+				<div class="contTrabalho__text">
+					<img src="./Assets//Icone-Diversidade.svg" alt="" class="diversidade__img" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" />
+					<h1 class="trbabalhoPorcento" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000">
+						33%
+					</h1>
+					<p class="trabalhoprag" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000">
+						Equipes executivas têm 33% mais chances de crescer a rentabilidade investindo em <span
+							class="trabalhoPrag__font">diversidade cultural e étnica.</span>
+					</p>
+					<p class="trabalhoprag__edit">McKinsey & Co.</p>
+					<h1 class="trbabalhoPorcento" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000">69%</h1>
+					<p class="trabalhoprag" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000">
+						69% acreditam que o planejamento deuma nova força de trabalho deve ser prioridade da liderança.
+					</p>
+					<p class="trabalhoprag__edit">World Economic Forum</p>
+				</div>
+				<h1 class="diversiade__title-mobile" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+					Força de trabalho inclusiva e qualificada <br> traz oportunidades e abundância
+				</h1>
+				<div class="contTrabalho__inclusivo">
+					<img src="./Assets/Home-Trabalho_inclusivo.jpg" alt="" class="trabalhoInclusivo__img">
 				</div>
 			</div>
-			<div class="conteudo-projetos-caixa--mobile">
-				<button class="conteudo-projetos-caixa__botao--mobile material-icons">arrow_back</button>
-				<h1 class="conteudo-projetos-caixa__titulo--mobile">Através da Música</h1>
-				<button class="conteudo-projetos-caixa__botao--mobile material-icons">arrow_forward</button>
-				<img class="conteudo-projetos-caixa__imagem--mobile" src="assets/telaWeb.svg">
-				<h2 class="conteudo-projetos-caixa__subtitulo--mobile">Website</h2>
-				<p class="conteudo-projetos-caixa__paragrafo--mobile">
-					Texto falando um pouco mais sobre o projeto e quais tecnologias foram utilizadas na programação.
+		</section>
+		<section class="contGlobal__goals">
+			<div class="contglobalgoals__text">
+				<h1 class="globalGoals__title">Global Goals</h1>
+				<hr>
+				<p class="globalGoals__parag">
+					O Vai na Web contribui diretamentamente com 12 dos 17 Objetivos do Desenvolvimento Sustentável.
+					Invista em um programa de treinamento que esteja alinhado com suas metas de responsabilidade social e cultura
+					corporativa.
 				</p>
-				<a class="conteudo-projetos-caixa__link--mobile" href="http://www.precisaser.com.br/" target="_blank">Visite</a>
+				<p class="globalGoals__parag color">Agenda 2030 — ONU Brasil</p>
+			</div>
+			<div class="globalCont_goalsImg">
+				<img src="./Assets/Icones-Global_goals.svg" alt="" class="goalsImg" data-aos="fade" data-aos-easing="linear"
+					data-aos-duration="1000" />
+				<img src="./Assets/Icones-Global_goals-Mobile.svg" alt="" class="mobile">
 			</div>
 		</section>
-		<section class="conteudo-estudio">
-			<div class="maskara">
-				<div class="conteudo-estudio-caixa">
-					<img class="conteudo-estudio-caixa__logo" src="assets/estudio.png" alt="Logo do Estúdio Vai na Web">
-					<p class="conteudo-estudio-caixa__paragrafo">
-						Uma oportunidade para os estudantes do Vai na Web desenvolverem autoconfiança, habilidades empreendedoras e experiência prática em um estágio inicial de suas carreiras.
-					</p>
-					<p class="conteudo-estudio-caixa__paragrafo">
-						Além de oferecer serviços de qualidade e alto nível tecnológico para indivíduos, empresas e organizações sociais.
-					</p>
-					<a class="conteudo-estudio-caixa__link" href="" target="_blank">Saiba mais</a>
-				</div>
-				<div class="conteudo-estudio-caixa--fundo"></div>
+		<section class="contOrganization">
+			<div class="contOrganization__corporate">
+				<h1 class="contOrganization__title">Corporate EdTech</h1>
+				<img src="./Assets/Home-Coporate_edtech.jpg" alt="" class="organizationCorporate__img">
+				<p class="organizationCorporate__parag">
+					Com foco na tecnologia, diversidade e na adaptação do mercado para nova Indústria, desenvolvemos o Corporate
+					EdTech.
+					O nosso programa promove o pensamento digital, permitindo que os profissionais estejam preparados para as
+					rápidas mudanças do mercado e sejam capazes de liderarem ações em novos cenários.
+				</p>
+				<a class="button" href="./corporateEdTech.html">
+					Desenvolva na sua organização
+				</a>
 			</div>
+			<div class="contOrganization__social">
+				<h1 class="contOrganization__title">Social EdTech</h1>
+				<img src="./Assets/Home-Social_edtech.jpg" alt="" class="organizationCorporate__img" />
+				<p class="organizationSocial__parag">
+					Ao aderir a um de nossos programas, a sua empresa irá fornecer oportunidade para jovens, moradores de em zona
+					de conflito no Rio de Janeiro, prosperarem. Centenas de vidas e carreiras já foram potencializadas com o Vai
+					na Web Social Tech, que tem como propósito tornar a tecnologia acessível e inclusiva.
+				</p>
+				<a class="button button-social" href="./socialEdTech.html">
+					Conheça a nossa história
+				</a>
+			</div>
+		</section>
+		<section id="contact-modal" class="contact-section">
+			<div class="container_images">
+				<img class="contact_logo" src="./Assets/Logo-VnW.svg" alt="Logo-VnW-menu" />
+				<img class="contact_close" src="./Assets/close-white.svg" alt="close" onclick="closeContact()" />
+			</div>
+			<form class="form" id="contatoForm" action="https://formspree.io/ola@vainaweb.com.br" method="POST">
+				<h1 class="form__title">// contato</h1>
+				<label class="form__label" htmlFor="nome">seu nome:</label>
+				<input
+					class="form__input"
+					name="nome"
+					type="text"
+				/>
+				<label class="form__label" htmlFor="email">agora seu email:</label>
+				<input
+					class="form__input"
+					name="email"
+					type="email"
+				/>
+				<label class="form__label" htmlFor="mensagem">por último, sua mensagem:</label>
+				<textarea
+					class="form__input form__input--textarea"
+					name="mensagem"
+				></textarea>
+				<input
+					class="form__button" 
+					type="submit" 
+					value="enviar →"
+					target="_blank"
+				/>
+			</form>
 		</section>
 	</main>
-	<footer class="rodape">
-		<section class="rodape-fundo"></section>
-		<section id="contato" class="rodape-informacoes">
-			<div class="rodape-informacoes-redes">
-				<p class="rodape-informacoes-redes__paragrafo">
-					Esta é uma iniciativa desenvolvida pelo Instituto Precisa Ser em parceria com a 1STi.
+	<footer id="contact" class="rodape">
+		<img src="./Assets/logo_VnW.svg" alt="" class="rodapeImg" />
+		<div class="contRodape__text">
+			<section class="rodape_section rodape_section1">
+				<p class="rodape-text">
+					O Vai na Web é um movimento de alta tecnologia e impacto social que amplia as capacidades humanas e
+					requalifica a força de trabalho para encarar os desafios da Indústria 4.0
 				</p>
-				<div class="rodape-informacoes-redes__icones">
-					<a href="https://www.facebook.com/vainaweb/" target="_blank"><img class="rodape-informacoes-redes__icones-item" src="assets/facebook.svg" alt="Facebook Vai na Web"></a>
-					<a href=""><img class="rodape-informacoes-redes__icones-item" src="assets/instagram.svg" alt="Ícone do Instagram"></a>
-					<a href=""><img class="rodape-informacoes-redes__icones-item" src="assets/email.svg" alt="Ícone de email"></a>
-				</div>
-			</div>
-			<div class="rodape-paginas">
-				<a class="rodape-paginas__link" href="index.html">Home</a>
-				<a class="rodape-paginas__link" href="sobre.html">Sobre</a>
-				<a class="rodape-paginas__link" href="modulo1.html">Programa</a>
-				<a class="rodape-paginas__link" href="#projetos">Projetos</a>
-			</div>
-			<div class="rodape-parceiros">
-				<div class="rodape-parceiros-realizacao">
-					<h1 class="rodape-parceiros-realizacao__titulo">Realização</h1>
-					<a href="http://www.precisaser.com.br/" target="_blank"><img class="rodape-parceiros-realizacao__logo" src="assets/PS-Logotipo.svg" alt="Site Instituto Precisa Ser"></a>
-				</div>
-				<div class="rodape-parceiros-apoio">
-					<h1 class="rodape-parceiros-apoio__titulo">Apoio</h1>
-					<div class="rodape-parceiros-apoio__logos">
-						<a class="rodape-parceiros-apoio__logos-link" href="http://www.1sti.com.br/" target="_blank"><img class="rodape-parceiros-apoio__logos-logo" src="assets/1sti_logo.svg" alt="Site 1sti"></a>
-						<a class="rodape-parceiros-apoio__logos-link" href="https://www.facebook.com/GrupoProa/" target="_blank"><img class="rodape-parceiros-apoio__logos-logo" src="assets/PROA_logo.svg" alt="Facebook PROA"></a>
-						<a class="rodape-parceiros-apoio__logos-link" href="https://www.facebook.com/educap.org/" target="_blank"><img class="rodape-parceiros-apoio__logos-logo" src="assets/educap_logo.svg" alt="Facebook EDUCAP"></a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="rodape-creditos">
-			<p class="rodape-creditos__paragrafo">2018 Desenvolvido por</p>
-			<img class="rodape-creditos__logo" src="assets/estudio.png" alt="Logo do Estúdio Vai na Web">
-		</section>
+			</section>
+			<section class="rodape_section">
+				<ul class="rodape__Menu">
+					<a class="rodape__Menu-item" href="#4ri">4ª Revolução Industrial</a>
+					<a class="rodape__Menu-item" href="./corporateEdTech.html">Corporate EdTech</a>
+					<a class="rodape__Menu-item" href="./socialEdTech.html">Social EdTech</a>
+					<p class="rodape__Menu-item" onclick="openContact()">Contato</p>
+					<a class="rodape__Menu-item" href="./En/indexEn.html">English</a>
+				</ul>
+				<ul class="rodapeIcon">
+					<a class="ropapeIconLink" href="https://www.facebook.com/vainaweb/" target="_blank">
+						<img src="./Assets/Icone-Facebook.svg" alt="">
+					</a>
+					<a class="ropapeIconLink" href="https://www.instagram.com/vainaweb/" target="_blank">
+						<img src="./Assets/Icone-Instagram.svg" alt="">
+					</a>
+					<!-- <a class="ropapeIconLink" href="#" target="_blank">
+						<img src="./Assets/Icone-Youtube.svg" alt="">
+					</a> -->
+				</ul>
+			</section>
+			<section class="rodape_section section3">
+				<a class="rodape__Menu-item" href="mailto:ola@vainaweb.com.br">
+					ola@vainaweb.com.br
+				</a>
+				<p class="rodape-text contact">
+					+55 21 96850 2828
+				</p>
+			</section>
+		</div>
 	</footer>
-	<script type="text/javascript" src="main.js"></script>
-	<script type="text/javascript">
-		var imageCount = 0;
-		var currentImage = 0;
-		var images = new Array();
-		 
-		images[0] = 'assets/homeFundo';
-		images[1] = 'assets/homeFundo2.png';
-		 
-		var preLoadImages = new Array();
-		for (var i = 0; i < images.length; i++)
-		{
-		   if (images[i] == "")
-		      break;
-		 
-		   preLoadImages[i] = new Image();
-		   preLoadImages[i].src = images[i];
-		   imageCount++;
-		}
-		 
-		function startSlideShow()
-		{
-		   if (document.getElementById('destaque') && imageCount > 0)
-		   {
-		      document.getElementById('destaque').style.backgroundImage = "url("+images[currentImage]+")";
-		      document.getElementById('destaque').style.justifyContent = "flex-end";
-		      document.getElementById('titulo1').style.display = "block";
-		      document.getElementById('titulo2').style.display = "none";
-		 
-		      currentImage = currentImage + 1;
-		      if (currentImage > (imageCount-1))
-		      { 
-		         currentImage = 0;
-		         document.getElementById('destaque').style.justifyContent = "flex-start";
-		         document.getElementById('titulo1').style.display = "none";
-		         document.getElementById('titulo2').style.display = "block";
-		      }
-		      setTimeout('startSlideShow()', 5000);
-		   }
-		}
-		startSlideShow();
-	</script>
+	<script src="./javascript/script.js"></script>
 </body>
+
 </html>

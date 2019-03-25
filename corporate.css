@@ -1,0 +1,812 @@
+::-webkit-scrollbar {
+	width: 15px;
+	height: 20px;
+	-webkit-border-radius: 16px;
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #F7F7F7;
+	-webkit-border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	height: 5px;
+	background-color: #0F2B92;
+	-webkit-border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	width: 5px;
+	background-color: #0F2B92;
+	-webkit-border-radius: 3px;
+}
+
+*,
+*:after,
+*:before{
+	margin: 0; 
+	padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #F7F7F7;
+}
+html{
+  scroll-behavior: smooth;
+}
+/*>>>>>>>>>>>>>>>>>>> Home  EdTech >>>>>>>>>>>>>>>>>>>*/
+.containerLogo__edtech{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background: url("./Assets/Corporate-Capa.jpg") no-repeat center fixed ;
+	background-size: cover;
+	height: 90vh;
+}
+.header__logoMobile{
+	position: absolute;
+	display: none;
+	top: 1rem;
+	left: 1rem;
+	z-index: 3;
+}
+.header__menuMobile{
+	position: absolute;
+	display: none;
+	top: 2rem;
+	right: 2rem;
+	width: 13%;
+	z-index: 3;
+}
+.logoEdtech__title{
+	margin-bottom: 3rem;
+	font-size: 6.5rem;
+	font-family: "usualBold",sans-serif;
+	color: #fff;
+	text-align: center;
+}
+@media(max-width: 768px){
+	.containerLogo__edtech{
+		background: url("./Assets/Corporate-Capa_mobile.jpg") no-repeat center;
+		background-size: 100%;
+	}
+	.header__logoMobile{
+		display: block;
+	}
+	.header__menuMobile{
+		display: block;
+	}
+	.logoEdtech__title{
+		padding: 0 10%;
+		text-align: left;
+		font-size: 52px;
+	}
+}
+/*>>>>>>>>>>>>>>>>>>> Menu > Home Edtech  >>>>>>>>>>>>>>>>>>>*/
+.navBar__home{
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #F7F7F7;
+	width: 100%;
+	height: 11vh;
+	padding: 0 5rem;
+	z-index: 9;
+}
+.navBar__Menu{
+	display: flex;
+	align-items: center;
+}
+.navBar__Menu-item{
+	font-family:"sourceRegular", sans-serif;
+	text-decoration: none;
+	color: #000000;
+	margin: 20px;
+}
+.navBar__Menu-item:hover{
+	font-family:"sourceBold", sans-serif;
+	border-bottom:  solid #FF611E 2px;
+}
+.navBar__Menu-text{
+	font-family:"sourceRegular", sans-serif;
+	color: #000000;
+	margin: 20px;
+}
+.navBar__Menu-text:hover{
+	font-family:"sourceBold", sans-serif;
+	border-bottom:  solid #FF611E 2px;
+}
+.menu-mobile{
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background: #E8E8E8;
+	z-index: 5;
+}
+.navBar__MenuMobile-close{
+	position: absolute;
+	top: 1.5rem;
+	right: 1.5rem;
+	width: 10%;
+}
+.navBar__MenuMobile{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding: 1.5rem;
+}
+.navBar__MenuMobile-item{
+	margin: .75rem 0;
+	font-size: 25px;
+	font-family:"sourceBold", sans-serif;
+	color: #00145D;
+	text-decoration: none;
+	text-align: center;
+}
+.navBar__MenuMobile-text{
+	margin-top: 3rem;
+	font-size: 25px;
+	font-family:"sourceRegular", sans-serif;
+	color: #00145D;
+}
+@media(max-width: 768px){
+	.navBar__home{
+		display: none;
+	}
+}
+
+/*>>>>>>>>>>>>>>>>>>> Main > Conteudo  EdTech Mudança >>>>>>>>>>>>>>>>>>>*/
+.contCorporate__mudanca{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1240px;
+	margin: 10% auto;
+}
+.contCorporate__mudanca-text{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-direction: column;
+	width: 60%;
+}
+.contCorporate__mudanca-title{
+	width: 90%;
+	color: #0F2B92;
+	font-size: 4rem;
+	font-family: "usualBold",sans-serif;
+}
+.contCorporate__mudanca-parag{
+	width: 90%;
+	margin-top: 5rem;
+	padding: 5rem;
+	background: #fff;
+	font-size: 1.25rem;
+	font-family: "usualRegular", sans-serif;
+	border-left: solid #0F2B92 10px;
+	line-height: 2;
+	z-index: 1;
+}
+.contCorporate__mudanca-img{
+	display: flex;
+	align-items: center;
+	width: 40%;
+	margin-left: -2rem;
+}
+.contCorporate__mudanca-photo{
+	width: 100%;
+}
+@media(max-width: 768px){
+	.contCorporate__mudanca-text{
+		align-items: center;
+		width: 100%;
+	}
+	.contCorporate__mudanca-title{
+		width: 80%;
+		margin-bottom: 18rem;
+		font-size: 2.05rem;
+	}
+	.contCorporate__mudanca-parag{
+		width: 80%;
+		padding: 2rem;
+		font-size: 1rem;
+	}
+	.contCorporate__mudanca-img{
+		position: absolute;
+		top: 8rem;
+		right: 5%;
+		width: 55%;
+	}
+}
+@media(max-width: 450px){
+	.contCorporate__mudanca-title{
+		margin-bottom: 8rem;
+	}
+	.contCorporate__mudanca-parag{
+		width: 80%;
+	}
+	.contCorporate__mudanca-img{
+		position: absolute;
+		top: 8rem;
+		right: 5%;
+		width: 55%;
+	}
+}
+/*>>>>>>>>>>>>>>>>>>> Main > Conteudo  EdTech  Abordagem >>>>>>>>>>>>>>>>>>>*/
+.contCorporate__abordagem{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.contCorporate__abordagem-title{
+	width: 60%;
+	margin: 4rem 0;
+	font-size: 2.5rem;
+	font-family: "usualBold",sans-serif;
+}
+.ocultar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	background: #FFAC2D;
+	width: 60%; 
+	height: 20vh;
+	padding: 2%;
+	margin: 1%;
+}
+.ocultar__container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 15%;
+	height: 100%;
+}
+.ocultar-img{
+  width: 100%;
+}
+.ocultar-title{
+	width: 70%;
+	font-size: 1.15rem;
+	font-family: "usualMedium",sans-serif;
+	color: #000; 
+}
+.mostrar {
+	background: #f9d0bf ;
+	padding: 4% 10% 4%;
+	width: 60%;
+	margin-top: -1%;
+	line-height: 1.5;
+}
+.mostrar-parag{
+	font-size: 1.05rem;
+	font-family: "usualRegular",sans-serif;
+	color: #000; 
+}
+.arrow {
+	width: 1.25rem;
+	height: 1.25rem;
+	display: inline-block;
+	position: relative;
+	margin: 0 1rem;
+}
+.arrow span {
+	top: 0.5rem;
+	position: absolute;
+	width: 0.75rem;
+	height: 0.1rem;
+	background-color: #000;
+	display: inline-block;
+}
+.arrow span:first-of-type {
+	left: 0;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.arrow span:last-of-type {
+	right: 0;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.arrow.active span:first-of-type {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.arrow.active span:last-of-type {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+@media(max-width: 768px){
+	.contCorporate__abordagem-title{
+		width: 80%;
+		font-size: 30px;
+	}
+	.ocultar {
+		width: 80%;
+	}
+	.mostrar {
+		width: 80%;
+	}
+}
+@media(max-width: 450px){
+	.contCorporate__abordagem-title{
+		width: 80%;
+		font-size: 30px;
+	}
+	.ocultar-title{
+		width: 60%;
+		font-size: 14px;
+	}
+	.mostrar-parag{
+		font-size: 14px;
+	}
+}
+ /*>>>>>>>>>>>>>>>>>>> Main > Conteudo  EdTech  o Programa >>>>>>>>>>>>>>>>>>>
+*/ 
+
+.contCorporate__programa{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 6rem;
+	margin-bottom: 12rem;
+}
+.pipeline{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	max-width: 1240px;
+	padding: 0 3rem;
+	height: 55vh;
+	background: #f7efe1;
+}
+.pipeline-title{
+	width: 100%;
+	margin-bottom: 1.25rem;
+	font-family: "usualBold",sans-serif;
+	font-size: 1.5rem;
+	color: #0F2B92;
+	text-align: center;
+}
+.pipeline-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.contVision{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.visionEyes{
+	margin: 0 1rem;
+}
+.contVision-parag{
+	margin-top: 1.25rem;
+	color: #0F2B92;
+	font-family: "usualMedium",sans-serif;
+	font-style: normal;
+}
+.paragEyes{
+	margin-top: .5rem;
+}
+.contSetas{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.setas{
+	width: 100%;
+}
+.pipeline__mobile{
+	display: none;
+	width: 100%;
+}
+
+@media(max-width: 768px){
+	.pipeline{
+		height: auto;
+		padding: 3rem;
+	}
+	.pipeline-title{
+		display: none;
+	}
+	.pipeline-container{
+		display: none;
+	}
+	.pipeline__mobile{
+		display: block;
+	}
+}
+/*>>>>>>>>>>>>>>>>>>> Main > Conteudo  EdTech  Visionário >>>>>>>>>>>>>>>>>>>
+*/
+.visionario{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.pargVisionario{
+	position: relative;
+	top: 100px;
+	left: 20%;
+	line-height: 1.7;
+	width: 18%;
+	font-size: 1.2em;
+	font-family: "usualMedium",sans-serif;
+	font-style: normal;
+	color: #fff;
+}
+.contVisionario{
+	position: relative;
+	width: 100%;
+	background: #00145D;
+}
+.visionarioImg{
+	position: relative;
+	top: -260px;
+	left: 20%;
+	width: 80%;
+}
+.visionarioImg-mobile{
+	display: none;
+	width: 100%;
+	margin-bottom: -2rem;
+}
+.visionarioSeta{
+	position: relative;
+	right: 38%;
+	top: 40px;
+	z-index: 2;
+}
+@media(max-width: 768px){
+	.pargVisionario{
+		position: static;
+		width: 60%;
+		margin-left: 10%;
+		margin-top: 3rem;
+		font-size: 1rem;
+	}
+	.visionarioImg{
+		display: none;
+	}
+	.visionarioImg-mobile{
+		display: block;
+	}
+	.visionarioSeta{
+		display: none;
+	}
+}
+@media(max-width: 450px){
+	.pargVisionario{
+		font-size: 1rem;
+	}
+}
+/*>>>>>>>>>>>>>>>>>>> Main > Conteudo  EdTech  Jornada >>>>>>>>>>>>>>>>>>>*/
+.jornada{
+	height: 90vh;
+}
+.jornada__box{
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+.jornada__box-img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+.jornada__title-mobile{
+	display: none;
+	width: 100%;
+	padding: 0 10%;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+}
+.jornada__container-titleMobile{
+	font-size: 2.5rem;
+	font-family: "usualBold",sans-serif;
+}
+.jornada__container{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+	width: 40%;
+	height: 80%;
+	z-index: 1;
+}
+.jornada__container-title{
+	width: 85%;
+	color: #fff;
+	font-size: 2.5rem;
+	font-family: "usualBold",sans-serif;
+}
+.jornada__container-parag{
+	width: 85%;
+	margin: 2rem 0;
+	padding: 2rem;  
+	background: #ffff;
+	line-height: 1.7;
+	font-size: 1rem;
+	font-family: "usualRegular",sans-serif;
+}
+.jornada__container-button{
+	background: #00145D;
+	border: solid 2px #00145D;
+	border-radius: 10px;
+	padding:  1rem 1.5rem;
+	font-family:"sourceRegular", sans-serif;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.jornada__container-button:hover{
+	border: solid 2px #FFAC2D;
+	color: #FFAC2D;
+}
+@media(max-width: 768px){
+	.jornada{
+		height: auto;
+	}
+	.jornada__box{
+		flex-direction: column;
+	}
+	.jornada__box-img{
+		position: static;
+		width: 100%;
+	}
+	.jornada__container{
+		width: 100%;
+	}
+	.jornada__title-mobile{
+		display: block;
+	}
+	.jornada__container-title{
+		display: none;
+	}
+	.jornada__container{
+		padding: 5rem 10%;
+		padding-top: 1rem;
+	}
+	.jornada__container-parag{
+		width: 100%;
+		padding: 0;
+		background: transparent;
+	}
+}
+@media(max-width: 450px){
+	.jornada__container-title{
+		font-size: 30px;
+	}
+}
+
+/*>>>>>>>>>>>>>>>>>>> Contact >>>>>>>>>>>>>>>>>>>*/
+
+.contact-section{
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	background: #00145D;
+	z-index: 9;
+}
+.container_images{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 1.5rem;
+}
+.contact_logo{
+	height: 120px;
+}
+.contact_close{
+	cursor: pointer;
+}
+.form__button{
+  border: none;
+  background: transparent;
+  font-family: "sourceMedium", sans-serif;
+  font-size: 18px;
+  color: #FF611E;
+}
+.form{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+	align-items: flex-start;
+	margin: 1%;
+}
+.form__title {
+  margin-bottom: 1.5rem;
+  font-family: "ministryMedium", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-align: left;
+  text-transform: uppercase;
+}
+.form__label{
+  margin-bottom: 8px;
+	font-family:"sourceBold", sans-serif;
+	font-style: normal;
+	color: #FF611E;
+	font-size: 18px;
+}
+.form__input{
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 24px;
+  padding: 15px;
+	background: #00145D;
+	border: none;
+	border-bottom:  solid #FFAC2D 1px;
+  font-family: "usualRegular",sans-serif;
+  font-size: 36px;
+  color: #fff;
+  outline: none;
+}
+.form__input::-webkit-input-placeholder {
+  font-size: 12px;
+  color: #fff;
+}
+.form__input--textarea{
+  height: 150px;
+  resize: none;
+	box-shadow: none;
+  border: solid #FFAC2D 1px;
+  outline: none;
+}
+@media(max-width: 768px){
+	.container_images{
+		width: 100%;
+		margin-bottom: 10%;
+	}
+	.contact_logo{
+		position: absolute;
+		top: 1.5rem;
+		left: 1.5rem;
+		height: auto;
+	}
+	.contact_close{
+		position: absolute;
+		top: 1.5rem;
+		right: 1.5rem;
+		width: 10%;
+		cursor: pointer;
+	}
+	.form{
+		width: 80%;
+	}
+}
+@media(max-width:425px) {
+	.container_images{
+		margin-bottom: 30%;
+	}
+	.contact_logo{
+		width: 30%;
+	}
+	.form{
+		width: 90%;
+	}
+	.form__input{
+		margin-bottom: 10px;
+		padding: 6px;
+		font-size: 18px;
+	}
+}
+/*>>>>>>>>>>>>>>>>>>> Footer > roda pé  EdTech >>>>>>>>>>>>>>>>>>>*/
+.rodape{
+	background-color: #00145D;
+	padding-bottom: 4rem;
+}
+.rodapeImg{
+	position: relative;
+	top: -24px;
+	left: 99px;
+	width: 100px;
+}
+.contRodape__text{
+	display: flex;
+	justify-content: space-around;
+}
+.rodape_section{
+	width: 15%;
+}
+
+.rodape_section1{
+	width: 30%;
+}
+
+.rodape-text{
+	font-family:"sourceBold", sans-serif;
+	color: #fff;
+}
+
+.rodape__Menu{
+	display: flex;
+	flex-direction: column;
+}
+.rodape__Menu-item{
+	font-size: 14px;
+	font-family:"sourceBold", sans-serif;
+	line-height: 1.7;
+	color: #fff;
+	text-decoration: none;
+}
+.rodapeIcon{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 2rem;
+}
+.ropapeIconLink{
+	height: 40px;
+}
+@media(max-width:768px){
+	.rodape{
+		padding: 0 10%;
+	}
+	.rodapeImg{
+		left: 0;
+	}
+	.rodape-text{
+		font-family:"sourceRegular", sans-serif;
+		font-size: 14px;
+	}
+	.contact{
+		font-size: 18px;
+		font-family:"sourceBold", sans-serif;
+	}
+	.rodape_section{
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		margin: 2rem 0;
+	}
+	.section3{
+		display: block;
+	}
+	.rodapeIcon {
+		align-items: center;
+		flex-direction: column;
+		margin: 0;
+	}
+	.contOrganization__corporate{
+		width: 100%;
+	}
+	.contRodape__text{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 11px;
+		font-size: 20px;
+	}
+	.rodape__Menu-item{
+		font-size: 18px;
+	}
+}
