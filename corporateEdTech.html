@@ -142,9 +142,9 @@
 					<p class="jornada__container-parag">
 						Criamos com a sua organização um conjunto exclusivo de competências digitais para habilitar a sua força de trabalho. Fale um pouco sobre seus objetivos, desafios e vamos apresentar um plano personalizado para começarmos.
 					</p>
-					<a class="jornada__container-button" href="mailto:ola@vainaweb.com.br">
+					<p class="jornada__container-button" onclick="openContact()">
 						Fale conosco
-					</a>
+					</p>
 				</div>
 			</div>
 		</section>
@@ -157,18 +157,21 @@
 				<h1 class="form__title">// contato</h1>
 				<label class="form__label" htmlFor="nome">seu nome:</label>
 				<input
+					id="form__name"
 					class="form__input"
 					name="nome"
 					type="text"
 				/>
 				<label class="form__label" htmlFor="email">agora seu email:</label>
 				<input
+					id="form__email"
 					class="form__input"
 					name="email"
 					type="email"
 				/>
 				<label class="form__label" htmlFor="mensagem">por último, sua mensagem:</label>
 				<textarea
+					id="form__message"
 					class="form__input form__input--textarea"
 					name="mensagem"
 				></textarea>
