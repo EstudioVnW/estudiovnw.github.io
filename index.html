@@ -31,7 +31,7 @@
 			<a class="navBar__MenuMobile-item" href="#4ri" onclick="closeMenu()">4ª Rev. Industrial</a>
 			<a class="navBar__MenuMobile-item" href="./corporateEdTech.html" onclick="closeMenu()">EdTech</a>
 			<a class="navBar__MenuMobile-item" href="./socialEdTech.html" onclick="closeMenu()">SocialTech</a>
-			<a class="navBar__MenuMobile-item" href="#contact" onclick="closeMenu()">Contato</a>
+			<p class="navBar__MenuMobile-item" onclick="closeMenuOpenContactMobile()">Contato</p>
 			<a class="navBar__MenuMobile-item" href="./En/indexEn.html"  onclick="closeMenu()">English</a>
 		</ul>
 	</section>
@@ -41,7 +41,7 @@
 			<a class="navBar__Menu-item" href="#4ri">4RI</a>
 			<a class="navBar__Menu-item" href="./corporateEdTech.html">EdTech</a>
 			<a class="navBar__Menu-item" href="./socialEdTech.html">SocialTech</a>
-			<a class="navBar__Menu-item" href="#contact">Contato</a>
+			<p class="navBar__Menu-item" onclick="openContact()" >Contato</p>
 			<a class="navBar__Menu-item" href="./En/indexEn.html">English</a>
 		</ul>
 	</nav>
@@ -160,6 +160,38 @@
 				</a>
 			</div>
 		</section>
+		<section id="contact-modal" class="contact-section">
+			<div class="container_images">
+				<img class="contact_logo" src="./assets/Logo-VnW.svg" alt="Logo-VnW-menu" />
+				<img class="contact_close" src="./assets/close-white.svg" alt="close" onclick="closeContact()" />
+			</div>
+			<form class="form" id="contatoForm" action="https://formspree.io/ola@vainaweb.com.br" method="POST">
+				<h1 class="form__title">// contato</h1>
+				<label class="form__label" htmlFor="nome">seu nome:</label>
+				<input
+					class="form__input"
+					name="nome"
+					type="text"
+				/>
+				<label class="form__label" htmlFor="email">agora seu email:</label>
+				<input
+					class="form__input"
+					name="email"
+					type="email"
+				/>
+				<label class="form__label" htmlFor="mensagem">por último, sua mensagem:</label>
+				<textarea
+					class="form__input form__input--textarea"
+					name="mensagem"
+				></textarea>
+				<input
+					class="form__button" 
+					type="submit" 
+					value="enviar →"
+					target="_blank"
+				/>
+			</form>
+		</section>
 	</main>
 	<footer id="contact" class="rodape">
 		<img src="./assets/logo_VnW.svg" alt="" class="rodapeImg" />
@@ -175,6 +207,7 @@
 					<a class="rodape__Menu-item" href="#4ri">4ª Revolução Industrial</a>
 					<a class="rodape__Menu-item" href="./corporateEdTech.html">Corporate EdTech</a>
 					<a class="rodape__Menu-item" href="./socialEdTech.html">Social EdTech</a>
+					<p class="rodape__Menu-item" onclick="openContact()">Contato</p>
 					<a class="rodape__Menu-item" href="./En/indexEn.html">English</a>
 				</ul>
 				<ul class="rodapeIcon">

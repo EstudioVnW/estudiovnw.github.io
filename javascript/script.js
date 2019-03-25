@@ -59,3 +59,23 @@ function closeMenu(){
 
   menu.style.display = "none";
 }
+
+function closeMenuOpenContactMobile(){
+  var menu = document.getElementById("menu-mobile");
+  var contact = document.getElementById("contact-modal");
+
+  menu.style.display = "none";
+  contact.style.display = "flex";
+}
+
+function openContact(){
+  var contact = document.getElementById("contact-modal");
+
+  contact.style.display = "flex";
+}
+
+function closeContact(){
+  var contact = document.getElementById("contact-modal");
+
+  contact.style.display = "none";
+}

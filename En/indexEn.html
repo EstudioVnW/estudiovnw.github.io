@@ -29,7 +29,7 @@
 			<a class="navBar__MenuMobile-item" href="#4ri" onclick="closeMenu()">4th Industrial Rev.</a>
 			<a class="navBar__MenuMobile-item" href="./corporateEdTechEn.html" onclick="closeMenu()">EdTech</a>
 			<a class="navBar__MenuMobile-item" href="./socialEdTechEn.html" onclick="closeMenu()">SocialTech</a>
-			<a class="navBar__MenuMobile-item" href="#contact" onclick="closeMenu()">Contact</a>
+			<p class="navBar__MenuMobile-item" onclick="closeMenuOpenContactMobile()">Contact</p>
 			<a class="navBar__MenuMobile-item" href="../index.html"  onclick="closeMenu()">Portuguese</a>
 		</ul>
 	</section>
@@ -39,7 +39,7 @@
 			<a class="navBar__Menu-item" href="#4ri">4IR</a>
 			<a class="navBar__Menu-item" href="./corporateEdTechEn.html">EdTech</a>
 			<a class="navBar__Menu-item" href="./socialEdTechEn.html">SocialTech</a>
-			<a class="navBar__Menu-item" href="#contact">Contact</a>
+			<p class="navBar__Menu-item" onclick="openContact()" >Contact</p>
 			<a class="navBar__Menu-item" href="../index.html">Portuguese</a>
 		</ul>
 	</nav>
@@ -131,7 +131,7 @@
 					Focusing on technology, diversity and the adaptation of the market to new Industry, we have developed Corporate EdTech.
 					Our program promotes digital thinking by enabling professionals to be prepared for rapid market changes and to be able to lead actions in new scenarios.
 				</p>
-				<a class="button" href="./corporateEdTech.html">
+				<a class="button" href="./corporateEdTechEn.html">
 					Develop in your organization
 				</a>
 			</div>
@@ -141,10 +141,42 @@
 				<p class="organizationSocial__parag">
 					By joining one of our programs, your company will provide opportunities for young people living in conflict zones in Rio de Janeiro to thrive. Hundreds of lives and careers have already been leveraged with Vai on Web Social Tech, which aims to make technology accessible and inclusive.
 				</p>
-				<a class="button button-social" href="./socialEdTech.html">
+				<a class="button button-social" href="./socialEdTechEn.html">
 					Know our history 
 				</a>
 			</div>
+		</section>
+		<section id="contact-modal" class="contact-section">
+			<div class="container_images">
+				<img class="contact_logo" src="../assets/Logo-VnW.svg" alt="Logo-VnW-menu" />
+				<img class="contact_close" src="../assets/close-white.svg" alt="close" onclick="closeContact()" />
+			</div>
+			<form class="form" id="contatoForm" action="https://formspree.io/ola@vainaweb.com.br" method="POST">
+				<h1 class="form__title">// contact</h1>
+				<label class="form__label" htmlFor="nome">your name:</label>
+				<input
+					class="form__input"
+					name="nome"
+					type="text"
+				/>
+				<label class="form__label" htmlFor="email">your email:</label>
+				<input
+					class="form__input"
+					name="email"
+					type="email"
+				/>
+				<label class="form__label" htmlFor="mensagem">your message:</label>
+				<textarea
+					class="form__input form__input--textarea"
+					name="mensagem"
+				></textarea>
+				<input
+					class="form__button" 
+					type="submit" 
+					value="send →"
+					target="_blank"
+				/>
+			</form>
 		</section>
 	</main>
 	<footer id="contact" class="rodape">
@@ -160,6 +192,7 @@
 					<a class="rodape__Menu-item" href="#4ri">4th Industrial Revolution</a>
 					<a class="rodape__Menu-item" href="./corporateEdTechEn.html">Corporate EdTech</a>
 					<a class="rodape__Menu-item" href="./socialEdTechEn.html">Social EdTech</a>
+					<p class="rodape__Menu-item" onclick="openContact()">Contato</p>
 					<a class="rodape__Menu-item" href="../index.html">Portuguese</a>
 				</ul>
 				<ul class="rodapeIcon">
