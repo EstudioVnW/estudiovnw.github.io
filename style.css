@@ -747,6 +747,7 @@ hr{
 }
 .ropapeIconLink{
 	height: 40px;
+	margin: .25rem .1rem;
 }
 @media(max-width:768px){
 	.rodape{
