@@ -104,6 +104,7 @@ html{
 	text-decoration: none;
 	color: #000000;
 	margin: 20px;
+	cursor: pointer;
 }
 .navBar__Menu-item:hover{
 	font-family:"sourceBold", sans-serif;
@@ -150,6 +151,7 @@ html{
 	color: #00145D;
 	text-decoration: none;
 	text-align: center;
+	cursor: pointer;
 }
 .navBar__MenuMobile-text{
 	margin-top: 3rem;
@@ -620,10 +622,10 @@ html{
 	display: flex;
 	justify-content: space-between;
 	width: 80%;
-	margin: 1.5rem;
+	margin: 1.25rem;
 }
 .contact_logo{
-	height: 120px;
+	height: 100px;
 }
 .contact_close{
 	cursor: pointer;
@@ -633,7 +635,9 @@ html{
   background: transparent;
   font-family: "sourceMedium", sans-serif;
   font-size: 18px;
-  color: #FF611E;
+	color: #FF611E;
+	outline: none;
+	cursor: pointer;
 }
 .form{
   width: 50%;
@@ -661,12 +665,12 @@ html{
   width: 100%;
   max-width: 100%;
   margin-bottom: 24px;
-  padding: 15px;
+  padding: 8px;
 	background: #00145D;
 	border: none;
 	border-bottom:  solid #FFAC2D 1px;
   font-family: "usualRegular",sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   color: #fff;
   outline: none;
 }
@@ -697,7 +701,6 @@ html{
 		top: 1.5rem;
 		right: 1.5rem;
 		width: 10%;
-		cursor: pointer;
 	}
 	.form{
 		width: 80%;
@@ -766,6 +769,7 @@ html{
 }
 .ropapeIconLink{
 	height: 40px;
+	margin: .25rem .1rem;
 }
 @media(max-width:768px){
 	.rodape{

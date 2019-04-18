@@ -76,6 +76,12 @@ function openContact(){
 
 function closeContact(){
   var contact = document.getElementById("contact-modal");
+  var name = document.getElementById("form__name");
+  var email = document.getElementById("form__email");
+  var message = document.getElementById("form__message");
 
+  name.value = "";
+  email.value = "";
+  message.value = "";
   contact.style.display = "none";
 }
